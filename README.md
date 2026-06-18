@@ -6,7 +6,7 @@
 
 | Skill | 用途 | 文章复制版 |
 | --- | --- | --- |
-| [travel-postcard-agent](travel-postcard-agent/) | 根据城市、节日、季节或特殊主题生成现代旅行拼贴明信片提示词 | [ARTICLE-COPY.md](travel-postcard-agent/ARTICLE-COPY.md) |
+| [travel-postcard-agent](https://github.com/FANzR-arch/image-prompt-skills/tree/main/travel-postcard-agent) | 根据城市、节日、季节或特殊主题生成现代旅行拼贴明信片提示词 | [ARTICLE-COPY.md](travel-postcard-agent/ARTICLE-COPY.md) |
 
 ## 使用方式
 
