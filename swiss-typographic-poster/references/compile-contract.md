@@ -8,7 +8,7 @@
 2. **正文零中文**：提示词正文只能出现英文美术指导；唯一例外是「要渲染进画面的标题文字」。任何中文注释（如「需要照片时改为…」）一律不能留——模型会把它画进海报。
 3. **一个主视觉**：DOMINANT VISUAL 只保留一种引擎。不并列「密集系统」和「单个大形」。
 4. **否定只进 AVOID**：正文用正向描述，所有 `no / not / never / avoid` 收进末尾 AVOID 块（图像模型对散落的否定词处理弱）。
-5. **要渲染的文字只声明一次**：在 TEXT 行用引号 `"..."` 和「」逐项写明画面里出现的字，并要求精确呈现；其它字段不再重复文字本身。
+5. **主标题精确，次级 micro-text 受控放开**：主标题必须精确渲染（如 `GRID`、`信息的秩序`，重点标题不能错）。允许 AI 增加瑞士式信息层级的次级文字——短拉丁标签、字段编号、index/module 标记、坐标式标签、极细 caption——但必须 tiny、锁网格、有功能感。新增小字优先用**拉丁/抽象字段**（F1 / 01 / INDEX / MODULE / FIELD），小中文易错少用。禁随机日期、URL、假品牌名、长段落、二维码、装饰图标。
 
 ## 锁死的风格内核（LOCKED，每条必带）
 
@@ -63,7 +63,9 @@ TYPOGRAPHY — one neutral grotesk family, medium weight (Latin may go bold; Chi
 
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 
-TEXT — only <the exact strings to render>. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+
+TEXT — main title must render exactly: <主标题>. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 
 AVOID — Bauhaus module matrix / pattern board; De Stijl primary-color blocks; Op Art spiral; data-chart look; brand-style diagonal ribbon or logo-like single form without grid function; modern minimalist AI poster; PowerPoint / brochure template; gradients; 3D; drop shadows; vintage grunge; heavy / bold display CJK type.
 
