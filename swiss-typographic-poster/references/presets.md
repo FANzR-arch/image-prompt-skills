@@ -100,6 +100,70 @@ AVOID — over-broken layout; modern minimalist AI poster; PowerPoint / brochure
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
 
+## 预设 7 · Stankowski 图解过程 / 黄黑（适合流程、机制、因果、"如何运作"）
+配方：STANK + E11 + K3 + 标题右栏 + 16:9 + TC
+```text
+STYLE ANCHOR — in the manner of Anton Stankowski: constructive graphics, diagrammatic marks visualizing a process.
+A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+DOMINANT VISUAL — constructive marks (flat arrows, fields, dots and connectors) on a strict grid visualizing a process moving through structure, denser on one side and resolving to the other.
+COLOR — high-alert yellow field; black only. Hard edges, no gradients.
+TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
+  · Latin headline "<LATIN>" very large, placed along the right columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
+GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
+TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+AVOID — modern minimalist AI poster; PowerPoint / brochure template; cartoon icon set; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
+QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
+```
+
+## 预设 8 · Lohse 序列色格 / 多色（适合数据分层、色彩即信息、序列）
+配方：LOHSE + E9 + 多色 + 标题顶部 + 4:5 + TC
+```text
+STYLE ANCHOR — in the manner of Richard Paul Lohse: concrete art, serial and modular color systems.
+A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+DOMINANT VISUAL — a modular grid of flat-painted color cells in a serial, systematic color progression, demonstrating a limited palette ordered by proportion.
+COLOR — flat vermilion red, cobalt blue and yellow cells on black and warm off-white. Limited palette, high contrast, no gradients, no muddy mixing.
+TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
+  · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid beneath it.
+GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
+TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+AVOID — modern minimalist AI poster; PowerPoint / brochure template; gradients; pastel tints; muddy mixing; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
+QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
+```
+
+## 预设 9 · Gerstner 程序变体 / 米白黑蓝（适合系统、参数、工程、算法）
+配方：GERST + E10 + K6(cobalt) + 标题中段 + 16:9 + TC
+```text
+STYLE ANCHOR — in the manner of Karl Gerstner: programmatic design, systematic parametric grid variation.
+A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+DOMINANT VISUAL — a specimen series showing one square module systematically transformed across the grid by a fixed rule (rotation and subdivision in steps), reading as a programme of fields.
+COLOR — warm off-white field; black; one flat cobalt accent on a single field. Hard edges, no gradients.
+TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
+  · Latin headline "<LATIN>" very large, placed in a middle band across the left columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
+GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
+TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
+QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
+```
+
+## 预设 10 · Tschichold 规则线排印 / 米白红（适合极简宣言、纯文字主张）
+配方：TSCHI + E12 + K6(brick-red) + 标题竖排 + 4:5 + TC
+```text
+STYLE ANCHOR — in the manner of Jan Tschichold's new typography: austere asymmetric type with thin rule lines.
+A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+DOMINANT VISUAL — an austere asymmetric layout divided by a few thin horizontal rule lines, with one flat solid plane meeting the field at a razor-clean edge.
+COLOR — warm off-white field; black; one flat brick-red plane. Hard edges, no gradients.
+TYPOGRAPHY — one grotesk family, regular weight, tight optical spacing, two sizes with clear hierarchy.
+  · Latin headline "<LATIN>" very large, set vertically along the left margin on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
+GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
+TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+AVOID — modern minimalist AI poster; PowerPoint / brochure template; vintage paper texture; grunge noise; gradients; 3D; drop shadows; heavy decorative CJK display type.
+QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
+```
+
 ---
 
 ## 选哪套（快速对照）
@@ -112,3 +176,7 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 | 信息密度 / 报告 / 编辑感 | 4 网格黑红 |
 | 结构 / 层次 / 决策 | 5 色带 |
 | 设计 / 实验 / 反叛 | 6 破格 |
+| 流程 / 机制 / 因果 | 7 图解过程 |
+| 数据分层 / 色彩即信息 | 8 序列色格 |
+| 系统 / 参数 / 工程 | 9 程序变体 |
+| 极简宣言 / 纯文字 | 10 规则线排印 |

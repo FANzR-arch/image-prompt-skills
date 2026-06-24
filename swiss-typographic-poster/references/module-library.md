@@ -11,12 +11,10 @@
 | RUD | Emil Ruder | `typographic rhythm, flush structure, controlled hierarchy` |
 | BILL | Max Bill | `concrete art, color geometry, precise proportion` |
 | WEIN | Wolfgang Weingart | `Swiss New Wave, one controlled rule-break, layering` |
-| LOHSE | Richard Paul Lohse | `concrete art, serial and modular color systems` ⟂待验证 |
-| GERST | Karl Gerstner | `programmatic design, systematic parametric grid variation` ⟂待验证 |
-| STANK | Anton Stankowski | `constructive graphics, diagrammatic marks visualizing a process` ⟂待验证 |
-| TSCHI | Jan Tschichold | `the new typography, austere asymmetric type with thin rule lines` ⟂待验证 |
-
-> `⟂待验证`：候选锚点，先各跑一张图确认模型认得其机制，再写进 `presets.md`。
+| LOHSE | Richard Paul Lohse | `concrete art, serial and modular color systems` |
+| GERST | Karl Gerstner | `programmatic design, systematic parametric grid variation` |
+| STANK | Anton Stankowski | `constructive graphics, diagrammatic marks visualizing a process` |
+| TSCHI | Jan Tschichold | `the new typography, austere asymmetric type with thin rule lines` |
 
 ## 主视觉 ENGINE（只选一个）
 
