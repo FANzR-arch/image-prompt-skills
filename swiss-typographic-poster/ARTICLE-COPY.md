@@ -19,6 +19,7 @@
 - 想要**纯拉丁炫技图**：删掉中文那行。
 - 想要**传播封面**（读者要秒懂）：把中文调大、拉丁缩小当副标。
 - 模型推荐 gpt-image-2 / ChatGPT Images。中文短标题能稳定渲染；超长中文建议留区域后期叠加。
+- 提示词里允许 AI 自己加一层功能性小字（拉丁标签、字段编号、index/module 标记、细线），这是瑞士信息层级的正常质感，不是噪声——但**主标题必须准确**，次级小字优先用拉丁/抽象字段，少用小中文。
 
 ---
 
@@ -33,7 +34,8 @@ COLOR — flat saturated vermilion red field; black and warm off-white only. Har
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 directly beneath it on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -49,7 +51,8 @@ COLOR — pure black and white only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the bottom band on the grid, grid-aligned; small Chinese line 「<标题>」 above it on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -65,7 +68,8 @@ COLOR — high-alert yellow field; black only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, three sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, stepped across two columns on the grid, grid-aligned; small Chinese line 「<标题>」 set tiny, flush to the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -81,7 +85,8 @@ COLOR — black field; warm off-white type; one flat red accent used structurall
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed in a middle band across the left columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid nearby.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -97,7 +102,8 @@ COLOR — warm off-white field; black; one flat cyan accent on a single band. Ha
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid beneath it.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — data-chart / infographic / bar-chart look; modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -113,7 +119,8 @@ COLOR — warm off-white field; black; one flat orange accent. Hard edges, no gr
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, set vertically along the left margin on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
-TEXT — only "<LATIN>" and 「<标题>」. Render them precisely, no extra or garbled text.
+SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
+TEXT — main title must render exactly: "<LATIN>" and 「<标题>」. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
 AVOID — over-broken layout; modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
