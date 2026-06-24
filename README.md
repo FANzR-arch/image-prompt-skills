@@ -42,6 +42,11 @@ image-prompt-skills/
 - `SKILL.md`：适合支持 Agent Skills 的工具；
 - `ARTICLE-COPY.md`：单文件、自包含，适合放进文章供读者复制。
 
+## Roadmap
+
+- **风格包内加锚点**：`swiss-typographic-poster` 已加入 Lohse / Gerstner / Stankowski / Tschichold 候选锚点，逐个验证后写进预设。
+- **抽通用编译器（暂缓）**：`compile-contract.md` 的「编译契约 + 字段 schema」与具体风格无关，后续内容丰富后抽成风格无关模板，供新风格包（Bauhaus / Constructivism / Memphis 等）复用。当前先以单包形态积累。
+
 ## 当前状态
 
 仓库处于持续整理阶段，后续会增加更多生图提示词 Skills。

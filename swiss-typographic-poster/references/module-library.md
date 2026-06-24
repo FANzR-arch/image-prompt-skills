@@ -11,6 +11,12 @@
 | RUD | Emil Ruder | `typographic rhythm, flush structure, controlled hierarchy` |
 | BILL | Max Bill | `concrete art, color geometry, precise proportion` |
 | WEIN | Wolfgang Weingart | `Swiss New Wave, one controlled rule-break, layering` |
+| LOHSE | Richard Paul Lohse | `concrete art, serial and modular color systems` ⟂待验证 |
+| GERST | Karl Gerstner | `programmatic design, systematic parametric grid variation` ⟂待验证 |
+| STANK | Anton Stankowski | `constructive graphics, diagrammatic marks visualizing a process` ⟂待验证 |
+| TSCHI | Jan Tschichold | `the new typography, austere asymmetric type with thin rule lines` ⟂待验证 |
+
+> `⟂待验证`：候选锚点，先各跑一张图确认模型认得其机制，再写进 `presets.md`。
 
 ## 主视觉 ENGINE（只选一个）
 
@@ -24,6 +30,10 @@
 | E6 | 对角动势 | `one strong diagonal axis with flat geometric forms balancing along it` |
 | E7 | 单个大形 | `one or few boldly scaled geometric forms with large structural negative space` |
 | E8 | 客观摄影 | `one objective black-and-white photo, hard rectangular crop, locked into a single grid cell` |
+| E9 | 序列色格 | `a modular grid of flat color cells in a serial, systematic color progression` (Lohse) |
+| E10 | 程序变体 | `a series showing one module systematically transformed across the grid by a fixed rule` (Gerstner) |
+| E11 | 图解过程 | `constructive marks — arrows, fields, dots, connectors — visualizing a process or relationship` (Stankowski) |
+| E12 | 规则线排印 | `austere asymmetric typography divided by thin horizontal rule lines` (Tschichold) |
 
 ## 配色 COLOR（只选一个）
 
@@ -68,11 +78,15 @@
 | 内容 | 设计 / 字体 / 排版 | E4 或 E2；K1 / K5 |
 | 内容 | 设计实验 / 文化 / 反叛 | WEIN + E7/E6（受控破格）；K6 |
 | 内容 | 决策 / 层次 / 结构 | E3；K4 |
+| 内容 | 流程 / 机制 / 因果 / "如何运作" | STANK + E11（图解过程）；K3/K6 |
+| 内容 | 数据分层 / 色彩即信息 / 序列 | LOHSE + E9（序列色格）；K6/K4 |
+| 内容 | 系统 / 参数 / 工程 / 算法 | GERST + E10（程序变体）；K2/K6 |
+| 内容 | 极简宣言 / 纯文字主张 | TSCHI + E12（规则线排印）；K5/K6 |
 | 语气 | 理性 / 可信 / 冷静 | K2 / K5 |
 | 语气 | 高能 / 警示 / 冲突 | K3 / K1 |
 | 平台 | X / 小红书竖版 | F1 |
 | 平台 | 文章头图 / 视频封面 | F2 |
 | 平台 | 方形 / 头像位 | F3 |
-| 锚点 | 跟随主视觉 | E1/E5→MB，E2/E3→BILL，E4→RUD，E7→HOF，破格→WEIN，E6→MB/构成主义 |
+| 锚点 | 跟随主视觉 | E1/E5→MB，E2/E3→BILL，E4→RUD，E7→HOF，破格→WEIN，E6→MB/构成主义，E9→LOHSE，E10→GERST，E11→STANK，E12→TSCHI |
 
 冲突时优先级：用户明确指定 > 用途 > 内容类型 > 语气 > 默认。同一标题允许多种合理解，**择优定一个**，在选型理由里说明，不要并列输出。
