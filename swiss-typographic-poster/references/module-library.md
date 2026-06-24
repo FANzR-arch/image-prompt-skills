@@ -16,6 +16,10 @@
 | STANK | Anton Stankowski | `constructive graphics, diagrammatic marks visualizing a process` |
 | TSCHI | Jan Tschichold | `the new typography, austere asymmetric type with thin rule lines` |
 
+> **纯度分级**（防偏移，配合 `compile-contract.md` 风格纯度护栏）：
+> - **核心排印向（最稳）**：MB、RUD、der Film 网格(E5)、STANK、TSCHI、HOF（克制用）——几何/图解服务排印。
+> - **几何向·易漂移（需叠反偏移清单 + 让网格/排印明显主导）**：BILL→Op Art、LOHSE→De Stijl、GERST→Bauhaus、WEIN→品牌斜带。
+
 ## 主视觉 ENGINE（只选一个）
 
 | ID | 名称 | 写进 prompt |
