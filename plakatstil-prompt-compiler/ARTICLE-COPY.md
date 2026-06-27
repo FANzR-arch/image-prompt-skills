@@ -14,7 +14,7 @@ The user may provide a text theme, a product photo, a package photo, a portrait/
 TASK:
 First identify the best advertising object. If the input is abstract, convert it into one concrete sellable object. If the input is an uploaded image, preserve the object's identity, silhouette, material, label hierarchy, and most recognizable details.
 
-For electronic devices, default to Apple brand and Apple product families unless the user explicitly names another brand. Keep the Apple identity visible through product silhouette and readable brand/product text, but translate it into early printed advertising language rather than modern Apple launch visuals.
+For electronic devices, do not force any specific brand. If the user names a brand, preserve that brand. If no brand is provided, choose a fitting fictional or neutral commercial brand word and make the product feel like a real advertisement.
 
 Then select modules before writing the final prompt:
 - source mode
@@ -45,25 +45,25 @@ OUTPUT:
 
 ## 随机主题示例
 
-下面这些不是固定模板，而是“模块已经选好”的成品 prompt。主题可以是现代物品，但成图逻辑仍然是早期商品广告。未指定品牌的电子设备默认使用 Apple；明确指定品牌时以指定品牌为准。
+下面这些不是固定模板，而是“模块已经选好”的成品 prompt。主题可以是现代物品，但成图逻辑仍然是早期商品广告。品牌可以真实、虚构或中性；只有用户明确指定时才锁定品牌。
 
-### 01｜Apple AirPods：APPLE
+### 01｜无线耳机：AURAL
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple AirPods advertisement. Main brand word: "APPLE". Product word: "AIRPODS".
+Text theme for a modern wireless earbud advertisement. Main brand word: "AURAL". Product word: "HOERER".
 
 AD OBJECT:
-One pair of Apple AirPods and one open white charging case.
+One pair of small wireless earbuds and one open charging case.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the Apple AirPods charging case as a simplified warm white object with two small earbuds inside, slightly cropped and monumental. Keep the distinctive AirPods case silhouette, but repaint it as if it were a vintage consumer appliance advertisement.
+Show the charging case as a simplified cream object with two dark earbuds inside, slightly cropped and monumental. Keep the object recognizable as a modern earbud case, but repaint it as if it were a vintage consumer appliance advertisement.
 
 TYPOGRAPHY:
-Use a large custom hand-painted "APPLE" brand word in dull blue, placed behind the product and partially hidden by the open case. Add one small muted red product word "AIRPODS". The lettering should feel hand-cut and commercial, not modern tech branding.
+Use a large custom hand-painted "AURAL" brand word in dull blue, placed behind the product and partially hidden by the open case. Add one small muted red product word "HOERER". The lettering should feel hand-cut and commercial, not modern tech branding.
 
 LAYOUT + BACKGROUND:
 Use an object-over-brand layout with a deep brown-black flat field. Place the case in the lower center, slightly tilted, with large negative space around the brand word.
@@ -75,69 +75,69 @@ PAPER / INK TEXTURE:
 Visible paper fibers, matte ink, ink absorption at edges, rough painted contours, and slight lithographic registration shifts.
 
 CONTROLLED FREEDOM:
-Let the AirPods shape simplify naturally, but keep the product legible and the composition sparse.
+Let the earbud shape simplify naturally, but keep the product legible and the composition sparse.
 
 AVOID:
-Avoid clean vector icon, modern Apple keynote render, futuristic glow, Helvetica, Swiss grid, Bauhaus geometry, comic lettering, fake UI text, extra fake logos, and digital grunge overlay.
+Avoid clean vector icon, modern keynote-style product render, futuristic glow, Helvetica, Swiss grid, Bauhaus geometry, comic lettering, fake UI text, extra fake logos, and digital grunge overlay.
 
 QUALITY CHECK:
-The image should feel like a real vintage product advertisement for Apple AirPods, not a modern tech poster.
+The image should feel like a real vintage product advertisement for a modern object, not a modern tech poster.
 ```
 
-### 02｜Apple Magic Keyboard：APPLE
+### 02｜机械键盘：KLANG
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple Magic Keyboard advertisement. Main brand word: "APPLE". Product word: "KEYBOARD".
+Text theme for a mechanical keyboard advertisement. Main brand word: "KLANG". Product word: "TASTATUR".
 
 AD OBJECT:
-One Apple Magic Keyboard with low-profile white keys and a slim aluminum base.
+One compact mechanical keyboard with tall keycaps and one accent key.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the Apple Magic Keyboard as a cropped product macro from a low front angle. Simplify the low-profile white keys into flat hand-painted blocks, keeping the slim aluminum base and clean rectangular silhouette.
+Show the keyboard as a cropped product macro from a low front angle. Simplify the keys into chunky hand-painted blocks, keeping the stepped rows and one red accent key.
 
 TYPOGRAPHY:
-Use a large cream hand-painted "APPLE" word along the upper left edge, with uneven brush-cut terminals. Put "KEYBOARD" as smaller black lettering printed along the front edge of the keyboard base, as if the product label is part of the object.
+Use a large cream hand-painted "KLANG" word along the upper left edge, with uneven brush-cut terminals. Put "TASTATUR" as smaller black lettering printed on the red accent key, as if the product label is part of the object.
 
 LAYOUT + BACKGROUND:
 Use a diagonal hero crop. The keyboard enters from the lower right and fills the bottom half. Keep a warm aged paper field behind it with a worn printed border.
 
 COLOR + PRINT:
-Use cream paper, black ink, ochre shadows, graphite gray, and a small muted red accent.
+Use cream paper, black ink, ochre shadows, muted red accent, and dark tobacco brown.
 
 PAPER / INK TEXTURE:
 Use visible paper grain, matte pigment, slightly uneven key edges, mild misregistration around the red key, and rubbed border corners.
 
 CONTROLLED FREEDOM:
-Allow the exact key layout to simplify, but keep the Apple Magic Keyboard clearly recognizable and commercially centered.
+Allow the exact key layout to simplify, but keep the keyboard clearly recognizable and commercially centered.
 
 AVOID:
-Avoid mechanical gaming keys, RGB lighting, gaming neon, clean 3D render, modern UI mockup, Helvetica, Swiss grid, Bauhaus geometry, fake app icons, and crowded key labels.
+Avoid RGB lighting, gaming neon, clean 3D render, modern UI mockup, Helvetica, Swiss grid, Bauhaus geometry, fake app icons, and crowded key labels.
 
 QUALITY CHECK:
-It should read as an old product poster for an Apple keyboard, not a modern computer accessory ad.
+It should read as an old product poster for a tactile keyboard, not a modern gaming advertisement.
 ```
 
-### 03｜Apple Watch：APPLE
+### 03｜智能手表：ZEIT
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple Watch advertisement. Main brand word: "APPLE". Product word: "WATCH".
+Text theme for a smartwatch advertisement. Main brand word: "ZEIT". Product word: "UHR".
 
 AD OBJECT:
-One Apple Watch with a rounded-square face, simple strap, and one bold dial mark.
+One square smartwatch with a simple strap and one bold dial mark.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the Apple Watch as a semi-rendered metal-and-glass object, simplified into a rounded-square face, dark strap, and one cream dial mark. Keep light reflections hand-painted and flat, not photographic.
+Show the smartwatch as a semi-rendered metal-and-glass object, simplified into a strong square face, dark strap, and one cream dial mark. Keep light reflections hand-painted and flat, not photographic.
 
 TYPOGRAPHY:
-Place the large brand word "APPLE" as cream hand-painted letters partly behind the watch face. Add a small muted blue "WATCH" under the strap. The type should feel like a painted commercial wordmark.
+Place the large brand word "ZEIT" as cream hand-painted letters partly behind the watch face. Add a small muted blue "UHR" under the strap. The type should feel like a painted commercial wordmark.
 
 LAYOUT + BACKGROUND:
 Use a centered object-over-brand layout with two muted horizontal color bands behind the watch, inspired by old technical product ads.
@@ -149,13 +149,13 @@ PAPER / INK TEXTURE:
 Use matte paper grain, hand-painted glass highlights, slight color offset at the watch edge, and ink absorption in the dark background.
 
 CONTROLLED FREEDOM:
-Let the watch face remain simple and iconic, but preserve the Apple Watch silhouette.
+Let the watch face remain simple and iconic, but preserve the modern smartwatch silhouette.
 
 AVOID:
 Avoid futuristic interface screens, app icons, glowing OLED effects, photorealism, clean vector icon, Helvetica, Swiss grid, fake health dashboard text, and sci-fi poster language.
 
 QUALITY CHECK:
-The poster should sell an Apple Watch as if it were an early 20th-century commercial object.
+The poster should sell a modern watch as if it were an early 20th-century commercial object.
 ```
 
 ### 04｜Starbucks 咖啡袋：STARBUCKS
@@ -263,32 +263,32 @@ CONTROLLED FREEDOM:
 Let ports and details simplify, but keep the object recognizable as an Anker portable power bank.
 
 AVOID:
-Avoid glowing electricity effects, USB icons everywhere, clean app-style vector, modern tech landing page, neon gradients, Swiss grid, Bauhaus geometry, comic energy bolts, fake Apple cues, and fake specification text.
+Avoid glowing electricity effects, USB icons everywhere, clean app-style vector, modern tech launch-page aesthetics, neon gradients, Swiss grid, Bauhaus geometry, comic energy bolts, forced famous-brand cues, and fake specification text.
 
 QUALITY CHECK:
 The result should look like a believable vintage advertisement for an Anker charging object.
 ```
 
-### 07｜Apple iPhone：APPLE
+### 07｜手机：NOVA
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple iPhone advertisement. Main brand word: "APPLE". Product word: "IPHONE".
+Text theme for a modern smartphone advertisement. Main brand word: "NOVA". Product word: "TELEFON".
 
 AD OBJECT:
-One Apple iPhone with a dark glass screen, rounded rectangular body, and one visible side button.
+One slim rectangular smartphone with a dark glass screen and one visible side button.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the iPhone as a monumental black glass slab, simplified into a strong rounded rectangle with one muted cream screen reflection and a small red side button. Preserve the iPhone silhouette, but repaint it as a flat hand-painted commercial object.
+Show the smartphone as a monumental black glass slab, simplified into a strong rectangle with rounded corners, one muted cream screen reflection, and a small red side button. Preserve the modern phone silhouette, but repaint it as a flat hand-painted commercial object.
 
 TYPOGRAPHY:
-Use a large custom hand-painted "APPLE" brand word in warm cream, placed vertically along the left side and partly overlapped by the iPhone edge. Add "IPHONE" as small muted red product text near the lower right, aligned to the object rather than floating like a modern UI caption.
+Use a large custom hand-painted "NOVA" brand word in warm cream, placed vertically along the left side and partly overlapped by the phone edge. Add "TELEFON" as small muted red product text near the lower right, aligned to the object rather than floating like a modern UI caption.
 
 LAYOUT + BACKGROUND:
-Use a corner-crop layout. Let the iPhone enter from the right edge at a slight angle, occupying most of the right half. Keep a deep blue-black field with wide negative space on the left for the Apple word.
+Use a corner-crop layout. Let the phone enter from the right edge at a slight angle, occupying most of the right half. Keep a deep blue-black field with wide negative space on the left for the brand word.
 
 COLOR + PRINT:
 Use limited lithographic inks: deep blue-black, warm cream, dark graphite, muted red, and a small ochre highlight.
@@ -297,35 +297,35 @@ PAPER / INK TEXTURE:
 Use visible paper grain through the dark ink, hand-painted screen reflection, slight ink absorption around the phone silhouette, mild print registration shift at the red button, and matte old poster surface.
 
 CONTROLLED FREEDOM:
-Let the glass highlight and corner radius adapt naturally, but keep the iPhone as one simple product hero without interface clutter.
+Let the glass highlight and corner radius adapt naturally, but keep the phone as one simple product hero without interface clutter.
 
 AVOID:
-Avoid app icons, glowing UI, futuristic holograms, clean vector mockup, photorealistic phone render, Samsung or generic Android cues, Helvetica, Swiss grid, Bauhaus geometry, cinematic lighting, and crowded technical text.
+Avoid app icons, glowing UI, futuristic holograms, clean vector mockup, photorealistic phone render, forced famous-brand cues, Helvetica, Swiss grid, Bauhaus geometry, cinematic lighting, and crowded technical text.
 
 QUALITY CHECK:
-The image should feel like a vintage product advertisement for an Apple iPhone, not a smartphone launch keynote poster.
+The image should feel like a vintage product advertisement for a modern telephone, not a smartphone launch keynote poster.
 ```
 
-### 08｜Apple MacBook：APPLE
+### 08｜笔记本电脑：WERK
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple MacBook advertisement. Main brand word: "APPLE". Product word: "MACBOOK".
+Text theme for a modern laptop advertisement. Main brand word: "WERK". Product word: "RECHNER".
 
 AD OBJECT:
-One open Apple MacBook with a thin screen, aluminum keyboard plane, and simple hinge.
+One open laptop with a thin screen, keyboard plane, and simple hinge.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the open MacBook as a cropped product macro, simplified into two strong planes: a dark screen rectangle and a warm aluminum keyboard base. Keep the hinge and keyboard rows visible as rough painted marks, not precise modern UI detail.
+Show the open laptop as a cropped product macro, simplified into two strong planes: a dark screen rectangle and a warm cream keyboard base. Keep the hinge and keyboard rows visible as rough painted marks, not precise modern UI detail.
 
 TYPOGRAPHY:
-Paint "APPLE" as large black hand-cut letters across the warm cream background, partly hidden by the open MacBook screen. Put "MACBOOK" as small dull blue product text printed on the lower keyboard base, as if it were a product label.
+Paint "WERK" as large black hand-cut letters across the warm cream background, partly hidden by the open laptop screen. Put "RECHNER" as small dull blue product text printed on the lower keyboard base, as if it were a product label.
 
 LAYOUT + BACKGROUND:
-Use a split-field package-like layout. Place the MacBook open at a three-quarter angle across the center, with the screen rising into a dark brown-black upper field and the base resting on an aged cream lower field. Leave the lower left corner quiet.
+Use a split-field package-like layout. Place the laptop open at a three-quarter angle across the center, with the screen rising into a dark brown-black upper field and the base resting on an aged cream lower field. Leave the lower left corner quiet.
 
 COLOR + PRINT:
 Use cream paper, dark brown-black, graphite black, dull blue, muted ochre, and a small rust-red accent on one key.
@@ -334,13 +334,13 @@ PAPER / INK TEXTURE:
 Use matte lithographic ink, visible paper fibers, rough painted keyboard rows, uneven edge absorption around the screen, slight color misregistration on the blue product text, and a subtly worn printed border.
 
 CONTROLLED FREEDOM:
-Let the exact keyboard marks simplify, but keep the MacBook immediately recognizable as an open Apple portable computer.
+Let the exact keyboard marks simplify, but keep the laptop immediately recognizable as an open portable computer.
 
 AVOID:
-Avoid modern laptop product photography, glowing screen UI, software windows, clean vector icon, fake Apple sub-branding, neon gradient, Swiss grid, Bauhaus geometry, cinematic workstation scene, and dense spec-sheet text.
+Avoid modern laptop product photography, glowing screen UI, software windows, clean vector icon, forced famous-brand cues, neon gradient, Swiss grid, Bauhaus geometry, cinematic workstation scene, and dense spec-sheet text.
 
 QUALITY CHECK:
-The result should feel like a plausible early product advertisement for an Apple MacBook, translated into Plakatstil language.
+The result should feel like a plausible early product advertisement for a portable computer, translated into Plakatstil language.
 ```
 
 ## Skill 版
