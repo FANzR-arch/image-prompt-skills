@@ -45,7 +45,7 @@ OUTPUT:
 
 ## 随机主题示例
 
-下面这些不是固定模板，而是“模块已经选好”的成品 prompt。主题可以是现代物品，但成图逻辑仍然是早期商品广告。电子设备示例统一使用 Apple 品牌。
+下面这些不是固定模板，而是“模块已经选好”的成品 prompt。主题可以是现代物品，但成图逻辑仍然是早期商品广告。未指定品牌的电子设备默认使用 Apple；明确指定品牌时以指定品牌为准。
 
 ### 01｜Apple AirPods：APPLE
 
@@ -158,115 +158,115 @@ QUALITY CHECK:
 The poster should sell an Apple Watch as if it were an early 20th-century commercial object.
 ```
 
-### 04｜咖啡袋：MORGEN
+### 04｜Starbucks 咖啡袋：STARBUCKS
 
 ```text
 SOURCE / INPUT:
-Text theme for a coffee bag advertisement. Main brand word: "MORGEN". Product word: "KAFFEE".
+Text theme for a Starbucks coffee bag advertisement. Main brand word: "STARBUCKS". Product word: "COFFEE".
 
 AD OBJECT:
-One folded paper coffee bag with a printed front label.
+One folded Starbucks whole-bean coffee bag with a printed front label.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the coffee bag as a package-led hero object with folded paper creases, a blocky printed label, and a dark coffee-bean emblem. The wrapper text should participate in the poster, not look like a modern mockup.
+Show the Starbucks coffee bag as a package-led hero object with folded paper creases, a blocky printed label, and a simplified circular siren-style emblem. The wrapper text should participate in the poster, not look like a modern mockup.
 
 TYPOGRAPHY:
-Use "MORGEN" as large hand-painted cream letters in the background. Print "MORGEN KAFFEE" again on the bag label in dark ink and muted red, with uneven letterpress edges.
+Use "STARBUCKS" as large hand-painted cream letters in the background. Print "STARBUCKS COFFEE" again on the bag label in dark ink and muted red, with uneven letterpress edges.
 
 LAYOUT + BACKGROUND:
 Use a package close-up layout. Place the bag diagonally across the lower right, cropped slightly, against a deep tobacco green field with a narrow worn cream border.
 
 COLOR + PRINT:
-Use tobacco green, warm cream, kraft ochre, dark brown, and muted red.
+Use Starbucks green muted into old lithographic ink, warm cream, kraft ochre, dark brown, and muted red.
 
 PAPER / INK TEXTURE:
 Emphasize paper fibers, matte kraft paper, ink absorption, rough label lines, and slight print registration imperfection.
 
 CONTROLLED FREEDOM:
-Let the fold structure and label proportions adapt to the bag, but keep the copy minimal and product-led.
+Let the fold structure, circular emblem, and label proportions adapt to the bag, but keep the copy minimal and product-led.
 
 AVOID:
-Avoid cafe lifestyle scene, steam drama, photorealistic bag mockup, modern minimalist packaging, clean vector logo, Swiss grid, and excessive body copy.
+Avoid cafe lifestyle scene, steam drama, photorealistic bag mockup, modern minimalist packaging, clean vector logo, perfectly reproduced corporate logo, Swiss grid, and excessive body copy.
 
 QUALITY CHECK:
-The result should feel like a vintage grocery advertisement built around one package.
+The result should feel like a vintage grocery advertisement built around one Starbucks coffee package.
 ```
 
-### 05｜Apple Vision Pro：APPLE
+### 05｜Sony 镜头：SONY
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple Vision Pro advertisement. Main brand word: "APPLE". Product word: "VISION".
+Text theme for a Sony camera lens advertisement. Main brand word: "SONY". Product word: "LENS".
 
 AD OBJECT:
-One Apple Vision Pro headset with a curved glass front and soft woven head band.
+One black Sony camera lens with a glass front element and a few simplified focus-ring marks.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the Apple Vision Pro headset as a semi-rendered glass-and-metal object, cropped large from the right edge. Paint the curved glass front as a simplified dark reflective plane with two flat blue and cream highlights, and render the soft band as a few bold woven strokes.
+Show the Sony lens as a semi-rendered glass-and-metal object, cropped large from the right edge. Paint the glass front as simplified dark concentric rings with two flat blue and cream highlights, and render the focus ring as a few bold hand-painted grooves.
 
 TYPOGRAPHY:
-Set "APPLE" as large ochre hand-painted letters behind the headset, partly hidden by the glass front. Add "VISION" in small muted red lettering near the lower left.
+Set "SONY" as large ochre hand-painted letters behind the circular lens, partly hidden by the object. Add "LENS" in small muted red lettering near the lower left.
 
 LAYOUT + BACKGROUND:
-Use an edge-crop object-over-brand layout on a dark blue-black field. Keep the left side sparse so the Apple word has weight.
+Use an edge-crop object-over-brand layout on a dark blue-black field. Keep the left side sparse so the Sony word has weight.
 
 COLOR + PRINT:
 Use dark blue-black, ochre, cream, muted red, and dull cyan highlights.
 
 PAPER / INK TEXTURE:
-Use matte ink, visible paper tooth, hand-painted glass contours, subtle color misregistration at the headset edge, and worn poster edges.
+Use matte ink, visible paper tooth, hand-painted circular contours, subtle color misregistration at the lens rings, and worn poster edges.
 
 CONTROLLED FREEDOM:
-Let the band and glass reflections simplify, but keep the object immediately readable as Apple Vision Pro.
+Let the ring count and tiny lens markings simplify, but keep the object immediately readable as a Sony camera lens.
 
 AVOID:
-Avoid photorealistic studio product render, glossy 3D, sci-fi HUD, floating interface panels, clean vector icon, Helvetica, fake app windows, and excessive technical microtext.
+Avoid photorealistic studio product render, glossy 3D, sci-fi HUD, clean vector icon, modern camera catalog layout, Helvetica, fake camera body, and excessive technical microtext.
 
 QUALITY CHECK:
-The poster should feel like a Plakatstil optical goods ad for Apple Vision Pro, not a modern mixed-reality launch poster.
+The poster should feel like a Plakatstil optical goods ad for a Sony lens, not a modern camera catalog render.
 ```
 
-### 06｜Apple MagSafe Battery Pack：APPLE
+### 06｜Anker 充电宝：ANKER
 
 ```text
 SOURCE / INPUT:
-Text theme for an Apple MagSafe Battery Pack advertisement. Main brand word: "APPLE". Product word: "MAGSAFE".
+Text theme for an Anker portable power bank advertisement. Main brand word: "ANKER". Product word: "POWERCORE".
 
 AD OBJECT:
-One white Apple MagSafe Battery Pack with a rounded rectangular body and one short white charging cable.
+One Anker portable power bank with a dark graphite rectangular body, one short charging cable, and a small blue port accent.
 
 STYLE LOCK:
 Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
 
 SUBJECT TREATMENT:
-Show the Apple MagSafe Battery Pack as a heavy rounded rectangle, simplified into a warm white block with a subtle magnetic circle and one red cable loop. Treat the cable as a bold graphic shape, not a modern tech accessory render.
+Show the Anker power bank as a heavy rounded rectangle, simplified into a dark graphite block with one blue port accent and one red cable loop. Treat the cable as a bold graphic shape, not a modern tech accessory render.
 
 TYPOGRAPHY:
-Paint "APPLE" as large black hand-cut letters across the cream background. Put "MAGSAFE" as small red label text printed on the side of the battery pack.
+Paint "ANKER" as large black hand-cut letters across the cream background. Put "POWERCORE" as small blue label text printed on the side of the power bank.
 
 LAYOUT + BACKGROUND:
 Use a split field: cream aged paper on the upper left and dark brown-black on the lower right. Place the power bank horizontally across the split, with the red cable looping into the dark field.
 
 COLOR + PRINT:
-Use cream paper, black, dark brown, muted red, and ochre shadow.
+Use cream paper, black, dark brown, muted red, Anker blue muted into old lithographic ink, and ochre shadow.
 
 PAPER / INK TEXTURE:
 Use visible paper grain, uneven ink coverage, absorbed edges, hand-painted cable contour, slight registration shift, and matte printed surface.
 
 CONTROLLED FREEDOM:
-Let ports and details simplify, but keep the object recognizable as an Apple MagSafe battery accessory.
+Let ports and details simplify, but keep the object recognizable as an Anker portable power bank.
 
 AVOID:
-Avoid glowing electricity effects, USB icons everywhere, clean app-style vector, modern tech landing page, neon gradients, Swiss grid, Bauhaus geometry, comic energy bolts, and fake specification text.
+Avoid glowing electricity effects, USB icons everywhere, clean app-style vector, modern tech landing page, neon gradients, Swiss grid, Bauhaus geometry, comic energy bolts, fake Apple cues, and fake specification text.
 
 QUALITY CHECK:
-The result should look like a believable vintage advertisement for an Apple MagSafe charging object.
+The result should look like a believable vintage advertisement for an Anker charging object.
 ```
 
 ### 07｜Apple iPhone：APPLE

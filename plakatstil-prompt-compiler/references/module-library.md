@@ -13,7 +13,7 @@ Use this library to select modules before compiling the final prompt. Do not pas
 ## Subject Treatment
 
 - `H1 sparse flat object`: matches, cigarettes, pencils, keys, switches, Apple AirPods, simple tools. Few shapes, strong negative space, flat silhouette.
-- `H2 semi-rendered glass/metal`: bulbs, bottles, Apple Watch, Apple Vision Pro, chrome, polished objects. Hand-painted highlights and simplified realism.
+- `H2 semi-rendered glass/metal`: bulbs, bottles, Apple Watch, Sony camera lens, chrome, polished objects. Hand-painted highlights and simplified realism.
 - `H3 package/label hero`: soap, coffee, shoe polish, tea, medicine, perfume box, wrappers. Package label participates.
 - `H4 cropped product macro`: boots, bags, tools, cameras, Apple Magic Keyboard, Apple iPhone, Apple MacBook. Product fills the frame and may be cropped.
 - `H5 diagonal product hero`: long objects or directional forms: shoe, bottle, pen, lamp, cable, tube.
@@ -70,9 +70,9 @@ Use this library to select modules before compiling the final prompt. Do not pas
 
 - Matches, cigarettes, pencils, simple sticks -> H1 + T1 + L1 + B1 + C1.
 - Apple AirPods, keys, switches, small gadgets -> H1 + T2 or T4 + L1/L2 + B1/B2 + C3/C4.
-- Glass bulb, bottle, Apple Watch, Apple Vision Pro -> H2 + T2 + L2/L3/L8 + B3 + C2/C4.
-- Soap, coffee bag, shoe polish tin, wrapper, label -> H3 + T3/T5 + L5 + B4 + C3/C6.
-- Shoe, boot, Apple Magic Keyboard, tools, Apple MagSafe Battery Pack, Apple MacBook -> H4/H5 + T1/T4 + L4/L7 + B1/B2 + C3/C4.
+- Glass bulb, bottle, Apple Watch, Sony camera lens -> H2 + T2 + L2/L3/L8 + B3 + C2/C4.
+- Soap, Starbucks coffee bag, shoe polish tin, wrapper, label -> H3 + T3/T5 + L5 + B4 + C3/C6.
+- Shoe, boot, Apple Magic Keyboard, tools, Anker PowerCore, Apple MacBook -> H4/H5 + T1/T4 + L4/L7 + B1/B2 + C3/C4.
 - Hand using product -> H6 + T1 + L4/L8 + B1/B2 + C1/C3.
 - Portrait/person/service -> H7 + T1 + L7 + B1/B2 + C4.
 

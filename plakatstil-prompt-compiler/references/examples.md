@@ -7,9 +7,9 @@ These examples show resolved prompts for varied objects, including modern object
 1. Apple AirPods: `APPLE AIRPODS`
 2. Apple Magic Keyboard: `APPLE KEYBOARD`
 3. Apple Watch: `APPLE WATCH`
-4. Coffee bag: `MORGEN KAFFEE`
-5. Apple Vision Pro: `APPLE VISION`
-6. Apple MagSafe Battery Pack: `APPLE MAGSAFE`
+4. Starbucks coffee bag: `STARBUCKS COFFEE`
+5. Sony camera lens: `SONY LENS`
+6. Anker power bank: `ANKER POWERCORE`
 7. Apple iPhone: `APPLE IPHONE`
 8. Apple MacBook: `APPLE MACBOOK`
 

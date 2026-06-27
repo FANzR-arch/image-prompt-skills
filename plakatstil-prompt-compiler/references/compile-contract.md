@@ -56,9 +56,9 @@ Good objects:
 - Apple AirPods in a charging case
 - Apple Magic Keyboard
 - Apple Watch
-- Apple Vision Pro headset
-- coffee bag
-- Apple MagSafe Battery Pack
+- Starbucks coffee bag
+- Sony camera lens
+- Anker PowerCore power bank
 - Apple iPhone
 - Apple MacBook
 
