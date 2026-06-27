@@ -267,6 +267,80 @@ QUALITY CHECK:
 The result should look like a believable vintage advertisement for a modern charging object.
 ```
 
+### 07｜手机：NOVA
+
+```text
+SOURCE / INPUT:
+Text theme for a modern smartphone advertisement. Main brand word: "NOVA". Product word: "TELEFON".
+
+AD OBJECT:
+One slim rectangular smartphone with a dark glass screen and one visible side button.
+
+STYLE LOCK:
+Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
+
+SUBJECT TREATMENT:
+Show the smartphone as a monumental black glass slab, simplified into a strong rectangle with rounded corners, one muted cream screen reflection, and a small red side button. Preserve the modern phone silhouette, but repaint it as a flat hand-painted commercial object.
+
+TYPOGRAPHY:
+Use a large custom hand-painted "NOVA" brand word in warm cream, placed vertically along the left side and partly overlapped by the phone edge. Add "TELEFON" as small muted red product text near the lower right, aligned to the object rather than floating like a modern UI caption.
+
+LAYOUT + BACKGROUND:
+Use a corner-crop layout. Let the phone enter from the right edge at a slight angle, occupying most of the right half. Keep a deep blue-black field with wide negative space on the left for the brand word.
+
+COLOR + PRINT:
+Use limited lithographic inks: deep blue-black, warm cream, dark graphite, muted red, and a small ochre highlight.
+
+PAPER / INK TEXTURE:
+Use visible paper grain through the dark ink, hand-painted screen reflection, slight ink absorption around the phone silhouette, mild print registration shift at the red button, and matte old poster surface.
+
+CONTROLLED FREEDOM:
+Let the glass highlight and corner radius adapt naturally, but keep the phone as one simple product hero without interface clutter.
+
+AVOID:
+Avoid app icons, glowing UI, futuristic holograms, clean vector mockup, photorealistic phone render, Apple/Samsung branding, Helvetica, Swiss grid, Bauhaus geometry, cinematic lighting, and crowded technical text.
+
+QUALITY CHECK:
+The image should feel like a vintage product advertisement for a modern telephone, not a smartphone launch keynote poster.
+```
+
+### 08｜笔记本电脑：WERK
+
+```text
+SOURCE / INPUT:
+Text theme for a modern laptop advertisement. Main brand word: "WERK". Product word: "RECHNER".
+
+AD OBJECT:
+One open laptop with a thin screen, keyboard plane, and simple hinge.
+
+STYLE LOCK:
+Create an early 20th-century German Plakatstil / Sachplakat advertising poster: simplified commercial object poster, hand-painted lithographic look, minimal copy, bold product silhouette, custom advertising lettering, matte printed paper.
+
+SUBJECT TREATMENT:
+Show the open laptop as a cropped product macro, simplified into two strong planes: a dark screen rectangle and a warm cream keyboard base. Keep the hinge and keyboard rows visible as rough painted marks, not precise modern UI detail.
+
+TYPOGRAPHY:
+Paint "WERK" as large black hand-cut letters across the warm cream background, partly hidden by the open laptop screen. Put "RECHNER" as small dull blue product text printed on the lower keyboard base, as if it were a product label.
+
+LAYOUT + BACKGROUND:
+Use a split-field package-like layout. Place the laptop open at a three-quarter angle across the center, with the screen rising into a dark brown-black upper field and the base resting on an aged cream lower field. Leave the lower left corner quiet.
+
+COLOR + PRINT:
+Use cream paper, dark brown-black, graphite black, dull blue, muted ochre, and a small rust-red accent on one key.
+
+PAPER / INK TEXTURE:
+Use matte lithographic ink, visible paper fibers, rough painted keyboard rows, uneven edge absorption around the screen, slight color misregistration on the blue product text, and a subtly worn printed border.
+
+CONTROLLED FREEDOM:
+Let the exact keyboard marks simplify, but keep the laptop immediately recognizable as an open portable computer.
+
+AVOID:
+Avoid modern laptop product photography, glowing screen UI, software windows, clean vector icon, Apple-like branding, neon gradient, Swiss grid, Bauhaus geometry, cinematic workstation scene, and dense spec-sheet text.
+
+QUALITY CHECK:
+The result should feel like a plausible early product advertisement for a portable computer, translated into Plakatstil language.
+```
+
 ## Skill 版
 
 如果工具支持 Agent Skills，安装整个目录：

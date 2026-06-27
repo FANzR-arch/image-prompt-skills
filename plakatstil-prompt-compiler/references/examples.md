@@ -10,5 +10,7 @@ These examples show resolved prompts for varied objects, including modern object
 4. Coffee bag: `MORGEN KAFFEE`
 5. Camera lens: `LINSE OPTIK`
 6. Portable power bank: `VOLT AKKU`
+7. Smartphone: `NOVA TELEFON`
+8. Laptop computer: `WERK RECHNER`
 
 For the complete prompts, see `ARTICLE-COPY.md`.
