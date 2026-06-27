@@ -9,6 +9,7 @@
 | [travel-postcard-agent](https://github.com/FANzR-arch/image-prompt-skills/tree/main/travel-postcard-agent) | 根据城市、节日、季节或特殊主题生成现代旅行拼贴明信片提示词 | [ARTICLE-COPY.md](travel-postcard-agent/ARTICLE-COPY.md) |
 | [swiss-typographic-poster](https://github.com/FANzR-arch/image-prompt-skills/tree/main/swiss-typographic-poster) | 把瑞士国际主义海报封面拆成设计模块，识别意图后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](swiss-typographic-poster/ARTICLE-COPY.md) |
 | [bauhaus-visual-prompt](https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt) | 把包豪斯视觉语言拆成文章封面、正文配图、海报和室内照片重绘模块，识别媒介后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](bauhaus-visual-prompt/ARTICLE-COPY.md) |
+| [plakatstil-prompt-compiler](https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler) | 把文字主题、商品照片或包装照片编译成 Plakatstil / Sachplakat 商品广告海报提示词，先选模块再输出一条确定性提示词 | [ARTICLE-COPY.md](plakatstil-prompt-compiler/ARTICLE-COPY.md) |
 
 ## 使用方式
 
@@ -40,6 +41,10 @@
 用 bauhaus-visual-prompt，参考我上传的室内照片，把这个房间重绘成包豪斯风格工作室。
 ```
 
+```text
+用 plakatstil-prompt-compiler，把我上传的商品照片重绘成 Plakatstil / Sachplakat 广告海报。
+```
+
 ## 目录约定
 
 ```text
@@ -61,6 +66,7 @@ image-prompt-skills/
 
 - **风格包内加锚点**：`swiss-typographic-poster` 已加入 Lohse / Gerstner / Stankowski / Tschichold 候选锚点，逐个验证后写进预设。
 - **多媒介风格包**：`bauhaus-visual-prompt` 已加入封面、正文配图、海报和室内照片重绘四个路由方向，可作为后续 Constructivism / Memphis 等风格包的结构参考。
+- **商品广告编译器**：`plakatstil-prompt-compiler` 已加入文字主题、商品照片、包装照片和人物/服务海报四个输入方向，并提供随机主题示例。
 - **抽通用编译器（暂缓）**：`compile-contract.md` 的「编译契约 + 字段 schema」与具体风格无关，后续内容丰富后抽成风格无关模板。当前先以单包形态积累。
 
 ## 当前状态
