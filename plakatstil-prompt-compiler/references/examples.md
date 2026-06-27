@@ -4,13 +4,13 @@ These examples show resolved prompts for varied objects, including modern object
 
 ## Themes
 
-1. Wireless earbuds: `AURAL HOERER`
-2. Mechanical keyboard: `KLANG TASTATUR`
-3. Smartwatch: `ZEIT UHR`
+1. Apple AirPods: `APPLE AIRPODS`
+2. Apple Magic Keyboard: `APPLE KEYBOARD`
+3. Apple Watch: `APPLE WATCH`
 4. Coffee bag: `MORGEN KAFFEE`
-5. Camera lens: `LINSE OPTIK`
-6. Portable power bank: `VOLT AKKU`
-7. Smartphone: `NOVA TELEFON`
-8. Laptop computer: `WERK RECHNER`
+5. Apple Vision Pro: `APPLE VISION`
+6. Apple MagSafe Battery Pack: `APPLE MAGSAFE`
+7. Apple iPhone: `APPLE IPHONE`
+8. Apple MacBook: `APPLE MACBOOK`
 
 For the complete prompts, see `ARTICLE-COPY.md`.

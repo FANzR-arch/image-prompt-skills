@@ -53,12 +53,14 @@ Good objects:
 - black leather boot
 - wrapped soap bar
 - shoe polish tin
-- wireless earbuds in a case
-- compact mechanical keyboard
-- smartwatch
+- Apple AirPods in a charging case
+- Apple Magic Keyboard
+- Apple Watch
+- Apple Vision Pro headset
 - coffee bag
-- camera lens
-- portable power bank
+- Apple MagSafe Battery Pack
+- Apple iPhone
+- Apple MacBook
 
 Weak objects:
 
