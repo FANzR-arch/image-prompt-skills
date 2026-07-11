@@ -10,6 +10,7 @@
 | [swiss-typographic-poster](https://github.com/FANzR-arch/image-prompt-skills/tree/main/swiss-typographic-poster) | 把瑞士国际主义海报封面拆成设计模块，识别意图后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](swiss-typographic-poster/ARTICLE-COPY.md) |
 | [bauhaus-visual-prompt](https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt) | 把包豪斯视觉语言拆成文章封面、正文配图、海报和室内照片重绘模块，识别媒介后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](bauhaus-visual-prompt/ARTICLE-COPY.md) |
 | [plakatstil-prompt-compiler](https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler) | 把文字主题、商品照片或包装照片编译成 Plakatstil / Sachplakat 商品广告海报提示词，先选模块再输出一条确定性提示词 | [ARTICLE-COPY.md](plakatstil-prompt-compiler/ARTICLE-COPY.md) |
+| [visual-identity-expander](https://github.com/FANzR-arch/image-prompt-skills/tree/main/visual-identity-expander) | 把 Logo、头像、IP、插画或产品图扩展成统一的五类视觉身份提示词 | [ARTICLE-COPY.md](visual-identity-expander/ARTICLE-COPY.md) |
 
 ## 使用方式
 
