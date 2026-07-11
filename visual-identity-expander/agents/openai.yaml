@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Identity Expander"
+  short_description: "Expand one image into a coherent visual identity kit"
+  default_prompt: "Use $visual-identity-expander to turn my uploaded image into a coherent five-part visual identity prompt kit."
