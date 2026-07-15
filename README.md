@@ -4,15 +4,50 @@
 
 ## Skills
 
-| 预览 | Skill | 用途 | 文章复制版 |
-| --- | --- | --- | --- |
-| <img src="travel-postcard-agent/assets/preview.png" width="280"> | [travel-postcard-agent](https://github.com/FANzR-arch/image-prompt-skills/tree/main/travel-postcard-agent) | 根据城市、节日、季节或特殊主题生成现代旅行拼贴明信片提示词 | [ARTICLE-COPY.md](travel-postcard-agent/ARTICLE-COPY.md) |
-| <img src="swiss-typographic-poster/assets/preview.png" width="280"> | [swiss-typographic-poster](https://github.com/FANzR-arch/image-prompt-skills/tree/main/swiss-typographic-poster) | 把瑞士国际主义海报封面拆成设计模块，识别意图后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](swiss-typographic-poster/ARTICLE-COPY.md) |
-| <img src="bauhaus-visual-prompt/assets/preview.png" width="280"> | [bauhaus-visual-prompt](https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt) | 把包豪斯视觉语言拆成文章封面、正文配图、海报和室内照片重绘模块，识别媒介后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](bauhaus-visual-prompt/ARTICLE-COPY.md) |
-| <img src="plakatstil-prompt-compiler/assets/preview.png" width="280"> | [plakatstil-prompt-compiler](https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler) | 把文字主题、商品照片或包装照片编译成 Plakatstil / Sachplakat 商品广告海报提示词，先选模块再输出一条确定性提示词 | [ARTICLE-COPY.md](plakatstil-prompt-compiler/ARTICLE-COPY.md) |
-| <img src="neo-brutalist-prompt-compiler/assets/preview.png" width="280"> | [neo-brutalist-prompt-compiler](https://github.com/FANzR-arch/image-prompt-skills/tree/main/neo-brutalist-prompt-compiler) | 把文章主题、产品介绍或技术项目编译成新粗野主义（Neubrutalism）提示词：粗黑边框、硬阴影、扁平撞色、组件感构图，三方向路由后输出一条确定性提示词 | [ARTICLE-COPY.md](neo-brutalist-prompt-compiler/ARTICLE-COPY.md) |
-| 待补 | [visual-identity-expander](https://github.com/FANzR-arch/image-prompt-skills/tree/main/visual-identity-expander) | 把 Logo、头像、IP、插画或产品图扩展成统一的五类视觉身份提示词 | [ARTICLE-COPY.md](visual-identity-expander/ARTICLE-COPY.md) |
-| 待补 | [acid-depth-poster](https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster) | 把主题编译成前进色×后退色实验海报提示词：清晰前景层＋模糊后景层的双层空间，Y2K / Acid Graphics / 地下传单气质 | [ARTICLE-COPY.md](acid-depth-poster/ARTICLE-COPY.md) |
+### travel-postcard-agent
+
+根据城市、节日、季节或特殊主题生成现代旅行拼贴明信片提示词。
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/travel-postcard-agent) ｜ [文章复制版](travel-postcard-agent/ARTICLE-COPY.md)
+
+<a href="https://github.com/FANzR-arch/image-prompt-skills/tree/main/travel-postcard-agent"><img src="travel-postcard-agent/assets/preview.png" width="100%"></a>
+
+### swiss-typographic-poster
+
+把瑞士国际主义海报封面拆成设计模块，识别意图后编译成一条确定性生图提示词。
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/swiss-typographic-poster) ｜ [文章复制版](swiss-typographic-poster/ARTICLE-COPY.md)
+
+<a href="https://github.com/FANzR-arch/image-prompt-skills/tree/main/swiss-typographic-poster"><img src="swiss-typographic-poster/assets/preview.png" width="100%"></a>
+
+### bauhaus-visual-prompt
+
+把包豪斯视觉语言拆成文章封面、正文配图、海报和室内照片重绘模块，识别媒介后编译成一条确定性生图提示词。
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt) ｜ [文章复制版](bauhaus-visual-prompt/ARTICLE-COPY.md)
+
+<a href="https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt"><img src="bauhaus-visual-prompt/assets/preview.png" width="100%"></a>
+
+### plakatstil-prompt-compiler
+
+把文字主题、商品照片或包装照片编译成 Plakatstil / Sachplakat 商品广告海报提示词，先选模块再输出一条确定性提示词。
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler) ｜ [文章复制版](plakatstil-prompt-compiler/ARTICLE-COPY.md)
+
+<a href="https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler"><img src="plakatstil-prompt-compiler/assets/preview.png" width="100%"></a>
+
+### neo-brutalist-prompt-compiler
+
+把文章主题、产品介绍或技术项目编译成新粗野主义（Neubrutalism）提示词：粗黑边框、硬阴影、扁平撞色、组件感构图，三方向路由后输出一条确定性提示词。
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/neo-brutalist-prompt-compiler) ｜ [文章复制版](neo-brutalist-prompt-compiler/ARTICLE-COPY.md)
+
+<a href="https://github.com/FANzR-arch/image-prompt-skills/tree/main/neo-brutalist-prompt-compiler"><img src="neo-brutalist-prompt-compiler/assets/preview.png" width="100%"></a>
+
+### visual-identity-expander
+
+把 Logo、头像、IP、插画或产品图扩展成统一的五类视觉身份提示词。（预览图待补）
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/visual-identity-expander) ｜ [文章复制版](visual-identity-expander/ARTICLE-COPY.md)
+
+### acid-depth-poster
+
+把主题编译成前进色×后退色实验海报提示词：清晰前景层＋模糊后景层的双层空间，Y2K / Acid Graphics / 地下传单气质。（预览图待补）
+[进入 Skill](https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster) ｜ [文章复制版](acid-depth-poster/ARTICLE-COPY.md)
 
 ## 使用方式
 
