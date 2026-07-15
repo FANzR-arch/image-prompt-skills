@@ -11,6 +11,7 @@
 | [bauhaus-visual-prompt](https://github.com/FANzR-arch/image-prompt-skills/tree/main/bauhaus-visual-prompt) | 把包豪斯视觉语言拆成文章封面、正文配图、海报和室内照片重绘模块，识别媒介后编译成一条确定性生图提示词 | [ARTICLE-COPY.md](bauhaus-visual-prompt/ARTICLE-COPY.md) |
 | [plakatstil-prompt-compiler](https://github.com/FANzR-arch/image-prompt-skills/tree/main/plakatstil-prompt-compiler) | 把文字主题、商品照片或包装照片编译成 Plakatstil / Sachplakat 商品广告海报提示词，先选模块再输出一条确定性提示词 | [ARTICLE-COPY.md](plakatstil-prompt-compiler/ARTICLE-COPY.md) |
 | [visual-identity-expander](https://github.com/FANzR-arch/image-prompt-skills/tree/main/visual-identity-expander) | 把 Logo、头像、IP、插画或产品图扩展成统一的五类视觉身份提示词 | [ARTICLE-COPY.md](visual-identity-expander/ARTICLE-COPY.md) |
+| [acid-depth-poster](https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster) | 把主题编译成前进色×后退色实验海报提示词：清晰前景层＋模糊后景层的双层空间，Y2K / Acid Graphics / 地下传单气质 | [ARTICLE-COPY.md](acid-depth-poster/ARTICLE-COPY.md) |
 
 ## 使用方式
 
@@ -44,6 +45,10 @@
 
 ```text
 用 plakatstil-prompt-compiler，把我上传的商品照片重绘成 Plakatstil / Sachplakat 广告海报。
+```
+
+```text
+用 acid-depth-poster，给这篇文章做一张横版 16:9 封面，标题是：别等灵感。
 ```
 
 ## 目录约定
