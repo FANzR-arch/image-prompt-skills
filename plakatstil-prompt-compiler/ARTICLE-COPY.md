@@ -38,9 +38,119 @@ AVOID:
 Avoid clean vector icon, modern logo mockup, Helvetica or Swiss grid, Bauhaus geometry, comic book title, rock-band lettering, cinematic poster, photorealistic product render, excessive digital grunge, crowded body copy, fake dates, fake URLs, and random unreadable labels.
 
 OUTPUT:
+Default resolved mode:
 1. selected modules
-2. one complete final prompt
+2. one complete final prompt with no placeholders
 3. one sentence explaining the choice
+
+Reusable template mode:
+Use this only when the user asks for a copy-ready template, article prompt block, reusable prompt structure, or similar. Put editable Chinese input fields first, then fixed English style instructions. Do not add extra label lines such as “你只需要改这里” or “以下内容不用改”. Distinguish text-to-image prompts from image-to-image prompts.
+```
+
+## 复制即用结构
+
+下面三段是 reusable template mode 的标准结构。中文字段给用户改，英文部分负责锁定风格和质量底线。
+
+### 文生图｜文章封面
+
+```text
+文章主题或摘要：
+{输入文章主题、标题、摘要，或直接粘贴文章内容}
+
+用途和比例：
+{例如：文章封面，横版 5:2}
+
+指定主标题文字：
+{可选；没有就写：自动判断}
+
+指定副标题文字：
+{可选；没有就写：自动判断或不加}
+
+特殊要求：
+{指定物体、颜色、不能出现的元素；没有就写：无}
+
+Create an AI article cover from the text theme above.
+
+Style lock:
+early 20th-century German Plakatstil / Sachplakat advertising poster, hand-painted commercial object poster, one concrete commercial object, simplified but recognizable product hero, custom hand-painted advertising lettering, matte printed paper, visible paper grain, ink absorption, uneven hand-painted color coverage.
+
+Image logic:
+Read the article theme and translate it into one memorable physical object. Keep only one dominant object. Do not turn the image into a scene, flowchart, dashboard, UI screenshot, character group, or complicated information structure.
+
+Typography:
+If a main title is specified above, use that exact Chinese text. If it says “自动判断”, extract a short Chinese main title from the theme, usually 2-4 Chinese characters. Add one smaller subtitle only when it helps explain the article value or guide reading; if the image is stronger without a subtitle, omit it.
+
+Controlled freedom:
+Do not use a fixed template for composition, palette, title position, subtitle position, or background. Let the object metaphor, crop, title shape, background structure, color contrast, and subtitle use adapt to the theme while keeping one-object Plakatstil logic stable.
+
+Avoid:
+clean vector icon, modern UI, infographic, flowchart, dashboard, Swiss grid, Bauhaus geometry, photorealistic product render, glossy 3D, cinematic lighting, crowded body copy, multiple competing objects, fake Chinese characters, wrong title text, English replacement text, more than one subtitle line.
+```
+
+### 图生图｜任意物品转宣传图
+
+```text
+上传图片：
+{上传一张商品、包装、工具、设备、物品或产品照片}
+
+用途和比例：
+{例如：产品宣传图，横版 5:2 / 方图 1:1 / 竖版 4:5}
+
+指定广告标题文字：
+{可选；可以写商品名、品类名或短标题；没有就写：自动判断}
+
+指定副标题文字：
+{可选；没有就写：自动判断或不加}
+
+特殊要求：
+{需要保留的品牌、颜色、标签、材质、角度，或不能出现的元素；没有就写：无}
+
+Use the uploaded product or object photo as the source image and transform it into an early 20th-century German Plakatstil / Sachplakat advertising poster.
+
+Style lock:
+hand-painted commercial object poster, one dominant product hero, simplified but recognizable silhouette, custom hand-painted advertising lettering, matte printed paper, visible paper grain, ink absorption, uneven hand-painted color coverage.
+
+Image logic:
+Keep only one core object from the uploaded image. Preserve brand marks, labels, packaging hierarchy, distinctive materials and functional details when they matter to recognition. Remove modern lifestyle context, desks, UI screens, complicated backgrounds and extra props unless they are essential to the product identity.
+
+Controlled freedom:
+Do not force one fixed layout or palette. Let the product angle, crop, title placement, background family, decorative marks and color contrast adapt to the uploaded object, while preserving the object's identity and the Plakatstil commercial object logic.
+
+Avoid:
+photorealistic product render, modern launch poster, clean vector icon, sterile sans-serif typography, Swiss grid, Bauhaus geometry, glossy 3D, cinematic lighting, dashboard UI, lifestyle scene, multiple competing products, QR code, barcode, fake labels, fake Chinese characters, wrong title text, random unreadable small text.
+```
+
+### 图生图｜人物转绘
+
+```text
+上传图片：
+{上传一张人物照片、头像、半身照或形象照}
+
+用途和比例：
+{例如：个人账号海报，竖版 4:5 / 方图 1:1 / 横版 5:2}
+
+指定主标题文字：
+{可选；可以写名字、品牌名或账号名；没有就写：自动判断}
+
+指定副标题文字：
+{可选；可以写身份、服务、口号；没有就写：自动判断或不加}
+
+特殊要求：
+{需要保留的发型、服装、姿态、表情、颜色，或不能出现的元素；没有就写：无}
+
+Use the uploaded portrait photo as the source image and transform the person into a Plakatstil-inspired early 20th-century advertising portrait poster.
+
+Style lock:
+Plakatstil-inspired service poster, simplified hand-painted portrait, one hero figure, custom hand-painted advertising lettering, matte printed paper, visible paper grain, ink absorption, uneven hand-painted color coverage.
+
+Image logic:
+This is not strict Sachplakat product advertising. Treat it as a Plakatstil-inspired personal, service, performer, lecture, course, creator or consultant poster. Keep one person as the hero figure. Add one small trade object, badge, label, or service cue only if it clarifies the role.
+
+Controlled freedom:
+Do not force one fixed portrait crop, palette, or title position. Let the face simplification, crop, lettering placement, background structure and color contrast adapt to the uploaded portrait, while preserving the person's identity and the old hand-painted advertising poster logic.
+
+Avoid:
+photorealistic portrait, modern influencer poster, cinematic lighting, anime style, comic book style, luxury fashion ad, clean vector portrait, sterile sans-serif typography, Swiss grid, Bauhaus geometry, excessive grunge, extra slogans, fake Chinese characters, wrong title text, random unreadable small text.
 ```
 
 ## 随机主题示例

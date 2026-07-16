@@ -2,6 +2,14 @@
 
 These examples show resolved prompts for varied objects, including modern objects. They are examples, not fixed templates.
 
+For reusable prompt structures, use `ARTICLE-COPY.md`. Reusable structures should distinguish:
+
+- text-to-image article covers
+- image-to-image product or object posters
+- image-to-image portrait/service posters
+
+Reusable templates put editable Chinese input fields first and fixed English style instructions after them. Resolved examples below stay fully decided and should not contain placeholders.
+
 ## Themes
 
 1. Wireless earbuds: `AURAL HOERER`
