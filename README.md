@@ -42,12 +42,12 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 | | | |
 |:---:|:---:|:---:|
-| [![现代旅行拼贴明信片](travel-postcard-agent/assets/preview.png)](travel-postcard-agent/) | [![瑞士国际主义海报](swiss-typographic-poster/assets/preview.png)](swiss-typographic-poster/) | [![包豪斯视觉生成](bauhaus-visual-prompt/assets/preview.png)](bauhaus-visual-prompt/) |
-| 现代旅行拼贴明信片 | 瑞士国际主义海报 | 包豪斯视觉生成 |
-| [![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)](plakatstil-prompt-compiler/) | [![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)](neo-brutalist-prompt-compiler/) | [![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)](acid-depth-poster/) |
-| Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
-| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | |
-| 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | |
+| [<img src="travel-postcard-agent/assets/preview.png" alt="现代旅行拼贴明信片" width="300">](travel-postcard-agent/) | [<img src="plakatstil-prompt-compiler/assets/preview.png" alt="Plakatstil 商品海报" width="300">](plakatstil-prompt-compiler/) | [<img src="neo-brutalist-prompt-compiler/assets/preview.png" alt="新粗野主义视觉" width="300">](neo-brutalist-prompt-compiler/) |
+| 现代旅行拼贴明信片 | Plakatstil 商品海报 | 新粗野主义视觉 |
+| [<img src="acid-depth-poster/assets/preview.png" alt="前进色 × 后退色实验海报" width="300">](acid-depth-poster/) | [<img src="craft-diorama-still-life/assets/preview.png" alt="手作拟物静物" width="300">](craft-diorama-still-life/) | [<img src="tech-schematic-poster/assets/preview.png" alt="工程蓝图 / 赛博终端示意图" width="300">](tech-schematic-poster/) |
+| 前进色 × 后退色实验海报 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 |
+| [<img src="swiss-typographic-poster/assets/preview.png" alt="瑞士国际主义海报" width="300">](swiss-typographic-poster/) | [<img src="bauhaus-visual-prompt/assets/preview.png" alt="包豪斯视觉生成" width="300">](bauhaus-visual-prompt/) | |
+| 瑞士国际主义海报 | 包豪斯视觉生成 | |
 
 ## travel-postcard-agent
 
