@@ -53,6 +53,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 根据城市、节日、季节或特殊主题，生成现代旅行拼贴明信片提示词。
 
+![现代旅行拼贴明信片](travel-postcard-agent/assets/preview.png)
+
 [进入 Skill](travel-postcard-agent/) ｜ [文章复制版](travel-postcard-agent/ARTICLE-COPY.md)
 
 ### 使用示例
@@ -65,6 +67,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 把瑞士国际主义视觉拆成网格、字体、几何图形和色彩模块，再编译成一条确定性提示词。
 
+![瑞士国际主义海报](swiss-typographic-poster/assets/preview.png)
+
 [进入 Skill](swiss-typographic-poster/) ｜ [文章复制版](swiss-typographic-poster/ARTICLE-COPY.md)
 
 ### 使用示例
@@ -76,6 +80,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 ## bauhaus-visual-prompt
 
 识别文章封面、正文配图、海报或室内重绘需求，生成对应的包豪斯视觉提示词。
+
+![包豪斯视觉生成](bauhaus-visual-prompt/assets/preview.png)
 
 [进入 Skill](bauhaus-visual-prompt/) ｜ [文章复制版](bauhaus-visual-prompt/ARTICLE-COPY.md)
 
@@ -93,6 +99,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 把文字主题、商品照片或包装照片，编译成 Plakatstil / Sachplakat 商品广告海报提示词。
 
+![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)
+
 [进入 Skill](plakatstil-prompt-compiler/) ｜ [文章复制版](plakatstil-prompt-compiler/ARTICLE-COPY.md)
 
 ### 使用示例
@@ -104,6 +112,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 ## neo-brutalist-prompt-compiler
 
 用粗黑边框、硬阴影、扁平撞色和组件式构图，生成新粗野主义视觉提示词。
+
+![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)
 
 [进入 Skill](neo-brutalist-prompt-compiler/) ｜ [文章复制版](neo-brutalist-prompt-compiler/ARTICLE-COPY.md)
 
@@ -117,6 +127,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 用清晰前景层和模糊后景层制造空间深度，把主题编译成 Y2K / Acid Graphics / 地下传单气质的实验海报提示词。
 
+![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)
+
 [进入 Skill](acid-depth-poster/) ｜ [文章复制版](acid-depth-poster/ARTICLE-COPY.md)
 
 ### 使用示例
@@ -125,9 +137,37 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 acid-depth-poster，生成一张 5:2 横版封面，标题是：前进色 × 后退色。配色使用荧光玫红 × 电光蓝印刷底。
 ```
 
+## minimal-zine-poster
+
+大留白陈纸背景、单一小主体、实验性衬线或等宽排版、一个高饱和色点，编译成安静的日韩独立杂志感 zine 海报提示词。
+
+[进入 Skill](minimal-zine-poster/)
+
+### 使用示例
+
+```text
+用 minimal-zine-poster，把这段随笔做成一张留白封面：那年冬天我没有寄出的信。
+```
+
+## tech-schematic-poster
+
+用节点-连线拓扑图作主视觉，配 HUD 边框、图例、标尺和系统日志，编译成工程蓝图 / 赛博终端风格的封面和插图提示词。
+
+![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)
+
+[进入 Skill](tech-schematic-poster/)
+
+### 使用示例
+
+```text
+用 tech-schematic-poster，给这篇讲多 Agent 分工的文章做一张 5:2 封面，标题是：从 Loop 到 Graph。
+```
+
 ## craft-diorama-still-life
 
 用剪纸、手作微缩和轻拟物质感，把一篇内容最强的那句判断压进一个实物里，编译成封面和逐章配图提示词。调色板是角色制的，可以直接填自己的品牌色。
+
+![手作拟物静物](craft-diorama-still-life/assets/preview.png)
 
 [进入 Skill](craft-diorama-still-life/) ｜ [文章复制版](craft-diorama-still-life/ARTICLE-COPY.md)
 
@@ -166,7 +206,7 @@ image-prompt-skills/
     └── evals/
 ```
 
-`assets/preview.png` 用于 README 风格画廊；没有对应目录时，说明该 Skill 暂时没有公开预览图。
+`assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图；没有对应目录时，说明该 Skill 暂时没有公开预览图。目前 `minimal-zine-poster` 和 `visual-identity-expander` 尚无预览图。
 
 ## 当前状态
 
