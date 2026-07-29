@@ -1,4 +1,4 @@
-# Image Prompt Skills
+﻿# Image Prompt Skills
 
 一组给 AI Agent 使用的视觉生成 Skills。可以把文章、主题、城市、产品或现有视觉资产，编译成可直接生图的完整提示词。
 
@@ -42,11 +42,11 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 | | | |
 |:---:|:---:|:---:|
-| [<img src="travel-postcard-agent/assets/preview.png" alt="现代旅行拼贴明信片" width="300">](travel-postcard-agent/) | [<img src="plakatstil-prompt-compiler/assets/preview.png" alt="Plakatstil 商品海报" width="300">](plakatstil-prompt-compiler/) | [<img src="neo-brutalist-prompt-compiler/assets/preview.png" alt="新粗野主义视觉" width="300">](neo-brutalist-prompt-compiler/) |
+| [<img src="travel-postcard-agent/assets/preview.png" alt="现代旅行拼贴明信片" width="230">](travel-postcard-agent/) | [<img src="plakatstil-prompt-compiler/assets/preview.png" alt="Plakatstil 商品海报" width="230">](plakatstil-prompt-compiler/) | [<img src="neo-brutalist-prompt-compiler/assets/preview.png" alt="新粗野主义视觉" width="230">](neo-brutalist-prompt-compiler/) |
 | 现代旅行拼贴明信片 | Plakatstil 商品海报 | 新粗野主义视觉 |
-| [<img src="acid-depth-poster/assets/preview.png" alt="前进色 × 后退色实验海报" width="300">](acid-depth-poster/) | [<img src="craft-diorama-still-life/assets/preview.png" alt="手作拟物静物" width="300">](craft-diorama-still-life/) | [<img src="tech-schematic-poster/assets/preview.png" alt="工程蓝图 / 赛博终端示意图" width="300">](tech-schematic-poster/) |
+| [<img src="acid-depth-poster/assets/preview.png" alt="前进色 × 后退色实验海报" width="230">](acid-depth-poster/) | [<img src="craft-diorama-still-life/assets/preview.png" alt="手作拟物静物" width="230">](craft-diorama-still-life/) | [<img src="tech-schematic-poster/assets/preview.png" alt="工程蓝图 / 赛博终端示意图" width="230">](tech-schematic-poster/) |
 | 前进色 × 后退色实验海报 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 |
-| [<img src="swiss-typographic-poster/assets/preview.png" alt="瑞士国际主义海报" width="300">](swiss-typographic-poster/) | [<img src="bauhaus-visual-prompt/assets/preview.png" alt="包豪斯视觉生成" width="300">](bauhaus-visual-prompt/) | |
+| [<img src="swiss-typographic-poster/assets/preview.png" alt="瑞士国际主义海报" width="230">](swiss-typographic-poster/) | [<img src="bauhaus-visual-prompt/assets/preview.png" alt="包豪斯视觉生成" width="230">](bauhaus-visual-prompt/) | |
 | 瑞士国际主义海报 | 包豪斯视觉生成 | |
 
 ## travel-postcard-agent
