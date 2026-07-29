@@ -33,6 +33,9 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | [`plakatstil-prompt-compiler`](plakatstil-prompt-compiler/) | 商品、包装、服务、品牌物体和德国广告海报 |
 | 新粗野主义视觉 | [`neo-brutalist-prompt-compiler`](neo-brutalist-prompt-compiler/) | AI、产品、技术项目、教程和强组件感封面 |
 | 前进色 × 后退色实验海报 | [`acid-depth-poster`](acid-depth-poster/) | Y2K、Acid Graphics、夜间城市、青年文化和地下传单 |
+| 极简 zine 编辑海报 | [`minimal-zine-poster`](minimal-zine-poster/) | 随笔、情绪、记忆向主题和安静留白的日韩独立杂志感封面 |
+| 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
+| 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 视觉身份扩展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、头像、IP、插画和产品图的成套视觉延展 |
 
 ## 风格样例
@@ -118,6 +121,22 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 acid-depth-poster，生成一张 5:2 横版封面，标题是：前进色 × 后退色。配色使用荧光玫红 × 电光蓝印刷底。
+```
+
+## craft-diorama-still-life
+
+用剪纸、手作微缩和轻拟物质感，把一篇内容最强的那句判断压进一个实物里，编译成封面和逐章配图提示词。调色板是角色制的，可以直接填自己的品牌色。
+
+[进入 Skill](craft-diorama-still-life/) ｜ [文章复制版](craft-diorama-still-life/ARTICLE-COPY.md)
+
+### 使用示例
+
+```text
+用 craft-diorama-still-life，给这篇文章做一张 5:2 封面，标题用中文。
+```
+
+```text
+用 craft-diorama-still-life，品牌色是 #3F5BD9，这篇每一节都配一张 16:9 章节图。
 ```
 
 ## visual-identity-expander
