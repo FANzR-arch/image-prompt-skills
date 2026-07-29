@@ -46,6 +46,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 现代旅行拼贴明信片 | 瑞士国际主义海报 | 包豪斯视觉生成 |
 | [![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)](plakatstil-prompt-compiler/) | [![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)](neo-brutalist-prompt-compiler/) | [![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)](acid-depth-poster/) |
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
+| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | |
+| 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | |
 
 ## travel-postcard-agent
 
