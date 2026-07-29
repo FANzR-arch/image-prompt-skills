@@ -11,7 +11,7 @@ INPUT：
 请根据我给的文章、主题或一句判断，生成手作拟物静物风格配图提示词。例如：
 "5:2 封面，文章主题是：慢就是快。标题用中文。"
 "这篇文章每一节都要一张 16:9 章节图。"
-"帮这段话做一张封面：证据比说服更有力。品牌色 #C2542F。"
+"帮这段话做一张封面：证据比说服更有力。品牌色 #D64545。"
 
 TASK：
 先判断要封面（5:2）还是章节图（16:9）还是两者都要。封面模式必须先问一句标题用中文还是英文，
@@ -26,12 +26,12 @@ TASK：
 * 只有内容真的需要屏幕时才用笔记本或手机，它不是默认主角。
 
 调色板（六角色，我没给品牌色就用默认预设）：
-* Ground 主背景，画面绝对主色，60-75%：#EAE3D2
-* Signal 唯一的主动作/关键标记，整张图只有一处，3-8%：#C2542F
-* Support 柔和支撑卡片和面板，10-20%：#D9CFBA
-* Accent A 极小点缀，<3%：#7A8B6F
-* Accent B 状态点和时间胶囊，<3%：#2E4A6B
-* Anchor 唯一一个压场深色实物，也可作标题色，5-12%：#26332C
+* Ground 主背景，画面绝对主色，60-75%：#E1DAC0
+* Signal 唯一的主动作/关键标记，整张图只有一处，3-8%：#644FB8
+* Support 柔和支撑卡片和面板，10-20%：#BAB2FF
+* Accent A 极小点缀，<3%：#B268D8
+* Accent B 状态点和时间胶囊，<3%：#504DDC
+* Anchor 唯一一个压场深色实物，也可作标题色，5-12%：#1B4038
 每个角色都要写清楚落在哪个物件上，只给色值不给落点等于没给。
 我给了品牌色就映射：最浅最暖的进 Ground，品牌主色进 Signal，最深的进 Anchor，
 Signal 的浅调进 Support，剩下的进两个 Accent；凑不齐的角色留空，不要硬凑。
@@ -78,7 +78,7 @@ OUTPUT：
 ```
 
 ```text
-帮这段话做一张封面：证据比说服更有力。品牌色 #3F5BD9。
+帮这段话做一张封面：证据比说服更有力。品牌色 #D64545。
 ```
 
 ## 一条成品长什么样
@@ -96,13 +96,13 @@ Supporting details: three small index cards fanned behind it, each with a tiny d
 paper route marker leaning against the base; a small brass-toned clasp holding two cards together;
 one tipped-over card lying flat in front.
 
-Palette: warm paper ground #EAE3D2 dominant; the single terracotta #C2542F marker on the upright
-route flag as the only activated signal; oat #D9CFBA supporting cards; one deep pine #26332C wooden
-base as the sole grounding anchor; tiny sage #7A8B6F dot on the folded marker and a slate blue
-#2E4A6B time chip reading "T+24h" on the front card. Solid colors only, no gradients.
+Palette: warm ivory ground #E1DAC0 dominant; the single iris purple #644FB8 marker on the upright
+route flag as the only activated signal; lavender mist #BAB2FF supporting cards; one deep moss
+#1B4038 wooden base as the sole grounding anchor; tiny orchid #B268D8 dot on the folded marker and a
+cobalt #504DDC time chip reading "T+24h" on the front card. Solid colors only, no gradients.
 
 Text: Chinese headline "慢就是快" set in a clean serif at upper left, subtitle "复利只奖励留下来的人"
-one line below in a smaller weight, both in deep pine #26332C, actually rendered in the image.
+one line below in a smaller weight, both in deep moss #1B4038, actually rendered in the image.
 
 Guardrails: no non-Chinese headline text, no logo, no watermark, no gradients, no landscape or
 terrain staging, no motion streaks or glow effects, static still life only.
@@ -168,7 +168,7 @@ craft-diorama-still-life/
 ```
 
 ```text
-用 craft-diorama-still-life，品牌色是 #3F5BD9，帮我做一张封面：证据比说服更有力。
+用 craft-diorama-still-life，品牌色是 #D64545，帮我做一张封面：证据比说服更有力。
 ```
 
 Skill 应该返回：

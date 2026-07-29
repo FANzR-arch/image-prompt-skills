@@ -36,18 +36,20 @@
 
 ## 预设
 
-### 预设一：Warm Paper（默认）
+### 预设一：Warm Ivory（默认）
 
-温暖纸感，最贴近这个风格的本体。不确定时用这套。
+温暖纸底＋紫色信号＋深绿压场，最贴近这个风格的本体，也是 README 里那张预览图用的配色。不确定时用这套。
 
 | 角色 | 色值 | 名称 |
 | --- | --- | --- |
-| Ground | `#EAE3D2` | Warm Paper |
-| Signal | `#C2542F` | Terracotta |
-| Support | `#D9CFBA` | Oat |
-| Accent A | `#7A8B6F` | Sage |
-| Accent B | `#2E4A6B` | Slate Blue |
-| Anchor | `#26332C` | Deep Pine |
+| Ground | `#E1DAC0` | Warm Ivory |
+| Signal | `#644FB8` | Iris Purple |
+| Support | `#BAB2FF` | Lavender Mist |
+| Accent A | `#B268D8` | Orchid Bloom |
+| Accent B | `#504DDC` | Cobalt Pulse |
+| Anchor | `#1B4038` | Deep Moss |
+
+这套配色的成立之处：Warm Ivory 和 Deep Moss 都是低饱和的自然色，把 Iris Purple 衬成画面里唯一「被点亮」的东西；Lavender Mist 是 Iris Purple 的浅调，所以支撑面板不会跟主信号抢。换自己的品牌色时保持这个关系，比照抄色值更重要。
 
 ### 预设二：Cool Studio
 
@@ -80,10 +82,10 @@
 不要只丢一串色值。每个角色都要写清楚**落在哪个物件上**：
 
 ```text
-Palette: warm paper ground #EAE3D2 dominant; the single terracotta #C2542F marker on the raised
-route flag; oat #D9CFBA supporting cards; one deep pine #26332C wooden base as the only grounding
-anchor; tiny sage #7A8B6F dot on the side note and slate blue #2E4A6B time chip. Solid colors only,
-no gradients.
+Palette: warm ivory ground #E1DAC0 dominant; the single iris purple #644FB8 marker on the raised
+route flag; lavender mist #BAB2FF supporting cards; one deep moss #1B4038 wooden base as the only
+grounding anchor; tiny orchid #B268D8 dot on the side note and a cobalt #504DDC time chip. Solid
+colors only, no gradients.
 ```
 
 只给色值不给落点，生图模型会自己乱分配面积，Ground 主导和单一 Signal 这两条纪律就废了。

@@ -138,7 +138,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 ```
 
 ```text
-用 craft-diorama-still-life，品牌色是 #3F5BD9，这篇每一节都配一张 16:9 章节图。
+用 craft-diorama-still-life，品牌色是 #D64545，这篇每一节都配一张 16:9 章节图。
 ```
 
 ## visual-identity-expander
