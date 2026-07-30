@@ -33,7 +33,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | [`plakatstil-prompt-compiler`](plakatstil-prompt-compiler/) | 商品、包装、服务、品牌物体和德国广告海报 |
 | 新粗野主义视觉 | [`neo-brutalist-prompt-compiler`](neo-brutalist-prompt-compiler/) | AI、产品、技术项目、教程和强组件感封面 |
 | 前进色 × 后退色实验海报 | [`acid-depth-poster`](acid-depth-poster/) | Y2K、Acid Graphics、夜间城市、青年文化和地下传单 |
-| 极简 zine 编辑海报 | [`minimal-zine-poster`](minimal-zine-poster/) | 随笔、情绪、记忆向主题和安静留白的日韩独立杂志感封面 |
+| 安静纸面标本 | [`quiet-paper-specimen`](quiet-paper-specimen/) | 随笔、情绪、记忆向主题和安静留白的日韩独立杂志感 zine 封面 |
 | 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
@@ -50,8 +50,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
 | [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
-| [![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)](minimal-zine-poster/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | |
-| 极简 zine 编辑海报 | 暖纸拟物流程主视觉 | |
+| [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | |
+| 安静纸面标本 | 暖纸拟物流程主视觉 | |
 
 ## travel-postcard-agent
 
@@ -141,22 +141,22 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 acid-depth-poster，生成一张 5:2 横版封面，标题是：前进色 × 后退色。配色使用荧光玫红 × 电光蓝印刷底。
 ```
 
-## minimal-zine-poster
+## quiet-paper-specimen
 
 大留白陈纸背景、单一主体、中文手写大标题、一个落在主体上的高饱和色点，编译成安静的日韩独立杂志感 zine 海报提示词。核心意象从十大家族的意象库里选，避免每张都退回叶子和旧照片。
 
-![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)
+![安静纸面标本](quiet-paper-specimen/assets/preview.png)
 
-[进入 Skill](minimal-zine-poster/)
+[进入 Skill](quiet-paper-specimen/)
 
 ### 使用示例
 
 ```text
-用 minimal-zine-poster，把这段随笔做成一张留白封面：那年冬天我没有寄出的信。
+用 quiet-paper-specimen，把这段随笔做成一张留白封面：那年冬天我没有寄出的信。
 ```
 
 ```text
-用 minimal-zine-poster，做一张 5:2 横版封面，标题用中文手写：凉了。
+用 quiet-paper-specimen，做一张 5:2 横版封面，标题用中文手写：凉了。
 ```
 
 ## tech-schematic-poster

@@ -1,6 +1,6 @@
 # Credits
 
-`minimal-zine-poster` is an original skill written in this project's own house style
+`quiet-paper-specimen` is an original skill written in this project's own house style
 (module identification → single deterministic prompt), following the same structure as the
 other image-prompt-skills here (swiss-typographic-poster, plakatstil-prompt-compiler, etc.).
 
