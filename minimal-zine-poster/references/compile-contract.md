@@ -20,12 +20,14 @@ Use a leaf / a coin / a photo. Put the subject center or bottom-left. Add red or
 Right:
 
 ```text
-Use one small imaginable subject: a single faded photograph fragment resting low in a vast field of aged paper. Let the image model choose the strongest quiet placement — the fragment may sit low-left, drift toward a corner, or float slightly off-center — but keep 70-90% empty aged paper, one subject only, and a single small saturated color spot no larger than a coin.
+Use one imaginable subject: a chipped enamel mug resting low in a wide field of aged paper, drawn at 20% of the frame with crisp ink contrast so it reads at thumbnail size. Let the image model choose the strongest quiet placement — low-left, toward a corner, or slightly off-center — but keep 70-80% empty aged paper, one subject only, and a single saturated color spot sitting on the subject itself.
 ```
 
 ## The Style Is Emptiness
 
-The single most important instruction in every prompt is that **aged paper negative space is the hero**. Write the prompt so the empty paper dominates and the subject is small and quiet inside it. If a prompt could be read as "fill the frame," it is wrong.
+The single most important instruction in every prompt is that **aged paper negative space is the hero**. Write the prompt so the empty paper dominates and the subject sits quietly inside it. If a prompt could be read as "fill the frame," it is wrong.
+
+Emptiness is not invisibility. The counter-failure is just as common and just as fatal: a subject so small or so pale that the cover reads as a blank page, a color spot that vanishes, a title that dissolves into the texture. Every prompt must state that the subject and the title read clearly at thumbnail size. Quiet composition, legible content.
 
 ## Aspect Ratio
 
@@ -42,6 +44,7 @@ CORE IMAGE:
 NEGATIVE SPACE:
 STYLE LOCK:
 SUBJECT / ANCHOR TREATMENT:
+MAIN TITLE:
 TYPOGRAPHY:
 SMALL SUBTITLE:
 COLOR SPOT:
@@ -60,35 +63,22 @@ State whether the image comes from a text theme, a single sentence, one object, 
 
 ### CORE IMAGE
 
-Name **one** small, imaginable subject or tight visual cluster. If the input is abstract, translate it into a concrete quiet object first.
+Name **one** imaginable subject or tight visual cluster, chosen from the Core Image Inventory in `module-library.md`. If the input is abstract, translate it into a concrete object from that inventory first.
 
-Good core images:
+Do not default to the same handful of objects. Paper fragments, pressed leaves, coins, and paper boats are one corner of the inventory, not the whole of it — household objects, tools, food remains, animal traces, light and shadow, worn clothing, and architectural fragments are equally native to this style and make a set feel authored rather than generated.
 
-- a single faded photograph fragment
-- one pressed leaf
-- a coin resting flat
-- half a torn paper ticket
-- a small open window shape
-- one paper boat
-- a single matchstick
-- a translucent geometric pane
-- a solitary chair silhouette
-- a small cloud of dust motes
+Always state the subject's scale and contrast in the prompt:
 
-Weak core images (translate these into an object first):
-
-- growth
-- connection
-- freedom
-- intelligence
-- transformation
+```text
+drawn at roughly 20% of the frame, in ink dark enough to separate cleanly from the paper, legible at thumbnail size
+```
 
 ### NEGATIVE SPACE
 
-Always make emptiness explicit and dominant:
+Always make emptiness explicit and dominant, with a floor as well as a ceiling:
 
 ```text
-70-90% of the canvas is calm aged paper with nothing on it; the subject cluster occupies only 8-25% of the frame and never fills it.
+70-80% of the canvas is calm aged paper with nothing on it; the subject occupies 12-25% of the frame — clearly present and readable, never filling the page.
 ```
 
 ### STYLE LOCK
@@ -103,17 +93,36 @@ Do not lock the prompt into a fixed subject placement, fixed palette, or fixed t
 
 ### SUBJECT / ANCHOR TREATMENT
 
-Choose one anchor treatment from the module library. The subject may be a faded photo, torn-paper cutout, flat silhouette, small color block, old print engraving, plain object, translucent geometry, or a texture window. Keep it small, simplified, and quiet — never a rendered hero.
+Choose one anchor treatment from the module library: faded photo, torn-paper cutout, flat silhouette, small color block, old print engraving, plain object, translucent geometry, texture window, ink brush mark, rubbing or seal impression, line diagram, or attached object. Keep it simplified and quiet — never a rendered hero — but give it enough ink weight to hold its place on the page.
+
+### MAIN TITLE
+
+Use this section whenever the poster is a cover or the user gives title text. Skip it only for pure specimen images with no title.
+
+Default treatment is **手写标题** — handwritten, not typeset:
+
+```text
+the handwritten title 「蝉蜕」 in ink-brush Chinese calligraphy, character height about 14% of the canvas height, visible brush entry and exit strokes and slight irregularity, clearly legible at thumbnail size, sitting alone in the open paper field
+```
+
+Rules:
+
+- Chinese titles default to `T11 大字中文手写标题`: exact characters, 2-5 of them, brush / fountain pen / soft pencil, character height 10-18% of canvas height.
+- English titles default to `T12`: hand-lettered at comparable scale.
+- Always quote the exact characters the user gave. Never translate them, never substitute English, never invent characters.
+- The title is a handwritten mark on paper — ink texture, human irregularity. It is not a computer script font, not a heavy black poster headline, not outlined or filled logo lettering.
+- The title occupies its own open field; the paper still dominates around it. Big and legible is required; loud and dominant is not.
+- Never ghost, fragment, or shrink the main title into illegibility. That treatment belongs to incidental text only.
 
 ### TYPOGRAPHY
 
-Typography is free in placement but fixed in nature — always quiet and secondary:
+This section covers everything except the main title. Secondary text is free in placement but fixed in nature — always quiet:
 
 - serif, typewriter, monospace, or restrained hand lettering
-- fragmentary letters, edge-hugging micro-text, archival caption text, diagonal scattered characters, ghosted type, or one minimal small title
+- fragmentary letters, edge-hugging micro-text, archival caption text, diagonal scattered characters, or ghosted type
 - may sit at an edge, in a margin, near the subject, or partly faded into the paper
-- may use exact Chinese characters when requested; keep that text exactly, do not translate it, invent fake characters, or add random labels
-- NEVER a big bold headline dominating the frame, no modern clean UI type, no Swiss grid slab, no poster-punch display type
+- keep it sparse: one or two small elements at most, clearly subordinate to the main title
+- no modern clean UI type, no Swiss grid slab, no poster-punch display type, no paragraphs of body copy
 
 ### SMALL SUBTITLE
 
@@ -127,13 +136,13 @@ Optional, allowed for article covers and archival captions:
 
 ### COLOR SPOT
 
-Exactly **one** high-saturation color spot, occupying roughly 0.8-2.5% of the canvas, sitting against an otherwise paper / muted / near-monochrome field:
+Exactly **one** high-saturation color spot, occupying roughly 1.5-2.5% of the canvas, sitting against an otherwise paper / muted / near-monochrome field:
 
 ```text
-one small vivid color spot (for example saturated vermilion, cobalt, marigold, or acid green) covering only ~1-2% of the frame; everything else stays aged paper, ink, and low-saturation grays.
+one vivid color spot (for example saturated vermilion, cobalt, marigold, or acid green) covering ~2% of the frame and sitting on the subject itself — a match head, a painted rim, a single thread — plainly the brightest thing on the page; everything else stays aged paper, ink, and low-saturation grays.
 ```
 
-The spot is an accent, not a field. Do not fill areas with saturated color and do not use more than one saturated hue.
+The spot is an accent, not a field. Anchor it to the subject rather than floating it in the margin — an unanchored dot reads as a printing flaw. Do not fill areas with saturated color and do not use more than one saturated hue.
 
 ### PAPER / PRINT TEXTURE
 
@@ -158,7 +167,7 @@ Pick one quiet mood register from the module library (stillness, summer, solitud
 Let the model adapt only inside the chosen quiet structure:
 
 ```text
-Let the subject choice, its exact small placement, the typography position, subtitle use, texture, and the single spot's hue adapt to the theme, but keep the vast aged-paper emptiness, one small subject, one saturated spot, quiet secondary type, and the calm indie-zine editorial logic.
+Let the subject's exact placement, the handwriting's slant and rhythm, subtitle use, texture, and the single spot's hue adapt to the theme, but keep the dominant aged-paper emptiness, one legible subject, one saturated spot on that subject, the exact handwritten title text at readable scale, and the calm indie-zine editorial logic.
 ```
 
 Never write "any layout, any color, any composition."
@@ -168,13 +177,13 @@ Never write "any layout, any color, any composition."
 Always include relevant negatives:
 
 ```text
-Avoid: full-bleed scene, busy composition, commercial poster punch, big bold dominant headline, multiple subjects, multiple saturated colors, saturated color fields, large body copy, modern clean UI, sterile vector flatness, neon, 3D render, cartoon, glossy gradient, studio lighting, photorealistic product render, fake dates, fake URLs, random unreadable labels, heavy digital grunge.
+Avoid: full-bleed scene, busy composition, commercial poster punch, heavy black display headline, multiple subjects, multiple saturated colors, saturated color fields, large body copy, modern clean UI, sterile vector flatness, neon, 3D render, cartoon, glossy gradient, studio lighting, photorealistic product render, fake dates, fake URLs, random unreadable labels, heavy digital grunge, illegible or microscopic title text, subject so faint it disappears into the paper, accidental stain-like marks.
 ```
 
 When Chinese text is requested, also include:
 
 ```text
-Avoid: English replacement text, fake Chinese characters, wrong title text, random extra labels.
+Avoid: English replacement text, fake or malformed Chinese characters, wrong title text, computer script font imitating handwriting, random extra labels.
 ```
 
 ## Reusable Template Structure
@@ -188,7 +197,7 @@ Use only when the user explicitly asks for a reusable prompt block. Keep editabl
 用途和比例：
 {例如：文章封面，竖版 3:5}
 
-指定主标题或微文本：
+指定主标题（默认中文手写大字）：
 {可选；没有就写：自动判断}
 
 指定副标题文字：
@@ -200,7 +209,7 @@ Use only when the user explicitly asks for a reusable prompt block. Keep editabl
 Create a minimal zine editorial poster from the theme above.
 
 Style lock:
-quiet Japanese/Korean indie zine editorial poster, one small imaginable subject on a vast field of aged paper, 70-90% negative space, experimental but restrained serif/typewriter/mono typography, exactly one high-saturation color spot covering ~1-2% of the frame, visible risograph/photocopy/halftone/letterpress/scan paper texture, calm and contemplative, no full-bleed scene, no dominant headline, no multiple subjects, no multiple saturated colors.
+quiet Japanese/Korean indie zine editorial poster, one imaginable subject at 12-25% of the frame on a wide field of aged paper, 70-80% negative space, the main title hand-written in ink at 10-18% character height and fully legible, secondary text sparse and quiet, exactly one high-saturation color spot covering ~2% of the frame and sitting on the subject, visible risograph/photocopy/halftone/letterpress/scan paper texture, calm and contemplative, no full-bleed scene, no heavy black display headline, no multiple subjects, no multiple saturated colors, nothing so faint it disappears.
 ```
 
 Image-to-image templates must start with `上传图片：` and preserve the uploaded subject's identity while reducing it to a single quiet zine specimen on aged paper.
