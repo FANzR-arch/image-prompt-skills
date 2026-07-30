@@ -38,6 +38,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 视觉身份扩展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、头像、IP、插画和产品图的成套视觉延展 |
+| 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
 
 ## 风格样例
 
@@ -49,8 +50,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
 | [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
-| [![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)](minimal-zine-poster/) | | |
-| 极简 zine 编辑海报 | | |
+| [![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)](minimal-zine-poster/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | |
+| 极简 zine 编辑海报 | 暖纸拟物流程主视觉 | |
 
 ## travel-postcard-agent
 
@@ -142,7 +143,9 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ## minimal-zine-poster
 
-大留白陈纸背景、单一小主体、实验性衬线或等宽排版、一个高饱和色点，编译成安静的日韩独立杂志感 zine 海报提示词。
+大留白陈纸背景、单一主体、中文手写大标题、一个落在主体上的高饱和色点，编译成安静的日韩独立杂志感 zine 海报提示词。核心意象从十大家族的意象库里选，避免每张都退回叶子和旧照片。
+
+![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)
 
 [进入 Skill](minimal-zine-poster/)
 
@@ -150,6 +153,10 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 minimal-zine-poster，把这段随笔做成一张留白封面：那年冬天我没有寄出的信。
+```
+
+```text
+用 minimal-zine-poster，做一张 5:2 横版封面，标题用中文手写：凉了。
 ```
 
 ## tech-schematic-poster
@@ -214,6 +221,24 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 visual-identity-expander，分析我上传的 Logo，并扩展成一组统一的品牌视觉提示词。
 ```
 
+## paper-workflow-hero
+
+奶油纸底上，扁平 UI 卡片、写实拟物道具和半写实绘画人物三种质感共存，用流程图讲「输入→核心→标准→交付→回流」的产品叙事，适合官网 hero 和营销主图。版式、人物调度和桌面道具都做成模块库，成组产出时每张重抽，不会长成一个样。
+
+![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)
+
+[进入 Skill](paper-workflow-hero/) ｜ [文章复制版](paper-workflow-hero/ARTICLE-COPY.md)
+
+### 使用示例
+
+```text
+用 paper-workflow-hero，给我的 AI 客服产品做一张 5:2 官网主视觉，核心概念是"知识库"。
+```
+
+```text
+用 paper-workflow-hero，给这五个功能各做一张主视觉，版式和人物都要不一样。
+```
+
 ## 目录约定
 
 ```text
@@ -227,7 +252,7 @@ image-prompt-skills/
     └── evals/
 ```
 
-`assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图；没有对应目录时，说明该 Skill 暂时没有公开预览图。目前 `minimal-zine-poster` 和 `visual-identity-expander` 尚无预览图。
+`assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图；没有对应目录时，说明该 Skill 暂时没有公开预览图。目前 `visual-identity-expander` 尚无预览图。
 
 ## 当前状态
 
