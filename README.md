@@ -33,7 +33,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | [`plakatstil-prompt-compiler`](plakatstil-prompt-compiler/) | 商品、包装、服务、品牌物体和德国广告海报 |
 | 新粗野主义视觉 | [`neo-brutalist-prompt-compiler`](neo-brutalist-prompt-compiler/) | AI、产品、技术项目、教程和强组件感封面 |
 | 前进色 × 后退色实验海报 | [`acid-depth-poster`](acid-depth-poster/) | Y2K、Acid Graphics、夜间城市、青年文化和地下传单 |
-| 安静纸面标本 | [`quiet-paper-specimen`](quiet-paper-specimen/) | 随笔、情绪、记忆向主题和安静留白的日韩独立杂志感 zine 封面 |
+| 安静纸面标本 | [`quiet-paper-specimen`](quiet-paper-specimen/) | 随笔、情绪、记忆向主题，单物件加大留白加中文手写标题的安静封面 |
 | 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
@@ -143,7 +143,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ## quiet-paper-specimen
 
-大留白陈纸背景、单一主体、中文手写大标题、一个落在主体上的高饱和色点，编译成安静的日韩独立杂志感 zine 海报提示词。核心意象从十大家族的意象库里选，避免每张都退回叶子和旧照片。
+大留白陈纸背景、单一主体、中文手写大标题、一个落在主体上的高饱和色点，编译成「安静纸面标本」封面提示词。核心意象从十大家族的意象库里选，避免每张都退回叶子和旧照片。
 
 ![安静纸面标本](quiet-paper-specimen/assets/preview.png)
 

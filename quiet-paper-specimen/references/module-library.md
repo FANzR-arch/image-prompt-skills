@@ -2,7 +2,7 @@
 
 Use this library to select modules before compiling the final prompt. Do not paste the menu into the final prompt.
 
-The module system expands quiet compositional choices; it does not turn the poster loud. Minimal zine style is locked by aged-paper negative-space dominance, a single small imaginable subject, quiet secondary typography, one high-saturation color spot, and print/scan materiality. Placement, exact subject, palette temperature, texture, and mood remain flexible.
+The module system expands quiet compositional choices; it does not turn the cover loud. The paper-specimen style is locked by aged-paper negative-space dominance, a single imaginable subject, quiet secondary typography, one high-saturation color spot, and print/scan materiality. Placement, exact subject, palette temperature, texture, and mood remain flexible.
 
 When the user asks for more freedom, use modules as a boundary system: lock the emptiness, the single subject, the single spot, and the quiet type, then let the model vary the rest.
 
@@ -10,10 +10,10 @@ When the user asks for more freedom, use modules as a boundary system: lock the 
 
 - `text-theme`: user gives a word, concept, article topic, or title. Translate abstract ideas into one concrete quiet object.
 - `sentence`: user gives one line or a fragment. Pull a single image out of it; keep the line as optional edge micro-text.
-- `object`: user names a concrete thing. Reduce it to a small, quiet zine specimen on paper.
+- `object`: user names a concrete thing. Reduce it to a quiet specimen laid out on paper.
 - `mood`: user gives a feeling, memory, or atmosphere. Choose a soft anchor and let the mood register steer palette and texture.
 - `article-summary`: user gives article text for a cover. Extract one image; a single small subtitle line is allowed.
-- `critique`: user asks whether samples match minimal zine style. Score against the quality gates, then repair.
+- `critique`: user asks whether samples match this style. Score against the quality gates, then repair.
 
 ## Core Image Inventory
 
@@ -86,7 +86,7 @@ Exactly one saturated hue, ~0.8-2.5% of the canvas, against paper / muted / near
 - `C1 vermilion spot`: warm urgent red-orange point; strong against cream paper.
 - `C2 cobalt spot`: cool deep blue point; quiet melancholy.
 - `C3 marigold spot`: saturated yellow-orange; summer, afternoon, childhood.
-- `C4 acid green spot`: sharp green; mild surreal, modern zine edge.
+- `C4 acid green spot`: sharp green; mild surreal, modern editorial edge.
 - `C5 magenta/pink spot`: vivid pink point; memory, tenderness.
 - `C6 theme-derived spot`: pull one saturated hue from the subject or uploaded image.
 - The rest of the frame stays aged paper, ink black/brown, and low-saturation grays. Never a second saturated hue, never a saturated field.

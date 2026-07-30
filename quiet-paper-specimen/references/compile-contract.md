@@ -31,7 +31,7 @@ Emptiness is not invisibility. The counter-failure is just as common and just as
 
 ## Aspect Ratio
 
-Default to `3:5 vertical` (a zine leaf / mobile poster). Honor a user-specified ratio exactly. Horizontal and square zines are allowed, but negative-space dominance never changes.
+Default to `3:5 vertical` (a paper leaf / mobile cover). Honor a user-specified ratio exactly. Horizontal and square formats are allowed, but negative-space dominance never changes.
 
 ## Final Prompt Structure
 
@@ -86,7 +86,7 @@ Always make emptiness explicit and dominant, with a floor as well as a ceiling:
 Always include:
 
 ```text
-quiet Japanese/Korean indie zine editorial poster, minimal print aesthetic, single small imaginable subject on a vast field of aged paper, experimental but restrained typography, one high-saturation color spot, visible print/scan paper texture, calm and contemplative
+quiet paper-specimen editorial cover, Japanese/Korean indie magazine sensibility, minimal print aesthetic, one imaginable subject laid out alone on a wide field of aged paper, restrained typography with a handwritten title, one high-saturation color spot, visible print/scan paper texture, calm and contemplative
 ```
 
 Do not lock the prompt into a fixed subject placement, fixed palette, or fixed typographic layout.
@@ -132,7 +132,7 @@ Optional, allowed for article covers and archival captions:
 - clearly smaller and quieter than the core image's presence
 - Chinese usually 6-12 characters; English usually 2-6 words
 - may sit on a lower margin, corner tag, faint paper band, or beside the subject
-- must look printed or typewritten as part of the same quiet zine leaf
+- must look printed or typewritten as part of the same quiet paper leaf
 
 ### COLOR SPOT
 
@@ -167,7 +167,7 @@ Pick one quiet mood register from the module library (stillness, summer, solitud
 Let the model adapt only inside the chosen quiet structure:
 
 ```text
-Let the subject's exact placement, the handwriting's slant and rhythm, subtitle use, texture, and the single spot's hue adapt to the theme, but keep the dominant aged-paper emptiness, one legible subject, one saturated spot on that subject, the exact handwritten title text at readable scale, and the calm indie-zine editorial logic.
+Let the subject's exact placement, the handwriting's slant and rhythm, subtitle use, texture, and the single spot's hue adapt to the theme, but keep the dominant aged-paper emptiness, one legible subject, one saturated spot on that subject, the exact handwritten title text at readable scale, and the calm paper-specimen editorial logic.
 ```
 
 Never write "any layout, any color, any composition."
@@ -206,10 +206,10 @@ Use only when the user explicitly asks for a reusable prompt block. Keep editabl
 特殊要求：
 {指定核心意象、色点颜色、不能出现的元素；没有就写：无}
 
-Create a minimal zine editorial poster from the theme above.
+Create a quiet paper-specimen editorial cover from the theme above.
 
 Style lock:
-quiet Japanese/Korean indie zine editorial poster, one imaginable subject at 12-25% of the frame on a wide field of aged paper, 70-80% negative space, the main title hand-written in ink at 10-18% character height and fully legible, secondary text sparse and quiet, exactly one high-saturation color spot covering ~2% of the frame and sitting on the subject, visible risograph/photocopy/halftone/letterpress/scan paper texture, calm and contemplative, no full-bleed scene, no heavy black display headline, no multiple subjects, no multiple saturated colors, nothing so faint it disappears.
+quiet paper-specimen editorial cover with Japanese/Korean indie magazine sensibility, one imaginable subject at 12-25% of the frame on a wide field of aged paper, 70-80% negative space, the main title hand-written in ink at 10-18% character height and fully legible, secondary text sparse and quiet, exactly one high-saturation color spot covering ~2% of the frame and sitting on the subject, visible risograph/photocopy/halftone/letterpress/scan paper texture, calm and contemplative, no full-bleed scene, no heavy black display headline, no multiple subjects, no multiple saturated colors, nothing so faint it disappears.
 ```
 
-Image-to-image templates must start with `上传图片：` and preserve the uploaded subject's identity while reducing it to a single quiet zine specimen on aged paper.
+Image-to-image templates must start with `上传图片：` and preserve the uploaded subject's identity while reducing it to a single quiet specimen on aged paper.
