@@ -25,6 +25,10 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ## 可用 Skills
 
+### 从主题出发
+
+给一个主题、标题、城市或照片，编译成对应风格的提示词。
+
 | 视觉方向 | Skill ID | 适合内容 |
 | --- | --- | --- |
 | 现代旅行拼贴明信片 | [`travel-postcard-agent`](travel-postcard-agent/) | 城市、节日、季节、旅行纪念和地点文化 |
@@ -37,9 +41,16 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
-| 视觉身份扩展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、头像、IP、插画和产品图的成套视觉延展 |
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
 | 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
+
+### 从已有的视觉资产出发
+
+手上已经有 Logo、头像、角色或产品图，围绕它做成套延展。风格由这张图决定，不预设。
+
+| 用途 | Skill ID | 输入 |
+| --- | --- | --- |
+| 视觉身份延展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、人物头像、个人形象、IP 角色、插画、产品照片或标志性物件 |
 
 ## 风格样例
 
@@ -210,18 +221,6 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 grainy-plane-style，做一张 2:3 封面，主题是一台老打字机的局部特写。
 ```
 
-## visual-identity-expander
-
-把 Logo、头像、IP、插画或产品图扩展成统一的视觉身份提示词，适合继续制作头像、海报、贴纸、场景和产品化延展。
-
-[进入 Skill](visual-identity-expander/) ｜ [文章复制版](visual-identity-expander/ARTICLE-COPY.md)
-
-### 使用示例
-
-```text
-用 visual-identity-expander，分析我上传的 Logo，并扩展成一组统一的品牌视觉提示词。
-```
-
 ## paper-workflow-hero
 
 奶油纸底上，扁平 UI 卡片、写实拟物道具和半写实绘画人物三种质感共存，用流程图讲「输入→核心→标准→交付→回流」的产品叙事，适合官网 hero 和营销主图。版式、人物调度和桌面道具都做成模块库，成组产出时每张重抽，不会长成一个样。
@@ -258,6 +257,32 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 mono-editorial-banner，中文标题，做一张 5:2 封面：记忆才是护城河。
 ```
 
+---
+
+## visual-identity-expander
+
+**这一个从已有的视觉资产出发，风格不预设，从你给的那张图里现场萃取。**
+
+把 Logo、头像、IP、插画或产品图扩展成统一的视觉身份提示词，适合继续制作头像、海报、贴纸、场景和产品化延展。
+
+身份默认双锚——文字化写满、有图时再挂图锚点，所以出来的提示词离开对话仍然能用。附一张载体词汇表，包装和传播场景不会每次都退回马克杯和帆布袋。
+
+[进入 Skill](visual-identity-expander/) ｜ [文章复制版](visual-identity-expander/ARTICLE-COPY.md)
+
+### 使用示例
+
+```text
+用 visual-identity-expander，分析我上传的 Logo，并扩展成一组统一的品牌视觉提示词。
+```
+
+```text
+用 visual-identity-expander，把我上传的头像扩展成一套 X 账号的个人品牌视觉。
+```
+
+```text
+用 visual-identity-expander，我只要三张贴纸和一张动作设定板，不用出全套。
+```
+
 ## 目录约定
 
 ```text
@@ -271,7 +296,9 @@ image-prompt-skills/
     └── evals/
 ```
 
-`assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图；没有对应目录时，说明该 Skill 暂时没有公开预览图。目前 `visual-identity-expander` 尚无预览图。
+`assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图，是「从主题出发」那类 Skill 的必备项——它们各自锁定一种风格，预览图就是这个风格的样子。
+
+`visual-identity-expander` 没有 `assets/`，也不需要有：它的成品长什么样由用户上传的图决定，放任何一张预览都会暗示一种它并不锁定的风格。
 
 ## 当前状态
 
