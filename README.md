@@ -49,6 +49,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
 | [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
+| [![极简 zine 编辑海报](minimal-zine-poster/assets/preview.png)](minimal-zine-poster/) | | |
+| 极简 zine 编辑海报 | | |
 
 ## travel-postcard-agent
 
