@@ -36,6 +36,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 极简 zine 编辑海报 | [`minimal-zine-poster`](minimal-zine-poster/) | 随笔、情绪、记忆向主题和安静留白的日韩独立杂志感封面 |
 | 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
+| 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 视觉身份扩展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、头像、IP、插画和产品图的成套视觉延展 |
 
 ## 风格样例
@@ -46,8 +47,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 现代旅行拼贴明信片 | 瑞士国际主义海报 | 包豪斯视觉生成 |
 | [![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)](plakatstil-prompt-compiler/) | [![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)](neo-brutalist-prompt-compiler/) | [![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)](acid-depth-poster/) |
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
-| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | |
-| 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | |
+| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
+| 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
 
 ## travel-postcard-agent
 
@@ -179,6 +180,24 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 craft-diorama-still-life，品牌色是 #D64545，这篇每一节都配一张 16:9 章节图。
+```
+
+## grainy-plane-style
+
+平涂大色块加细密颗粒，颗粒只落在主体、背景保持绝对干净。既能把一张照片整段改成插画风，也能不用照片、只给主题就出封面和插图。
+
+![颗粒棱面风格](grainy-plane-style/assets/preview.png)
+
+[进入 Skill](grainy-plane-style/) ｜ [文章复制版](grainy-plane-style/ARTICLE-COPY.md)
+
+### 使用示例
+
+```text
+用 grainy-plane-style，把我这张照片改成颗粒棱面风格。
+```
+
+```text
+用 grainy-plane-style，做一张 2:3 封面，主题是一台老打字机的局部特写。
 ```
 
 ## visual-identity-expander
