@@ -24,6 +24,7 @@ description: 把照片或主题编译成「颗粒棱面」风格的生图提示�
 
 - 用户给了**一张照片**要改风格 → `references/photo-restyle.md`
 - 用户要**从零生成**（封面、插图、某个主题的图）→ `references/from-scratch.md`
+- 用户要**一份能整段发给别人、对方只填主题就能用的版本** → `ARTICLE-COPY.md`
 - 没说清就先问一句，不要默认
 
 ## 照片改风格

@@ -200,6 +200,16 @@ not photorealistic, no 3D render, no outlines, no gradients, no logos, no
 watermark.
 ```
 
+### 想一步直接出图
+
+在上面规则 1 后面加一句：
+
+```text
+输出提示词后，直接用它生成图片。
+```
+
+代价是拿不到可复用的提示词文本。**默认不加**——提示词能改、能存、能复用，图片不能。
+
 ### 你只需要改两个空
 
 ```text
