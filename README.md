@@ -39,6 +39,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 视觉身份扩展 | [`visual-identity-expander`](visual-identity-expander/) | Logo、头像、IP、插画和产品图的成套视觉延展 |
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
+| 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
 
 ## 风格样例
 
@@ -50,8 +51,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
 | [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
-| [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | |
-| 安静纸面标本 | 暖纸拟物流程主视觉 | |
+| [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
+| 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
 
 ## travel-postcard-agent
 
@@ -237,6 +238,24 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 paper-workflow-hero，给这五个功能各做一张主视觉，版式和人物都要不一样。
+```
+
+## mono-editorial-banner
+
+纯白虚空里放一个写实主体，主体自身带出纯黑作为画面唯一的黑色锚点，超大高反差衬线主标题压在上方，5:2 超宽横板。中英文标题都走衬线（Didone / 高对比宋体）。附一张主体词汇表，把「表面光鲜 vs 底下代价」「看不见的东西在承重」这类关系直接映射成具体装置。
+
+![黑白编辑横幅](mono-editorial-banner/assets/preview.png)
+
+[进入 Skill](mono-editorial-banner/) ｜ [文章复制版](mono-editorial-banner/ARTICLE-COPY.md)
+
+### 使用示例
+
+```text
+用 mono-editorial-banner，给这篇文章做一张 5:2 封面，主标题是：TRUST IS INFRASTRUCTURE.
+```
+
+```text
+用 mono-editorial-banner，中文标题，做一张 5:2 封面：记忆才是护城河。
 ```
 
 ## 目录约定
