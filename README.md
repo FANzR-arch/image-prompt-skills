@@ -44,6 +44,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
 | 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
 | 网点 UI 拼贴横幅 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面，网点人物配扁平 UI 卡片，五套配色成组换 |
+| 平涂色场杂志封面 | [`flat-field-cover-poster`](flat-field-cover-poster/) | 人物主导的竖版杂志封面，纯平色底配写实人像，超大标题被头肩截断 |
 
 ### 从已有的视觉资产出发
 
@@ -65,8 +66,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
 | [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
-| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | | |
-| 网点 UI 拼贴横幅 | | |
+| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | |
+| 网点 UI 拼贴横幅 | 平涂色场杂志封面 | |
 
 ## travel-postcard-agent
 
@@ -278,6 +279,28 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 halftone-ui-collage，给这五篇文章做成套封面，配色寄存器每张换一个。
+```
+
+## flat-field-cover-poster
+
+一块纯平色底、一个写实人像、一行超大压缩体标题被头肩真实截断、一个手绘元素压在前景下角桥接照片层与图形层，2:3 竖版。照片、平面色块、手绘三种质感同框但各自保持身份。
+
+骨架锁死，变的只有九个槽位。附四张模块表（色场寄存器 / 桥接元素 / 主体机位 / 品类映射）和四条实测成品，成组产出时每张换色场和桥接元素，不会撞脸。
+
+桥接元素有**同源硬约束**：它必须既是主题的物质隐喻，又和主体身上某样东西同源（裙子的水彩印花 ↔ 前景的水彩花枝），并落在光源的对侧下角。这是全套的命门，也是它区别于「照片加大字」的地方。
+
+![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)
+
+[进入 Skill](flat-field-cover-poster/)
+
+### 使用示例
+
+```text
+用 flat-field-cover-poster，给这篇讲慢生活的文章做一张 2:3 封面，标题是：SLOW / CEREMONY。
+```
+
+```text
+用 flat-field-cover-poster，给这四个栏目各做一张封面，色场和桥接元素每张换一套。
 ```
 
 ---
