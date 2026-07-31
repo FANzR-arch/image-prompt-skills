@@ -43,6 +43,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
 | 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
+| 网点 UI 拼贴横幅 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面，网点人物配扁平 UI 卡片，五套配色成组换 |
 
 ### 从已有的视觉资产出发
 
@@ -64,6 +65,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
 | [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
+| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | | |
+| 网点 UI 拼贴横幅 | | |
 
 ## travel-postcard-agent
 
@@ -255,6 +258,26 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 mono-editorial-banner，中文标题，做一张 5:2 封面：记忆才是护城河。
+```
+
+## halftone-ui-collage
+
+暖色平涂底上，黑白网点人物带白色贴纸描边、扁平矢量 UI 卡片、底角有机色块和手绘涂鸦同框，左三分之一压超大无衬线标题，5:2 超宽横板。骨架固定、配色寄存器可换，五套寄存器加四张模块表（人物姿态 / 卡片结构 / 屏幕内容 / 主题映射），成组产出每张重抽不会撞脸。
+
+带一份**物件准确性协议**：笔记本必须是单体连续物、屏幕画在边框内部、桌面作为实体存在、只裁桌面不裁设备、手部有预算、视线必须有画内落点——这套风格的失败几乎全部集中在这几处。
+
+![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)
+
+[进入 Skill](halftone-ui-collage/)
+
+### 使用示例
+
+```text
+用 halftone-ui-collage，给这篇讲提示词工程的文章做一张 5:2 封面，标题是：WRITING FOR MACHINES。
+```
+
+```text
+用 halftone-ui-collage，给这五篇文章做成套封面，配色寄存器每张换一个。
 ```
 
 ---
