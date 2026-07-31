@@ -45,6 +45,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
 | 网点 UI 拼贴横幅 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面，网点人物配扁平 UI 卡片，五套配色成组换 |
 | 平涂色场杂志封面 | [`flat-field-cover-poster`](flat-field-cover-poster/) | 人物主导的竖版杂志封面，纯平色底配写实人像，超大标题被头肩截断 |
+| 立体品牌图标横幅 | [`brand-icon-banner`](brand-icon-banner/) | 平台观察、政策解读和产品判断的超宽封面，立体 App 图标配反白块中文标题 |
 
 ### 从已有的视觉资产出发
 
@@ -66,8 +67,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
 | [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
-| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | |
-| 网点 UI 拼贴横幅 | 平涂色场杂志封面 | |
+| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | [![立体品牌图标横幅](brand-icon-banner/assets/preview.png)](brand-icon-banner/) |
+| 网点 UI 拼贴横幅 | 平涂色场杂志封面 | 立体品牌图标横幅 |
 
 ## travel-postcard-agent
 
@@ -301,6 +302,28 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 flat-field-cover-poster，给这四个栏目各做一张封面，色场和桥接元素每张换一套。
+```
+
+## brand-icon-banner
+
+近白影棚虚空里悬一枚厚圆角立体 App 图标，图标上是**真实品牌 logo**，左侧压三层中文文字——小标签、反白块大标题、灰副标题，全部落在与图标光心同一条水平轴上，5:2 超宽横板。适合平台观察、政策解读和产品判断这类要一眼认出「讲的是哪家」的内容。
+
+带一份 **Logo 协议**：落笔前先调研品牌当前在用的标识版本（品牌会改标、有多套版本），提示词里点名到版本、不拆字形描述、把退役旧标按名封堵进 Constraints——模型的默认值经常停在旧版，X 会出蓝鸟。另附品牌寄存器表（三档明度必须分开给值，否则立体图标塌成色片）和按主题选的道具映射表。
+
+大标题的重音不靠变色，靠**反白块**：纯黑实心圆角矩形加白字，缩略尺寸下仍然读得出。
+
+![立体品牌图标横幅](brand-icon-banner/assets/preview.png)
+
+[进入 Skill](brand-icon-banner/)
+
+### 使用示例
+
+```text
+用 brand-icon-banner，给这篇讲 X 创作者分成的文章做一张 5:2 封面，标题是：创作者分成新规则。
+```
+
+```text
+用 brand-icon-banner，给小红书、抖音、微信这三篇平台观察做成套封面，kicker 统一用「平台观察」。
 ```
 
 ---
