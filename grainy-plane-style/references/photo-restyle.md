@@ -122,24 +122,9 @@ Colour: closed palette — oxblood background, deep maroon, warm sand, bone whit
 and one small gold accent.
 ```
 
-## 色相仍偏蓝时的追加顺序（一次只加一条）
-
-定稿版已删掉带蓝色偏置的形容词并给出候选色相清单。若实测仍偏蓝：
-
-1. `DO NOT` 的 Background 行增 `no defaulting to a blue background`；
-2. `COLOUR` 第 3 项（Skin）改为随背景自适应：`warmer against cool backgrounds, paler and cooler against warm ones`。暖底配暖肤可能糊成一片，属预判风险，**不预先加**；
-3. 仍不行则放弃在提示词内解决，改为按需替换整段 `COLOUR`。
-
 ## 改动前必读
 
-当前这版是唯一产出被认可成图的版本，此后三次改进全部劣化并回退：
-
-| 改动 | 结果 |
-|---|---|
-| 脸型改「定向查找」+ 负向由 18 项剪至 7 项 | 畸形（颅骨放大、五官缩小） |
-| 加美学下限、删 Shift 操作、`caricature` 换成 `designed character illustration` | 退回写实 |
-| 改用结构规格（八个可数平面、几何原语、拉长四分之一） | 仍偏写实 |
-
-**关键反证**：畸形一度被归因于 `visibly wrong` / `caricature` / `Shift` 三处措辞——归因错误，这三处在正常出图的版本里原样存在，真正原因是同批做的负向剪枝。被剪掉的 `no accurate facial proportions` / `no fine detail` / `no muddy skin` 是承重项。
-
-**由此三条纪律**：`DO NOT` 十七项不要剪；要改一次只改一处；归因只在版本差异集合里找。
+这条提示词已锁定，逐字生效。`SUBJECT`（造型强度/脸型）和 `DO NOT`（背景色相）都
+试过多轮调整，全部劣化并回退——完整记录在 `test-log.md`，改动前先看，不要重复踩
+已经踩过的坑。三条纪律：`DO NOT` 十七项不要剪；要改一次只改一处；归因只在版本差
+异集合里找。
