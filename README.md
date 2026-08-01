@@ -38,7 +38,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 新粗野主义视觉 | [`neo-brutalist-prompt-compiler`](neo-brutalist-prompt-compiler/) | AI、产品、技术项目、教程和强组件感封面 |
 | 前进色 × 后退色实验海报 | [`acid-depth-poster`](acid-depth-poster/) | Y2K、Acid Graphics、夜间城市、青年文化和地下传单 |
 | 安静纸面标本 | [`quiet-paper-specimen`](quiet-paper-specimen/) | 随笔、情绪、记忆向主题，单物件加大留白加中文手写标题的安静封面 |
-| 工程蓝图 / 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图 |
+| 赛博终端示意图 | [`tech-schematic-poster`](tech-schematic-poster/) | AI 概念、Agent 工作流、技术项目的节点拓扑封面和插图，带三档 CRT 扫描线质感 |
+| 工程图纸 | [`engineering-blueprint-sheet`](engineering-blueprint-sheet/) | 产品、流程、结构的蓝图风封面和图纸，四种图面模式配全套制图装置和三档纸张质感 |
 | 手作拟物静物 | [`craft-diorama-still-life`](craft-diorama-still-life/) | 用一个实物替一句判断的文章封面和逐章配图 |
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
@@ -63,12 +64,14 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 现代旅行拼贴明信片 | 瑞士国际主义海报 | 包豪斯视觉生成 |
 | [![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)](plakatstil-prompt-compiler/) | [![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)](neo-brutalist-prompt-compiler/) | [![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)](acid-depth-poster/) |
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
-| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
-| 手作拟物静物 | 工程蓝图 / 赛博终端示意图 | 颗粒棱面风格 |
+| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
+| 手作拟物静物 | 赛博终端示意图 | 颗粒棱面风格 |
 | [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
 | [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | [![立体品牌图标横幅](brand-icon-banner/assets/preview.png)](brand-icon-banner/) |
 | 网点 UI 拼贴横幅 | 平涂色场杂志封面 | 立体品牌图标横幅 |
+| [![工程图纸](engineering-blueprint-sheet/assets/preview.png)](engineering-blueprint-sheet/) | | |
+| 工程图纸 | | |
 
 ## travel-postcard-agent
 
@@ -178,7 +181,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ## tech-schematic-poster
 
-用节点-连线拓扑图作主视觉，配 HUD 边框、图例、标尺和系统日志，编译成工程蓝图 / 赛博终端风格的封面和插图提示词。
+用节点-连线拓扑图作主视觉，配 HUD 边框、图例、标尺和系统日志，编译成工程蓝图 / 赛博终端风格的封面和插图提示词。图上另盖一层可调强度的 CRT 屏幕质感——横向扫描线、荧光颗粒、辉光溢出、屏幕弧度、刷新亮带和老化重影，三档强度，整篇统一。
 
 ![工程蓝图 / 赛博终端示意图](tech-schematic-poster/assets/preview.png)
 
@@ -188,6 +191,30 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 tech-schematic-poster，给这篇讲多 Agent 分工的文章做一张 5:2 封面，标题是：从 Loop 到 Graph。
+```
+
+```text
+用 tech-schematic-poster，同一篇再出 5 张 16:9 插图，屏幕质感上 CRT-03，要旧显像管那种年代感。
+```
+
+## engineering-blueprint-sheet
+
+按制图规范画一张真的工程图纸：线型分级（粗轮廓 / 细尺寸线 / 点划中心线 / 虚线隐藏线）、带箭头的尺寸标注、气泡编号、右下角填满字段的标题栏和修订表。四种图面模式——流程拓扑、三视图、爆炸图、详图剖面；三种纸张——晒图蓝底白线、白纸蓝线、陈年棕黄；三档纸张质感，最重的一档带水渍、图钉孔和红笔批注。
+
+和 `tech-schematic-poster` 的分工：那个是发光的屏，这个是印出来的纸。
+
+![工程图纸](engineering-blueprint-sheet/assets/preview.png)
+
+[进入 Skill](engineering-blueprint-sheet/)
+
+### 使用示例
+
+```text
+用 engineering-blueprint-sheet，做一张 5:2 封面，标题是：先画图，再动手。
+```
+
+```text
+用 engineering-blueprint-sheet，把这个产品画成 3:2 的三视图图纸，纸张用陈年棕黄，质感上 PRINT-03。
 ```
 
 ## craft-diorama-still-life
