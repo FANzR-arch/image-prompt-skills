@@ -47,6 +47,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 网点 UI 拼贴横幅 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面，网点人物配扁平 UI 卡片，五套配色成组换 |
 | 平涂色场杂志封面 | [`flat-field-cover-poster`](flat-field-cover-poster/) | 人物主导的竖版杂志封面，纯平色底配写实人像，超大标题被头肩截断 |
 | 立体品牌图标横幅 | [`brand-icon-banner`](brand-icon-banner/) | 平台观察、政策解读和产品判断的超宽封面，立体 App 图标配反白块中文标题 |
+| 双色套印拼贴 | [`duotone-press-collage`](duotone-press-collage/) | 一篇文章配一张封面加若干章节图，网点剪贴实物加一件连接物把判断画出来 |
 
 ### 从已有的视觉资产出发
 
@@ -70,8 +71,8 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
 | [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | [![立体品牌图标横幅](brand-icon-banner/assets/preview.png)](brand-icon-banner/) |
 | 网点 UI 拼贴横幅 | 平涂色场杂志封面 | 立体品牌图标横幅 |
-| [![工程图纸](engineering-blueprint-sheet/assets/preview.png)](engineering-blueprint-sheet/) | | |
-| 工程图纸 | | |
+| [![工程图纸](engineering-blueprint-sheet/assets/preview.png)](engineering-blueprint-sheet/) | [![双色套印拼贴](duotone-press-collage/assets/preview.png)](duotone-press-collage/) | |
+| 工程图纸 | 双色套印拼贴 | |
 
 ## travel-postcard-agent
 
@@ -351,6 +352,30 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 ```text
 用 brand-icon-banner，给小红书、抖音、微信这三篇平台观察做成套封面，kicker 统一用「平台观察」。
+```
+
+---
+
+## duotone-press-collage
+
+纯色平涂底上贴一组粗网点双色套印的实物剪影，每件带白色刀切描边，角上配裁切线、套版十字线和色条，右下挂一个黑底白字的中文标签块。**为「一篇文章配一张封面加若干章节图」设计**——封面走 5:2，章节图走 16:9，共用同一套基座，成组产出不会撞脸。
+
+两条承重规则。**网点只长在剪贴物上**：平涂色场必须绝对干净，模型的默认行为是把全画面统一成一种质感，不显式排除就一定会长满，这是这套风格既有印刷质感又不脏的唯一原因。**关系要画出来**：每张图必须有且只有一件可见的连接物——绳、纸带、被压下的杠杆、悬空未落的东西、颜色的断点。并置不等于关系，没有连接物的画面是素材摆拍，不是论点。
+
+附七套色寄存器、一张工坊器物母题库、一张连接物库（十种关系各自的写法要点），以及一份回滑封堵清单——器物一旦跨出工坊 / 度量 / 检验家族，整套风格塌成通用复古素材。
+
+![双色套印拼贴](duotone-press-collage/assets/preview.png)
+
+[进入 Skill](duotone-press-collage/)
+
+### 使用示例
+
+```text
+用 duotone-press-collage，给这篇讲 AI 写作痕迹的文章做一张 5:2 封面，标题是：一眼就假。
+```
+
+```text
+用 duotone-press-collage，给这篇文章的五个小节各做一张 16:9 章节图，色寄存器每张换一个，标签分别是：三秒露馅、水词堆、太整齐、没代价、只动三处。
 ```
 
 ---
