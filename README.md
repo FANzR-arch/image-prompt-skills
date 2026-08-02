@@ -76,8 +76,8 @@ https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
 | [<img src="halftone-ui-collage/assets/preview.png" width="480" alt="网点 UI 拼贴横幅">](halftone-ui-collage/) | [<img src="flat-field-cover-poster/assets/preview.png" width="480" alt="平涂色场杂志封面">](flat-field-cover-poster/) | [<img src="brand-icon-banner/assets/preview.png" width="480" alt="立体品牌图标横幅">](brand-icon-banner/) |
 | 网点 UI 拼贴横幅 | 平涂色场杂志封面 | 立体品牌图标横幅 |
-| [<img src="engineering-blueprint-sheet/assets/preview.png" width="480" alt="工程图纸">](engineering-blueprint-sheet/) | [<img src="duotone-press-collage/assets/preview.png" width="480" alt="双色套印拼贴">](duotone-press-collage/) | |
-| 工程图纸 | 双色套印拼贴 | |
+| [<img src="engineering-blueprint-sheet/assets/preview.png" width="480" alt="工程图纸">](engineering-blueprint-sheet/) | [<img src="duotone-press-collage/assets/preview.png" width="480" alt="双色套印拼贴">](duotone-press-collage/) | [<img src="outline-figure-explainer/assets/preview.png" width="480" alt="简笔人说明插图">](outline-figure-explainer/) |
+| 工程图纸 | 双色套印拼贴 | 简笔人说明插图 |
 
 ## travel-postcard-agent
 
@@ -412,6 +412,8 @@ https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 ## outline-figure-explainer
 
 纯白底上放圆头无五官的粗黑描边简笔人，配无描边的饱和色块、块内白色细线图标和细黑连接线箭头。把一个概念、流程或对比讲清楚，不做质感也不做光影。可单张也可成组，成组时风格基座逐条重复保证一致。
+
+![简笔人说明插图](outline-figure-explainer/assets/preview.png)
 
 [进入 Skill](outline-figure-explainer/)
 
