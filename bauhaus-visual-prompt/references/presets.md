@@ -10,7 +10,7 @@ A vertical 4:5 editorial article cover for "<LATIN>" and 「<中文标题>」.
 LOCKED — every element has a structural or practical role; geometric forms organize the page rather than decorate it; composition is rational, asymmetric, clear and disciplined.
 DOMINANT VISUAL — one large circle as visual anchor, one rectangle as title area, one diagonal line as movement, and modular color blocks organizing the page.
 MATERIAL & COLOR — flat off-white field, black typography, controlled red and blue structural accents, hard edges, clean print-like surface.
-TYPOGRAPHY / TEXT — bold modernist sans-serif typography with clear hierarchy; render exactly "<LATIN>" as the dominant visual title and 「<中文标题>」 as a smaller supporting line; no long body text.
+TYPOGRAPHY / TEXT — bold modernist sans-serif for the Latin, a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) for the Chinese, with clear hierarchy; render exactly "<LATIN>" as the dominant visual title and 「<中文标题>」 as a smaller supporting line; no long body text.
 AVOID — generic red-yellow-blue decoration, random geometric stickers, vintage grunge paper, gradients, glossy 3D, fake dates, fake captions, furniture, architecture, Swiss-style excessive neutrality, Constructivist propaganda mood.
 QUALITY — clean modernist design-school feeling, sharp geometry, flat color, useful structure, visually clear and immediately usable.
 ```

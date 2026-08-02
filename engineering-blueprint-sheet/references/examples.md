@@ -27,7 +27,7 @@ TITLE TREATMENT — the main title sits centered on a knockout plate in the pape
 
 DRAFTING APPARATUS — a ruled border with zone letters down the sides and zone numbers along the top and bottom, kept faint; a ruled title block in the lower right with every cell filled (PROJECT / TYPE / SCALE 1:1 / SHEET 01); a legend box in the upper right keying NODE / EDGE / FLOW; a vertical scale bar with tick marks along the left edge and a horizontal one along the bottom; small registration crosses at the four corners — all kept lighter so they never compete with the title.
 
-TYPOGRAPHY — technical drafting lettering only, uppercase, evenly spaced.
+TYPOGRAPHY — Latin labels, codes and figures in technical drafting lettering, uppercase, evenly spaced; any Chinese title set in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy) with solid filled strokes.
 
 TEXT — main title must render exactly: 先画图，再动手. The title block cells read PROJECT / FLOW-01, TYPE / TOPOLOGY, SCALE / 1:1, SHEET / 01 — every cell carries a value, none left blank. All other text is short Latin field labels and figures only: ENTRY, N1, N2, N3, N4, N5, MERGE, EXIT, PROCESS NODE, ACTION NODE, NODE, EDGE, FLOW; no random dates, URLs, fake brands, full sentences, QR codes, or real code.
 
@@ -57,7 +57,7 @@ DOMINANT VISUAL — three orthographic projections of a simple desk lamp arrange
 
 DRAFTING APPARATUS — a ruled border with zone letters A to D down the sides and zone numbers 1 to 6 along the top and bottom; a ruled title block in the lower right with every cell filled (PROJECT / TYPE / SCALE 1:2 / DATE / SHEET 01 / DRAWN BY); a small revision table stacked directly above it with columns REV / DATE / BY and two filled rows; a projection-symbol icon beside the title block; a horizontal scale bar with tick marks along the bottom edge; small registration crosses at the four corners.
 
-TYPOGRAPHY — technical drafting lettering only, uppercase, evenly spaced.
+TYPOGRAPHY — Latin labels, codes and figures in technical drafting lettering, uppercase, evenly spaced; any Chinese title set in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy) with solid filled strokes.
 
 TEXT — no large title. The title block cells read PROJECT / LAMP-02, TYPE / ORTHO, SCALE / 1:2, SHEET / 01, DRAWN BY / AI — every cell carries a value, none left blank; the revision table rows read REV / A and REV / B. All other text is short Latin view names and dimension figures only: FRONT, SIDE, TOP, and plain numbers beside the dimension lines; no random dates, URLs, fake brands, full sentences, QR codes, or real code.
 
@@ -87,7 +87,7 @@ DOMINANT VISUAL — an exploded assembly pulled apart along one diagonal dash-do
 
 DRAFTING APPARATUS — a ruled border kept faint; a compact ruled title block in the lower right with every cell filled (PROJECT / TYPE / SCALE 1:1 / SHEET 03); a horizontal scale bar with tick marks along the bottom edge; small registration crosses at the four corners.
 
-TYPOGRAPHY — technical drafting lettering only, uppercase, evenly spaced.
+TYPOGRAPHY — Latin labels, codes and figures in technical drafting lettering, uppercase, evenly spaced; any Chinese title set in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy) with solid filled strokes.
 
 TEXT — no large title. The title block cells read PROJECT / ASM-07, TYPE / EXPLODED, SCALE / 1:1, SHEET / 03 — every cell carries a value, none left blank. All other text is short Latin part names and balloon numbers 1 to 6 only: BASE, COLLAR, SPRING, SPINDLE, HOUSING, CAP; no random dates, URLs, fake brands, full sentences, QR codes, or real code.
 
@@ -117,7 +117,7 @@ DOMINANT VISUAL — a main elevation of a bracketed joint occupying the left two
 
 DRAFTING APPARATUS — a ruled border kept faint; a compact ruled title block in the lower right with every cell filled (PROJECT / TYPE / SCALE 1:2 / SHEET 04); a small note beside the enlarged view reading DETAIL A SCALE 4:1; a horizontal scale bar with tick marks along the bottom edge; small registration crosses at the four corners.
 
-TYPOGRAPHY — technical drafting lettering only, uppercase, evenly spaced.
+TYPOGRAPHY — Latin labels, codes and figures in technical drafting lettering, uppercase, evenly spaced; any Chinese title set in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy) with solid filled strokes.
 
 TEXT — no large title. The title block cells read PROJECT / JNT-11, TYPE / SECTION, SCALE / 1:2, SHEET / 04 — every cell carries a value, none left blank. All other text is short Latin labels and figures only: DETAIL A, SCALE 4:1, A-A, and plain numbers beside the dimension lines; no random dates, URLs, fake brands, full sentences, QR codes, or real code.
 

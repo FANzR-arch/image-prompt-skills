@@ -40,7 +40,7 @@ Image logic:
 Translate the article theme into one bold title plus one abstract graphic or interface-like metaphor (a button, a toggle, a broken grid fragment, a card shape). Do not build a full dashboard or complex scene — keep it poster-like.
 
 Typography:
-One large bold Chinese headline. Add at most one small subtitle line. Do not create fake UI labels.
+One large Chinese headline in a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy). Add at most one small subtitle line. Do not create fake UI labels.
 
 Color and layout:
 High-contrast flat color block background, hard edges, asymmetric or centered composition, deliberate not messy.
@@ -112,7 +112,7 @@ Image logic:
 Use a terminal window, code-card shape, module tags, or status labels as the dominant visual motif. Do not render real, readable code — use abstracted blocky text lines instead. Keep it feeling like a tool, not a screenshot.
 
 Typography:
-Large bold title, monospace-flavored accents allowed for tags/labels only. Add at most one small subtitle line.
+Large bold title; monospace-flavored accents allowed for Latin tags/labels only, never for Chinese. Add at most one small subtitle line.
 
 Color and layout:
 High-contrast flat colors, dark terminal background or off-white/black base allowed. Hard edges, visible grid, modular card layout.

@@ -49,7 +49,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 5:2 ultra-wide horizontal. The light table occupies the left 46% of the width, tilted about 7 degrees. The headline block occupies the right side from 48% to 96% width, vertically centred, with the lifted proof corner crossing into it.
 
-Text in image: On a pulp off-white torn block, very large heavy geometric sans-serif Chinese in black: "一眼就假". Directly beneath, on a narrower kraft strip, medium-weight black Chinese: "AI 写的东西差在哪". Above the headline, small white Chinese inside a thin mustard bar: "去 AI 味". Along the lower right, small white Chinese on a black bar: "差的从来不是文笔，是这五处". Render all text verbatim, no extra words.
+Text in image: On a pulp off-white torn block, very large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) in black: "一眼就假". Directly beneath, on a narrower kraft strip, medium-weight black Chinese sans (思源黑体 / Source Han Sans): "AI 写的东西差在哪". Above the headline, small white Chinese inside a thin mustard bar: "去 AI 味". Along the lower right, small white Chinese on a black bar: "差的从来不是文笔，是这五处". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow bloom beyond the table's glass, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no globes, no CRT computers, no proof press, no readable English body text beyond the specified strings, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -67,7 +67,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The stopwatch occupies 12%–34% of the width, centred at 48% height. The printed sheet occupies 40%–90% of the width and 20%–86% of the height, rotated about 9 degrees. The peeled corner sits at 44%–58% width. The label block sits at the lower right.
 
-Text in image: On the stopwatch dial, small black numerals "0", "15", "30", "45" around the rim. The revealed grid boxes stay empty. At the lower right, white heavy Chinese sans-serif inside a solid black rectangle with a signal-red vertical bar along its left edge and a clipped upper-right corner: "三秒露馅". Render all text verbatim, no extra words.
+Text in image: On the stopwatch dial, small black numerals "0", "15", "30", "45" around the rim. The revealed grid boxes stay empty. At the lower right, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a signal-red vertical bar along its left edge and a clipped upper-right corner: "三秒露馅". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no folded maps, no wristwatches or digital timers, no motion blur or speed lines, no readable text beyond the specified strings, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -85,7 +85,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The scale occupies 20%–82% of the width and 14%–84% of the height, the beam tilted about 22 degrees down to the right. The spilled type sorts scatter across 14%–46% of the width along the bottom. The label block sits at the lower right.
 
-Text in image: No lettering on the type sorts — they read as blank metal blocks. At the lower right, white heavy Chinese sans-serif inside a solid black rectangle with a deep-teal vertical bar along its left edge and a clipped upper-right corner: "水词堆". Render all text verbatim, no extra words.
+Text in image: No lettering on the type sorts — they read as blank metal blocks. At the lower right, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a deep-teal vertical bar along its left edge and a clipped upper-right corner: "水词堆". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no speaking tubes, no digital scales, no coins or money, no legible letters on the type sorts, no readable text beyond the specified string, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -103,7 +103,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The printed sheet occupies 8%–92% of the width and 10%–88% of the height, rotated about 4 degrees. The steel rule crosses at 28% height. The circled handwritten line sits at 30%–68% of the width at 66% height. The label block sits at the lower right.
 
-Text in image: The body rows are solid black bars carrying no readable letters. The circled line is handwritten and illegible. At the lower right, white heavy Chinese sans-serif inside a solid black rectangle with a rust-orange vertical bar along its left edge and a clipped upper-right corner: "太整齐". Render all text verbatim, no extra words.
+Text in image: The body rows are solid black bars carrying no readable letters. The circled line is handwritten and illegible. At the lower right, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a rust-orange vertical bar along its left edge and a clipped upper-right corner: "太整齐". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no thermometers, no readable body copy anywhere on the sheet, no ragged right margin in the machine-set rows, no readable text beyond the specified string, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -121,7 +121,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The spike and its sheaf occupy 34%–58% of the width, base at 88% height, point at 34% height. The floating clean receipt occupies 30%–64% of the width at 8%–30% height, rotated about 14 degrees. The label block sits at the lower right.
 
-Text in image: On the floating clean receipt, small black monospaced type: "TOTAL  0.00". The pierced old receipts carry smudged illegible lines only. At the lower right, white heavy Chinese sans-serif inside a solid black rectangle with a brick-red vertical bar along its left edge and a clipped upper-right corner: "没代价". Render all text verbatim, no extra words.
+Text in image: On the floating clean receipt, small black monospaced type: "TOTAL  0.00". The pierced old receipts carry smudged illegible lines only. At the lower right, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a brick-red vertical bar along its left edge and a clipped upper-right corner: "没代价". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no folded maps, no coins, banknotes or currency symbols, no blood or injury imagery, no readable text beyond the specified strings, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -139,7 +139,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The proof sheet occupies 10%–90% of the width and 12%–86% of the height, rotated about 5 degrees. The three marks sit at 26% height, 48% height and 70% height, staggered horizontally so no two share a column. The pencil crosses 52%–88% of the width along the bottom. The label block sits at the lower left.
 
-Text in image: Small black numerals "1", "2", "3" inside the three margin circles. The body rows are solid black bars carrying no readable letters. At the lower left, white heavy Chinese sans-serif inside a solid black rectangle with a signal-red vertical bar along its left edge and a clipped upper-right corner: "只动三处". Render all text verbatim, no extra words.
+Text in image: Small black numerals "1", "2", "3" inside the three margin circles. The body rows are solid black bars carrying no readable letters. At the lower left, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a signal-red vertical bar along its left edge and a clipped upper-right corner: "只动三处". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no speaking tubes, no more than three red marks anywhere in the frame, no readable body copy on the sheet, no readable text beyond the specified strings, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```
@@ -172,7 +172,7 @@ Key details: Mid-century print-shop collage. Every physical object is a photogra
 
 Composition: 16:9 horizontal. The press occupies 22%–66% of the width, its top edge at 14% of the image height. The clean proof sheet lies across 40%–80% of the width in the lower third, angled about 20 degrees. The crumpled proofs sit at 6%–24% width along the bottom. The label block sits at the lower right.
 
-Text in image: On the clean proof sheet, one line of black monospaced type, letterpress-crisp: "npm install -g @anthropic-ai/claude-code". The crumpled proofs carry smeared illegible lines only. At the lower right, white heavy Chinese sans-serif inside a solid black rectangle with a rust-orange vertical bar along its left edge and a clipped upper-right corner: "一行命令". Render all text verbatim, no extra words.
+Text in image: On the clean proof sheet, one line of black monospaced type, letterpress-crisp: "npm install -g @anthropic-ai/claude-code". The crumpled proofs carry smeared illegible lines only. At the lower right, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a rust-orange vertical bar along its left edge and a clipped upper-right corner: "一行命令". Render all text verbatim, no extra words.
 
 Constraints: no gradients, no glow, no 3D rendering, no vector illustration look, no soft or feathered edges, no halftone dots over the flat background field, no tin robots, no vacuum tubes, no punched paper tape, no CRT computers, no rubber stamps, no readable text beyond the specified strings, preserve the visible dot pattern and the plate offset at 100% zoom.
 ```

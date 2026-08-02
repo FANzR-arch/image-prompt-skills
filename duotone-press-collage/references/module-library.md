@@ -72,7 +72,7 @@
 ## 五 · 标签块规格（固定，不换）
 
 ```
-white heavy Chinese sans-serif inside a solid black rectangle with a {{SPOT}} vertical bar
+white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a {{SPOT}} vertical bar
 along its left edge and a clipped upper-right corner: "<标签>"
 ```
 

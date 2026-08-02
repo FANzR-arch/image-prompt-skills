@@ -1,11 +1,15 @@
-# Image Prompt Skills
+# Phil Design Skills
 
 一组给 AI Agent 使用的视觉生成 Skills。可以把文章、主题、城市、产品或现有视觉资产，编译成可直接生图的完整提示词。
 
-每个 Skill 都同时提供：
+**全部提示词按 gpt-image-2 编写。** 不适用于 Midjourney / Stable Diffusion / Flux——那些模型有 negative 通道、seed 和权重语法，写法不通用。
 
-- `SKILL.md`：适合 Codex、Claude Code 等支持 Agent Skills 的工具。
-- `ARTICLE-COPY.md`：单文件复制版，适合直接粘贴给 AI。
+每个 Skill 提供：
+
+- `SKILL.md`：适合 Codex、Claude Code 等支持 Agent Skills 的工具（全部 Skill 都有）。
+- `ARTICLE-COPY.md`：单文件复制版，适合直接粘贴给 AI（部分 Skill 提供）。
+
+中文排版的统一写法见 [`CHINESE-TYPOGRAPHY.md`](CHINESE-TYPOGRAPHY.md)——衬线/无衬线/手写这些类别按主题选，但拉丁专属属性（`monospace` / `uppercase` / `italic` / `grotesk`）对中文无效。
 
 ## 安装
 
@@ -13,14 +17,14 @@
 
 ```text
 请安装这个仓库里的全部 Skills：
-https://github.com/FANzR-arch/image-prompt-skills
+https://github.com/FANzR-arch/Phil-design-skills
 ```
 
 也可以只安装一个 Skill：
 
 ```text
 请安装这个 Skill：
-https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
+https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 ```
 
 ## 可用 Skills
@@ -48,6 +52,7 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 | 平涂色场杂志封面 | [`flat-field-cover-poster`](flat-field-cover-poster/) | 人物主导的竖版杂志封面，纯平色底配写实人像，超大标题被头肩截断 |
 | 立体品牌图标横幅 | [`brand-icon-banner`](brand-icon-banner/) | 平台观察、政策解读和产品判断的超宽封面，立体 App 图标配反白块中文标题 |
 | 双色套印拼贴 | [`duotone-press-collage`](duotone-press-collage/) | 一篇文章配一张封面加若干章节图，网点剪贴实物加一件连接物把判断画出来 |
+| 简笔人说明插图 | [`outline-figure-explainer`](outline-figure-explainer/) | 概念、流程和对比的解释性插图，白底扁平撞色块配粗黑描边简笔人，可成组 |
 
 ### 从已有的视觉资产出发
 
@@ -404,17 +409,34 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 用 visual-identity-expander，我只要三张贴纸和一张动作设定板，不用出全套。
 ```
 
+## outline-figure-explainer
+
+纯白底上放圆头无五官的粗黑描边简笔人，配无描边的饱和色块、块内白色细线图标和细黑连接线箭头。把一个概念、流程或对比讲清楚，不做质感也不做光影。可单张也可成组，成组时风格基座逐条重复保证一致。
+
+[进入 Skill](outline-figure-explainer/)
+
+### 使用示例
+
+```text
+用 outline-figure-explainer，把「先收敛需求再动手」画成一张说明插图。
+```
+
+```text
+用 outline-figure-explainer，给这篇文章配四张插图，一组风格要统一。
+```
+
 ## 目录约定
 
 ```text
-image-prompt-skills/
+Phil-design-skills/
 ├── README.md
+├── CHINESE-TYPOGRAPHY.md   # 中文排版共享规范
 └── skill-name/
-    ├── SKILL.md
-    ├── ARTICLE-COPY.md
-    ├── assets/
-    ├── references/
-    └── evals/
+    ├── SKILL.md            # 必有
+    ├── references/         # 必有
+    ├── assets/             # 「从主题出发」类必有（预览图）
+    ├── ARTICLE-COPY.md     # 可选，单文件复制版
+    └── evals/              # 可选，测试记录
 ```
 
 `assets/preview.png` 同时用于顶部风格样例宫格和各 Skill 分节里的示例图，是「从主题出发」那类 Skill 的必备项——它们各自锁定一种风格，预览图就是这个风格的样子。

@@ -11,14 +11,14 @@
 ```text
 STYLE ANCHOR — in the manner of Josef Müller-Brockmann's 1950s Zürich concert posters: mathematical grid, systematic geometry, type as structure.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — a dense progressive series of dozens of concentric arcs on mathematical progression, flat-painted, radiating from one corner.
 COLOR — flat saturated vermilion red field; black and warm off-white only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 directly beneath it on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -28,14 +28,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Armin Hofmann: black-and-white form, positive-negative figure-ground tension.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — one or few boldly scaled geometric forms (a large circle, a rectangle and one diagonal axis) with large structural negative space, exploiting positive-negative tension.
 COLOR — pure black and white only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the bottom band on the grid, grid-aligned; small Chinese line 「<标题>」 above it on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -45,14 +45,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Emil Ruder: typographic rhythm, flush structure, controlled hierarchy.
 A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — the headline itself is the composition, set on a visible grid; the remaining columns hold a small block of thin functional rules so no area is dead.
 COLOR — high-alert yellow field; black only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, three sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, stepped across two columns on the grid, grid-aligned; small Chinese line 「<标题>」 set tiny, flush to the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -62,14 +62,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Josef Müller-Brockmann der Film: strict column grid, objective, type-driven.
 A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — a dense strict multi-column modular grid as the protagonist, with flat geometric marks of progressing size snapping to columns and one flat red form used structurally.
 COLOR — black field; warm off-white type; one flat red accent used structurally. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed in a middle band across the left columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid nearby.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative full-bleed or stock photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -79,14 +79,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Max Bill: concrete art, color geometry, precise proportion.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — flat-painted horizontal bands of mathematically progressing width, edge-to-edge, integrated with the typography as one composition.
 COLOR — warm off-white field; black; one flat cyan accent on a single band. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid beneath it.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — data-chart / infographic / bar-chart look; modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -96,14 +96,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Wolfgang Weingart: Swiss New Wave, one controlled rule-break, layering.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — a strict grid as base with one deliberate rule-break: a single flat orange rectangle rotated a few degrees and layered over the grid; everything else strictly aligned.
 COLOR — warm off-white field; black; one flat orange accent. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, set vertically along the left margin on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — over-broken layout; modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -113,14 +113,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Anton Stankowski: constructive graphics, diagrammatic marks visualizing a process.
 A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — constructive marks (flat arrows, fields, dots and connectors) on a strict grid visualizing a process moving through structure, denser on one side and resolving to the other.
 COLOR — high-alert yellow field; black only. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed along the right columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; cartoon icon set; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -130,14 +130,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Richard Paul Lohse: concrete art, serial and modular color systems.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — a modular grid of flat-painted color cells in a serial, systematic color progression, demonstrating a limited palette ordered by proportion.
 COLOR — flat vermilion red, cobalt blue and yellow cells on black and warm off-white. Limited palette, high contrast, no gradients, no muddy mixing.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed across the top band on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid beneath it.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; gradients; pastel tints; muddy mixing; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -147,14 +147,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Karl Gerstner: programmatic design, systematic parametric grid variation.
 A 16:9 landscape Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — a specimen series showing one square module systematically transformed across the grid by a fixed rule (rotation and subdivision in steps), reading as a programme of fields.
 COLOR — warm off-white field; black; one flat cobalt accent on a single field. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular-to-bold weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, placed in a middle band across the left columns on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; isolated clip-art icon; decorative photo; gradients; 3D; drop shadows; vintage grunge; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```
@@ -164,14 +164,14 @@ QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, 
 ```text
 STYLE ANCHOR — in the manner of Jan Tschichold's new typography: austere asymmetric type with thin rule lines.
 A vertical 4:5 Swiss International Typographic Style poster — authentic 1950s offset print.
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 DOMINANT VISUAL — an austere asymmetric layout divided by a few thin horizontal rule lines, with one flat solid plane meeting the field at a razor-clean edge.
 COLOR — warm off-white field; black; one flat brick-red plane. Hard edges, no gradients.
 TYPOGRAPHY — one grotesk family, regular weight, tight optical spacing, two sizes with clear hierarchy.
   · Latin headline "<LATIN>" very large, set vertically along the left margin on the grid, grid-aligned; small Chinese line 「<标题>」 on the same grid.
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
-TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title: "<LATIN>" and 「<标题>」. Render the title exactly. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 AVOID — modern minimalist AI poster; PowerPoint / brochure template; vintage paper texture; grunge noise; gradients; 3D; drop shadows; heavy decorative CJK display type.
 QUALITY — authentic 1950s Swiss offset print, sharp edges, precise alignment, flat color.
 ```

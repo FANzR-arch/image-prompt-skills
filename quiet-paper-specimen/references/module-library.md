@@ -66,13 +66,13 @@ Weak core images (translate these into an inventory item first): growth, connect
 
 - `T1 fragment letters`: a few isolated letters or a broken word, quiet and incidental.
 - `T2 edge-hugging micro-text`: one small line pinned to a margin or edge.
-- `T3 archival caption`: tiny typewriter/mono caption, like a museum tag or archive stamp.
+- `T3 archival caption`: tiny typewriter/mono caption for Latin, or a small 思源宋体 / Source Han Serif caption for Chinese, like a museum tag or archive stamp.
 - `T4 diagonal scatter`: characters scattered lightly on a gentle diagonal.
 - `T5 ghost type`: type faded almost into the paper, barely readable.
 - `T6 rough small title`: one modest hand or serif title, still clearly secondary to the space.
 - `T7 in-block text`: small text set inside a muted block or the texture window.
 - `T8 minimal title`: one restrained short title in the margin; nothing else.
-- `T9 Chinese quiet title`: exact Chinese characters (usually 2-4), set small as quiet serif/typewriter lettering; edge-set or beside the subject. Use when the title should stay a whisper.
+- `T9 Chinese quiet title`: exact Chinese characters (usually 2-4), set small in a light Chinese serif (思源宋体 / Source Han Serif, Light); edge-set or beside the subject. Use when the title should stay a whisper.
 - `T10 one-line subtitle`: one small explanatory or archival line, clearly secondary; Chinese 6-12 chars, English 2-6 words; sits in a lower margin, corner tag, faint band, or beside the subject.
 - `T11 大字中文手写标题`: **the default whenever a Chinese title or a cover title is wanted.** Exact Chinese characters (best at 2-5), written by hand in ink brush, fountain pen, or soft pencil — visible stroke entry and exit, slight irregularity, real handwriting rather than a computer script font. Character height is roughly 10-18% of the canvas height, so the title reads instantly at thumbnail size and clearly outweighs any caption. It stays a handwritten mark on paper, not a printed display headline: no heavy black poster type, no outlined or filled logo lettering.
 - `T12 handwritten Latin title`: same treatment for English titles — hand-lettered, medium-large, legible, ink-textured, never a typeset display headline.

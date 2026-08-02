@@ -135,7 +135,7 @@ Typography must be free in placement and form but fixed in nature:
 - angular, blocky, irregular, soft, rounded, brush-painted, cut-paper-like, or rough-edged forms are all allowed
 - may sit above, behind, beside, across color bands, on a label, on packaging, on the object, split across fields, or partly hidden by the product
 - may include brand word, product word, package text, or a single short title word
-- may use exact Chinese title characters when requested; Chinese title text should usually be 2-4 characters, drawn as custom hand-painted commercial display lettering, not a modern font
+- may use exact Chinese title characters when requested; Chinese title text should usually be 2-4 characters, drawn as custom hand-painted commercial display lettering rather than a digital font — but built on a correct 黑体 / 思源黑体 stroke skeleton with even stroke weight and structurally correct 笔画, never Latin poster letterforms wearing Chinese strokes
 - if the user specifies exact title text, keep that text exactly; do not translate it, add random labels, invent fake Chinese characters, or add extra small copy beyond the one intentional subtitle line
 - no modern clean type system, Helvetica, Swiss grid type, sterile vector logo, comic title, or rock-band lettering
 

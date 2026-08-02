@@ -14,7 +14,7 @@ Style lock:
 neo-brutalist digital graphic design, thick black borders, hard offset drop shadow, flat bold color blocks, oversized bold typography, deliberately broken grid.
 
 Typography:
-One large bold Chinese headline "粗野" in black, placed on the button shape itself.
+One large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) headline "粗野" in black, placed on the button shape itself.
 
 Layout and background:
 Four flat color blocks (red, blue, yellow, off-white) arranged in a slightly misaligned 2x2 grid. The button shape overlaps the top-right and bottom-right blocks diagonally, with a hard black shadow.
@@ -38,7 +38,7 @@ Style lock:
 neo-brutalist digital graphic design, thick black borders, hard offset drop shadow (bottom-right, no blur), flat bold color blocks, oversized bold typography, anti-polished but systematic.
 
 Typography:
-One large bold Chinese headline "自动" in black, positioned top-left, sitting on a flat yellow color block. No subtitle.
+One large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) headline "自动" in black, positioned top-left, sitting on a flat yellow color block. No subtitle.
 
 Layout and background:
 Background split into two flat color panels: signal yellow on the left third, off-white on the right two-thirds. The toggle switch sits on the off-white panel with a hard black shadow beneath it.
@@ -62,7 +62,7 @@ Style lock:
 neo-brutalist digital graphic design, thick black borders, hard offset drop shadow, flat bold color blocks, oversized bold typography, monospace-flavored accent on the cursor line only.
 
 Typography:
-One large bold Chinese headline "提示词" in white, placed above the terminal card on a flat black color block. No subtitle.
+One large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) headline "提示词" in white, placed above the terminal card on a flat black color block. No subtitle.
 
 Layout and background:
 Background is a flat electric-blue field. The terminal card is off-white with a thick black border, tilted about 5 degrees, positioned lower-right with a hard black shadow.
@@ -86,7 +86,7 @@ Style lock:
 neo-brutalist digital graphic design, thick black borders, hard offset drop shadow, flat bold color blocks, oversized bold typography, visible grid.
 
 Typography:
-One large bold Chinese headline "资产" in black, positioned top-left on a flat off-white background.
+One large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) headline "资产" in black, positioned top-left on a flat off-white background.
 
 Layout and background:
 Background is flat off-white. The three cards are fanned in the lower-right, each a different flat color (red, green, yellow tabs), with hard black shadows stacked slightly offset from each other.

@@ -132,7 +132,7 @@ Key details: <Key details 基座，填入五个色变量>
 Composition: <Composition 基座逐字照抄>
 
 Text in image: a small all-caps kicker "<KICKER>" in <INK>, and directly beneath it a large
-bold black headline "<HEADLINE>" set in two lines in a heavy geometric sans-serif, together
+bold black headline "<HEADLINE>" set in two lines — Latin in a heavy geometric sans-serif, Chinese in a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) — together
 occupying the left third; three card labels only: "<LABEL_A>", "<LABEL_B>", "<CHIP>". Every
 other piece of copy, on the cards and on the laptop screen alike, is rendered as an abstract
 placeholder bar with no letterforms, except for single-letter or numeric column labels.
@@ -145,7 +145,7 @@ Constraints: <Constraints 基座逐字照抄><按主体追加的排除项>
 
 ## 出图参数（不进正文）
 
-- size `3840×1536`（5:2，双边均为 16 的倍数）
+- size `3200×1280`（5:2；长边 <3840、双边 16 的倍数、比例 ≤3:1、总像素 655,360–8,294,400）
 - quality `high`
 
 参数层信息绝不写进提示词正文。

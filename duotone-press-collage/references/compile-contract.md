@@ -79,7 +79,7 @@ height, rotated about N degrees>. <配角与连接物的位置区间>. The label
 
 Text in image: <器物上的印刷文字：数字、刻度、等宽标签或印章大写，各自写清印在哪件东西上>.
 <不可读的部分：carries smudged illegible lines only / carries no readable letters>. At the
-<corner>, white heavy Chinese sans-serif inside a solid black rectangle with a {{SPOT}} vertical
+<corner>, white heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) inside a solid black rectangle with a {{SPOT}} vertical
 bar along its left edge and a clipped upper-right corner: "<标签，2–4 字>". Render all text
 verbatim, no extra words.
 
@@ -102,8 +102,8 @@ shadow on it
 封面四层的固定写法：
 
 ```
-Text in image: On a pulp off-white torn block, very large heavy geometric sans-serif Chinese in
-black: "<主标>". Directly beneath, on a narrower kraft strip, medium-weight black Chinese:
+Text in image: On a pulp off-white torn block, very large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) in
+black: "<主标>". Directly beneath, on a narrower kraft strip, medium-weight black Chinese sans (思源黑体 / Source Han Sans):
 "<副标>". Above the headline, small white Chinese inside a thin {{SPOT}} bar: "<kicker>". Along
 the lower <right|left>, small white Chinese on a black bar: "<底部长句>". Render all text
 verbatim, no extra words.
@@ -113,8 +113,8 @@ verbatim, no extra words.
 
 | 交付物 | size | quality |
 |---|---|---|
-| 5:2 封面 | `3840×1536` | high |
-| 16:9 章节图 | `3840×2160` | high |
+| 5:2 封面 | `3200×1280` | high |
+| 16:9 章节图 | `2560×1440` | high |
 
 参数层信息绝不写进提示词正文。
 

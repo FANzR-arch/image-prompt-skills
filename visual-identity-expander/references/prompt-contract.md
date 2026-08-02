@@ -40,7 +40,7 @@
 | Text in image | 用户给的准确文字 + 字体规格 + 位置；没有就 `no text` |
 | Constraints | `no X` 排除项 + `preserve X` 不变量 |
 
-参数层不进正文：size（长边 ≤3840、双边 16 倍数、比例 ≤3:1）、quality（成品 medium–high）。画幅同时写进 Composition，因为很多界面没有参数位。
+参数层不进正文：size（长边 <3840、双边 16 的倍数、比例 ≤3:1、总像素 655,360–8,294,400；>2560×1440 为实验档）、quality（成品 medium–high）。画幅同时写进 Composition，因为很多界面没有参数位。
 
 图锚点写在 Subject 段首：`Image 1: identity reference — preserve the face, hairstyle and eyewear exactly.`
 

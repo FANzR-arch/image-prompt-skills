@@ -28,7 +28,7 @@ Image logic:
 Translate the article theme into one bold title plus one abstract graphic or interface-like metaphor (a button, a toggle, a broken grid fragment, a card shape). Do not build a full dashboard or complex scene — keep it poster-like.
 
 Typography:
-One large bold Chinese headline. Add at most one small subtitle line. Do not create fake UI labels.
+One large Chinese headline in a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy). Add at most one small subtitle line. Do not create fake UI labels.
 
 Color and layout:
 High-contrast flat color block background, hard edges, asymmetric or centered composition, deliberate not messy.
@@ -51,7 +51,7 @@ Style lock:
 neo-brutalist digital graphic design, thick black borders, hard offset drop shadow (bottom-right, no blur), flat bold color blocks, oversized bold typography, anti-polished but systematic.
 
 Typography:
-One large bold Chinese headline "自动" in black, positioned top-left, sitting on a flat yellow color block. No subtitle.
+One large heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) headline "自动" in black, positioned top-left, sitting on a flat yellow color block. No subtitle.
 
 Layout and background:
 Background split into two flat color panels: signal yellow on the left third, off-white on the right two-thirds. The toggle switch sits on the off-white panel with a hard black shadow beneath it.

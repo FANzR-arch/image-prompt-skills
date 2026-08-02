@@ -9,26 +9,26 @@
 
 ## 封面（5:2）
 
-> 带大标题的封面必带「标题图文分离铁律」四条（净空+绕行 / 明度分层 / 字重分层 / 黑底板），加上质感层那条「辉光和扫描线一起吃字」的补充，见 compile-contract.md。下面是应用后的成品。
+> 带大标题的封面必带「标题图文分离铁律」四条（净空+绕行 / 明度分层 / 字重分层 / 净空带 knockout），加上质感层那条「辉光和扫描线一起吃字」的补充，见 compile-contract.md。下面是应用后的成品。
 
 ```text
 STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT terminal: an engineering topology diagram drawn in glowing monospace, like a system-monitor HUD.
 
 A 5:2 landscape poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; one neon-green phosphor hue for everything, but with a strong brightness hierarchy — the title is bright near-white green with a heavy bloom, the schematic lines are a dimmer mid-green; the diagram uses thin uniform strokes while the title uses heavy bold weight; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; one neon-green phosphor hue for everything, but with a strong brightness hierarchy — the title is bright near-white green with a heavy bloom, the schematic lines are a dimmer mid-green; all schematic linework shares one uniform thin stroke weight while the title is set in heavy bold type; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 LAYOUT — a wide horizontal clear band is reserved across the center for the title; the topology is routed so its edges sweep in two arcs, one above and one below this central band, and never cross behind the title.
 
 DOMINANT VISUAL — one wide node-and-edge topology: a single ENTRY node on the far left fans out to six labeled circular agent nodes, their edges arc over and under the central title band and converge into a MERGE column on the right, then to one EXIT node on the far right; small glowing dots ride the edges; each agent node holds a tiny line-icon (magnifier, bar-chart, code brackets, checkmark, clipboard, document); nodes are thin-stroked circles.
 
-TITLE TREATMENT — the main title sits centered on its own subtle black knockout plate with generous padding that interrupts any line behind it; rendered very large and dominating the composition, bright near-white-green, heavy weight, strong green bloom — clearly the brightest, boldest element on screen.
+TITLE TREATMENT — the main title sits centered in a clear horizontal band with generous padding that no linework crosses; rendered very large and dominating the composition, bright near-white-green, heavy weight, strong green bloom — clearly the brightest, boldest element on screen.
 
-HUD FRAME — top-left metadata block (PROJECT / TYPE: FAN-OUT·FAN-IN / VERSION); top-right legend keying NODE / EDGE / FLOW / EXIT; bottom system-log lines with timestamps and [ok] tags; thin dimension ruler with tick marks along the bottom edge; corner crop marks — all kept dim so they never compete with the title.
+HUD FRAME — top-left metadata block (PROJECT / TYPE: FAN-OUT·FAN-IN / VERSION); top-right legend keying NODE / EDGE / FLOW / EXIT; a bottom row of short system-status fields (SYS READY / LINK ACTIVE / [ok]); thin dimension ruler with tick marks along the bottom edge; corner crop marks — all kept dim so they never compete with the title.
 
-TYPOGRAPHY — monospace only.
+TYPOGRAPHY — monospace for all Latin text; the Chinese title is set in a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy).
 
-TEXT — main title must render exactly: 从 Loop 到 Graph. One small subtitle line beneath it: 多 Agent 分工提示词 · 附模板. Secondary labels are short Latin field tags (ENTRY, A1–A6, MERGE, EXIT, FAN-OUT) and log lines only; no random dates, URLs, fake brands, long paragraphs, QR codes, or real code.
+TEXT — main title must render verbatim, with no extra words or characters added: "从 Loop 到 Graph". One small subtitle line beneath it, also verbatim: "多 Agent 分工提示词 · 附模板". Secondary labels are short Latin field tags only (ENTRY, A1–A6, MERGE, EXIT, FAN-OUT); no dates, URLs, fake brands, long paragraphs, QR codes, or real code.
 
 SCREEN TEXTURE — the whole frame is a close photograph of a monochrome phosphor CRT monitor. Fine horizontal scanlines run edge to edge at even spacing, dark and low in contrast, riding over every element including the title, and their brightness varies subtly from band to band as if the tube is mid-refresh. Under them sits a much finer vertical aperture-grille striping, visible only inside lit areas as phosphor grain. Lit strokes bloom and halate into the scanlines around them, brightest where two lines cross. The picture bows outward in gentle barrel curvature, falls off into a soft vignette at the four corners, and defocuses very slightly at the extreme edges. A faint even haze of glass lies over the whole surface. Every glyph stays sharp and fully legible through the texture.
 
@@ -46,13 +46,13 @@ STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT termina
 
 A 16:9 poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 DOMINANT VISUAL — a split diagram divided by one thin vertical rule: on the left, a single circular node with a looping arrow curving back into itself, tiny label LOOP; on the right, a small cluster of six circular nodes connected by edges into a diamond, tiny label GRAPH; nodes are thin-stroked circles, edges carry small glowing dots.
 
 HUD FRAME — top-left small metadata tag; top-right tiny legend NODE / EDGE; thin dimension ruler with ticks along the bottom edge; corner crop marks; minimal.
 
-TYPOGRAPHY — monospace only; only tiny Latin field labels LOOP and GRAPH, no large title.
+TYPOGRAPHY — monospace for all Latin text; only tiny Latin field labels LOOP and GRAPH, no large title.
 
 TEXT — only the two field labels LOOP and GRAPH plus corner tags; no other text, no dates, no code.
 
@@ -72,13 +72,13 @@ STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT termina
 
 A 16:9 poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 DOMINANT VISUAL — a legend board of five stacked rows, each row a tiny schematic symbol on the left keyed to a short Latin term on the right: a circle labeled NODE, a connecting arrow labeled EDGE, a form/ticket glyph labeled SCHEMA, a shield-check glyph labeled VERIFIER, a branching fork labeled ROUTER; the five symbols share one vertical guide line; thin-stroked line-art.
 
 HUD FRAME — top-left metadata tag reading LEGEND; thin dimension ruler with ticks along the right edge; corner crop marks.
 
-TYPOGRAPHY — monospace only; five short Latin terms NODE / EDGE / SCHEMA / VERIFIER / ROUTER as row labels, no large title.
+TYPOGRAPHY — monospace for all Latin text; five short Latin terms NODE / EDGE / SCHEMA / VERIFIER / ROUTER as row labels, no large title.
 
 TEXT — only the five Latin terms and the LEGEND tag; no other text, no dates, no code.
 
@@ -98,13 +98,13 @@ STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT termina
 
 A 16:9 poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 DOMINANT VISUAL — two rows compared: the top row is a single straight linear chain of four circular nodes A - B - C - D joined by arrows, tiny label QUEUE; two of the arrows are drawn as broken dashed edges with a small scissor/cut mark; the bottom row shows the same nodes reorganized, one entry node fanning out to three parallel branches running side by side, tiny label PARALLEL; thin-stroked line-art, edges carry small glowing dots.
 
 HUD FRAME — top-left metadata tag; left-edge dimension ruler with ticks; corner crop marks.
 
-TYPOGRAPHY — monospace only; tiny Latin labels QUEUE, PARALLEL, and node letters A B C D, no large title.
+TYPOGRAPHY — monospace for all Latin text; tiny Latin labels QUEUE, PARALLEL, and node letters A B C D, no large title.
 
 TEXT — only the field labels QUEUE, PARALLEL, and letters A B C D; no other text, no dates, no code.
 
@@ -124,13 +124,13 @@ STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT termina
 
 A 16:9 poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 DOMINANT VISUAL — one clean horizontal diamond topology centered: a SPLIT node on the left fans out to three parallel worker nodes, they converge into a REDUCE node, which passes to a VERIFY node marked with a checkmark, ending at a SYNTH node on the right; a thin dashed feedback arrow loops from VERIFY back to the worker column with a small STOP tag; nodes are thin-stroked circles, edges carry small glowing dots.
 
 HUD FRAME — top-left metadata block PROJECT / TYPE: DIAMOND; top-right legend NODE / EDGE / FLOW; bottom dimension ruler with ticks; corner crop marks.
 
-TYPOGRAPHY — monospace only; tiny Latin node labels SPLIT / REDUCE / VERIFY / SYNTH, no large title.
+TYPOGRAPHY — monospace for all Latin text; tiny Latin node labels SPLIT / REDUCE / VERIFY / SYNTH, no large title.
 
 TEXT — only the field labels SPLIT, REDUCE, VERIFY, SYNTH, STOP; no other text, no dates, no code.
 
@@ -150,13 +150,13 @@ STYLE ANCHOR — a technical schematic screen rendered as a phosphor CRT termina
 
 A 16:9 poster.
 
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 
 DOMINANT VISUAL — a decision flow reading left to right: an entry node passes through a stacked gate of four checkbox rows labeled Q1 Q2 Q3 Q4, then a diamond decision node splits into two edges — a short SKIP edge looping to a single-node end, and a GRAPH edge leading into a four-step progressive path of four nodes in a line numbered 1 2 3 4; thin-stroked line-art, edges carry small glowing dots.
 
 HUD FRAME — top-left metadata tag ROUTER; right-edge dimension ruler with ticks; corner crop marks.
 
-TYPOGRAPHY — monospace only; tiny Latin labels Q1–Q4, SKIP, GRAPH, and step numbers 1 2 3 4, no large title.
+TYPOGRAPHY — monospace for all Latin text; tiny Latin labels Q1–Q4, SKIP, GRAPH, and step numbers 1 2 3 4, no large title.
 
 TEXT — only the field labels Q1 Q2 Q3 Q4, SKIP, GRAPH, and numbers 1 2 3 4; no other text, no dates, no code.
 

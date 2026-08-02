@@ -85,7 +85,7 @@ CLEAN 另可在 Composition 段插 `a small barcode-like tick row on the left` �
 - **标题色 = 三色板里明度离底色最远的那个**。深底配浅字（象牙 / 奶油），高明度底配深字（黑）。这条不判断会得到一张糊在一起的封面。
 - 品类标签固定句式 `<CATEGORY> FEATURE`，一个词 + FEATURE。
 
-**中文标题未验证**：四条实测全是拉丁字母，压缩体大写是拉丁字形特征，中文没有对应物。用户要中文时按超粗黑体窄体处理，并明确告知这是未验证路径、需逐字核对字形；连续失败就降级为画面不带标题、后期排字。
+**中文标题未实测**：四条实测全是拉丁字母，`tall condensed capitals` 是拉丁字形特征，中文没有对应物。用户要中文时，把 Composition 和 Text 里的 `tall condensed capitals` 整体换成 `an oversized headline in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy)`，删掉 `capitals`。字形逐字核对；笔画多的字偶尔会糊，多生成两张挑，不要退回后期排字。
 
 ## 固定字段顺序
 
@@ -115,7 +115,7 @@ Constraints: <Constraints 基座><按主体追加的排除项>
 
 ## 出图参数（不进正文）
 
-- size `2560×3840`（2:3，双边均为 16 的倍数）
+- size `2048×3072`（2:3；长边 <3840、双边 16 的倍数、比例 ≤3:1、总像素 655,360–8,294,400）
 - quality `high`
 
 参数层信息绝不写进提示词正文。

@@ -61,7 +61,7 @@
 
 巨型中文主标题；
 中小尺寸重点短句；
-粗黑体、窄体、宽体、斜体、花体或经过适度变形的字体；
+粗黑体、窄体、宽体或经过适度变形的字体（中文点名思源黑体这类真实字族，不要写斜体、花体——中文没有这两类）；
 手写文字、批注、下划线和自由书写痕迹；
 荧光线稿、人物轮廓、抽象图案和随手涂鸦；
 星芒、爆炸形、箭头、圈线或其他强调性符号。
@@ -159,14 +159,13 @@
 
 在保持主标题可识别的前提下，自由使用不同字体气质和文字形态：
 
-超粗黑体；
+超粗黑体（思源黑体 Heavy）；
 紧缩体；
 宽体；
 窄体；
-斜体；
 手写体；
-花体；
 印刷体；
+拉丁文可另加斜体和花体，中文不用这两类；
 粗糙描边字；
 局部变形文字；
 经过拉伸、压缩或裁切的标题字。
@@ -337,9 +336,7 @@
 画面应具有冲击力、可读性、情绪和空间层次，同时保留模型充分的创作自由。
 
 
-【负面控制】
-
-避免所有元素处于相同清晰度，避免整张画面统一高斯模糊，避免主标题模糊不可读，避免所有字体大小一致，避免平均分布，避免过度规整的模板式版面，避免无意义文字堆积，避免装饰图案泛滥，避免普通商业广告感，避免干净精致的企业宣传风，避免柔和低对比配色，避免所有内容被限制在规则矩形框中，避免前景文字带渐变、投影或立体光影，避免照片保留完整独立的色彩系统，避免主标题长在场景里面，避免主标题直接使用未经改造的标准印刷字体，避免整行标题字形规矩统一毫无变化。
+Avoid: every element sitting at the same focus depth; a uniform gaussian blur over the whole frame; a main title too blurred to read; all type at one size; evenly distributed weight; an over-regular template layout; piles of meaningless text; decorative pattern overload; a generic commercial-ad look; clean polished corporate styling; soft low-contrast palettes; every element boxed inside neat rectangles; gradients, drop shadows or 3D lighting on the foreground type; the photograph keeping its own independent colour system; the main title growing out of the scene; the main title set in an unmodified stock typeface; a title line whose letterforms are all uniform and unvaried.
 ```
 
 ## 输入示例

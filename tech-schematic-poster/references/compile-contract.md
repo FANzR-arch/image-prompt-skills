@@ -2,23 +2,25 @@
 
 每次输出前必须满足。这是「成品」和「拼装件」的分界：成品不留任何选项、菜单、占位符。
 
-## 5 条铁律
+## 6 条铁律
 
 1. **每个槽位解析成唯一值**：删掉所有 `/` 选项和 `{}` 占位。成品里不允许出现 `green / cyan / amber` 这类菜单。
 2. **正文零中文**：提示词正文只能出现英文美术指导；唯一例外是「要渲染进画面的标题文字」。任何中文注释一律不留——模型会把它画进海报。
 3. **单一色相**：全图只有一种霓虹绿，绝不并列第二套配色。屏幕质感层也受这条管——CRT 做单色荧光屏，不许出现 RGB 子像素三联点、色散分离、彩虹边，那会把单色打破。
 4. **否定只进 AVOID**：正文用正向描述，所有 `no / not / avoid` 收进末尾 AVOID 块。
-5. **主标题精确，次级 micro-text 受控**：主标题必须精确渲染（如 `从 Loop 到 Graph`、`GRAPH`）。次级小字只能是短拉丁字段标签（NODE / EDGE / FAN-OUT / A1–A6 / MERGE / EXIT / [ok] / timestamps），tiny、锁网格、有功能感。禁随机日期、URL、假品牌名、长段落、二维码、真代码块。
+5. **主标题精确，次级 micro-text 受控**：主标题必须精确渲染（如 `从 Loop 到 Graph`、`GRAPH`），放进引号里写，并补一句 `render verbatim, no extra words or characters`。次级小字只能是短拉丁字段标签（NODE / EDGE / FAN-OUT / A1–A6 / MERGE / EXIT / [ok] / SYS READY），tiny、锁网格、有功能感。禁随机日期、URL、假品牌名、长段落、二维码、真代码块。
+   ⚠️ **不要写 timestamps**——它和「禁随机日期」直接打架，模型无从裁决。要日志感就用 `SYS READY` / `LINK ACTIVE` / `FLOW STABLE` 这类短状态字段。
+6. **中文标题不写 monospace**：等宽只管拉丁字。中文没有等宽体的常规概念，对中文写 monospace 是无效指令；中文主标题走 `heavy geometric sans（黑体）`，按需也可点名思源黑体这类字族。
 
 ## 锁死的风格内核（LOCKED，每条必带）
 
 无论封面还是插图，这几条恒定：
 
 - 主视觉是**一张节点-连线拓扑图**：节点为细描圆圈，连线为均匀细线，连线上有发光小圆点当数据流；
-- 一层 **HUD 仪表框**：角落数据面板（PROJECT / TYPE / VERSION 类短标签）、图例（key NODE / EDGE / FLOW）、边缘标尺带刻度、底部系统日志行；
-- **等宽字体**贯穿全图；
+- 一层 **HUD 仪表框**：角落数据面板（PROJECT / TYPE / VERSION 类短标签）、图例（key NODE / EDGE / FLOW）、边缘标尺带刻度、底部系统状态行（短拉丁字段，不带时间戳）；
+- **等宽字体**贯穿全图的拉丁字；中文标题走粗黑体（思源黑体 / Source Han Sans, Heavy）；
 - **画的内容是平面线稿**，无照片景深、无写实材质、无渐变填充（发光辉光除外）；
-- **所有线一样粗**——这是屏幕的语法，线型分级（粗轮廓 / 细尺寸线 / 点划中心线）属于图纸，不进这里；
+- **示意图线稿全部一样粗**——这是屏幕的语法，线型分级（粗轮廓 / 细尺寸线 / 点划中心线）属于图纸，不进这里。**注意作用域：这条只管线稿，不管字**。标题是排版不是线条，允许也应该用粗字重；AVOID 里也必须写成 `varying stroke weights inside the linework`，不能写成笼统的 `varying line weights`，否则会把标题字重一起否掉；
 - 画的内容之上盖一层 **SCREEN TEXTURE**，见下节，这层是必带的，不是可选装饰；
 - 层级靠尺度和位置，不靠装饰花纹。
 
@@ -27,7 +29,7 @@
 ## 唯一寄存器预设（LOCKED 段照抄）
 
 ```
-LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; thin uniform strokes; soft outer glow on lit elements; monospace typeface throughout; the drawn content is flat line-art with no photographic depth and no gradient fill.
+LOCKED — pure black background that lifts into a faint dark halo around anything lit; a single neon-green phosphor color for every line, node, glyph and label; all schematic linework shares one uniform thin stroke weight; soft outer glow on lit elements; monospace typeface for all Latin text; the drawn content is flat line-art with no photographic depth and no gradient fill.
 QUALITY — crisp phosphor CRT terminal render shot straight off a real screen, sharp monospace holding up through the scanline texture, precise alignment, subtle bloom.
 ```
 
@@ -83,15 +85,15 @@ LOCKED — <粘贴 LOCKED 段>
 
 DOMINANT VISUAL — <one resolved topology, flat line-art>: <描述入口 / fan-out / 并行节点 / 汇合 / 出口 / 回环中实际用到的那些>; nodes are thin-stroked circles with tiny line-icons, edges are thin lines carrying small glowing dots.
 
-HUD FRAME — top-left metadata block (short mono labels like PROJECT / TYPE / VERSION); top-right legend keying NODE / EDGE / FLOW; bottom system-log lines with timestamps reading short status tags; thin dimension rulers with tick marks along an edge; corner crop marks.
+HUD FRAME — top-left metadata block (short mono labels like PROJECT / TYPE / VERSION); top-right legend keying NODE / EDGE / FLOW; a bottom row of short system-status fields (SYS READY / LINK ACTIVE / FLOW STABLE); thin dimension rulers with tick marks along an edge; corner crop marks.
 
-TYPOGRAPHY — monospace only; <封面: the main title set very large across the center, glowing / 插图: only tiny Latin field labels, no large title>.
+TYPOGRAPHY — monospace for all Latin text; <封面: the main title set very large across the center, glowing — a Latin title in heavy monospace, a Chinese title in a heavy Chinese sans (思源黑体 / Source Han Sans, Heavy) / 插图: only tiny Latin field labels, no large title>.
 
-TEXT — main title must render exactly: <主标题>. <封面可加一行小副标>. Secondary labels are short Latin field tags and log lines only; no random dates, URLs, fake brands, long paragraphs, QR codes, or real code.
+TEXT — main title must render verbatim, with no extra words or characters added: "<主标题>". <封面可加一行小副标>. Secondary labels are short Latin field tags only; no dates, URLs, fake brands, long paragraphs, QR codes, or real code.
 
 SCREEN TEXTURE — <粘贴选中的 CRT 强度档>
 
-AVOID — any hue beyond the single neon green; blueprint blue; RGB colour split, chromatic aberration or rainbow subpixel fringing; scanlines heavy or wide enough to break up the glyphs; a visible monitor bezel, plastic housing, desk or room around the screen; paper texture, fold creases or stains; varying line weights, dimension arrows or a ruled title block; photographic objects or depth of field inside the artwork itself; 3D bevels; hard specular glare sitting over the content; heavy display poster type; decorative icons outside the schematic; dense unreadable code walls.
+AVOID — any hue beyond the single neon green; blueprint blue; RGB colour split, chromatic aberration or rainbow subpixel fringing; scanlines heavy or wide enough to break up the glyphs; a visible monitor bezel, plastic housing, desk or room around the screen; paper texture, fold creases or stains; varying stroke weights inside the linework, dimension arrows or a ruled title block; photographic objects or depth of field inside the artwork itself; 3D bevels; hard specular glare sitting over the content; decorative icons outside the schematic; dense unreadable code walls.
 
 QUALITY — <粘贴 QUALITY 段>
 ```
@@ -102,8 +104,8 @@ QUALITY — <粘贴 QUALITY 段>
 
 1. **留净空 + 线绕行**：中央横向留一条净空带给标题；fan-out 的连线从标题的上方和下方两道弧线绕过去，**绝不从标题正后方穿过**（`edges never cross behind the title`，写进 LAYOUT，并进 AVOID）。
 2. **明度分层**：单色不等于单一亮度。标题用近白亮绿 + 强辉光（`bright near-white green, heavy bloom`），拓扑线压暗成中绿（`dimmer mid-green`）。这是最有效的图文分离手段，且不破坏单色。
-3. **字重分层**：标题粗重（`heavy bold weight`），示意线细（`thin uniform strokes`）。
-4. **黑底板 knockout**：标题坐在一块低调黑底板上、带留白，物理切断任何经过其后的线（`subtle black knockout plate that interrupts any line behind it`）。同时 HUD 面板 / 日志 / 标尺整体压暗，不与标题争亮度。
+3. **字重分层**：标题粗重（`heavy bold weight`），示意线细（`all schematic linework shares one uniform thin stroke weight`）。⚠️ 这条要求标题粗，所以 AVOID 里的线宽禁令**必须限定作用域**写成 `varying stroke weights inside the linework`；写成笼统的 `varying line weights` 会把标题字重一起否掉，模型只能二选一。同理 AVOID 不许出现 `heavy display poster type`——那和「标题要大要粗」是正面冲突。
+4. **净空带 knockout**：标题所在的横带保持无线条穿过（`a clear horizontal band reserved for the headline, with no linework crossing it`）。⚠️ **不要写「黑底板 / knockout plate」**——底已经是纯黑，画一块黑板要么完全看不见，要么被画成一个灰色矩形或带边框的标题框，还和 AVOID 里的 `ruled title block` 打架。要的是线主动避让形成的空，不是额外画出来的面。同时 HUD 面板 / 状态行 / 标尺整体压暗，不与标题争亮度。
 
 插图（16:9）通常没有大标题、只有拉丁小标签，不受本节约束；一旦某张插图要放大标题，同样套这四条。
 
@@ -139,7 +141,7 @@ QUALITY — <粘贴 QUALITY 段>
 | 线 | 全部等粗细 | 分级：粗轮廓 / 细尺寸 / 点划中心 / 虚线隐藏 |
 | 光 | 辉光、bloom、halation | 无。印上去的墨 |
 | 质感 | 扫描线、荧光颗粒、屏幕弧度、烧屏 | 纸纹、折痕、水渍、图钉孔 |
-| 框 | HUD 面板 + 图例 + 系统日志 | 图框分区 + 标题栏 + 修订表 |
+| 框 | HUD 面板 + 图例 + 系统状态行 | 图框分区 + 标题栏 + 修订表 |
 | 字 | 等宽字 | 制图技术字 |
 
 用户要「终端 / HUD / 赛博 / 扫描线」走这个；要「蓝图 / 图纸 / 三视图 / 爆炸图 / 标题栏」转过去。两个都想要就出两张，不要合成一张。

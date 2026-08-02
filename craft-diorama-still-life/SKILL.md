@@ -161,7 +161,7 @@ Key details: [每件物件是什么材质、承载什么]. [配色块：把纸�
 
 Composition: wide 5:2 horizontal frame, eye-level still-life view slightly above the desk so [什么必须保持可读]; [主角在右侧三分之二的位置安排]; the left third holds a two-tier text column — headline, then subtitle — in its upper half, ambient props beneath it; keep the frame comfortably filled, no large dead areas.
 
-Text in image: headline "[大标题]" in a classic serif typeface, Ming/Song-style characters[ and a matching serif for the Latin words], [Anchor 色], large, upper left, two lines allowed. Directly below it the subtitle "[副标题]" in a smaller sans-serif, same [Anchor 色]. [每一串印在道具上的字，逐一写出并指明落在哪件物件上]. Render all text verbatim, no extra words.
+Text in image: headline "[大标题]" in a classic serif typeface, Ming/Song-style characters[ and a matching serif for the Latin words], [Anchor 色], large, upper left, two lines allowed. Directly below it the subtitle "[副标题]" in a smaller Chinese sans (思源黑体 / Source Han Sans), same [Anchor 色]. [每一串印在道具上的字，逐一写出并指明落在哪件物件上]. Render all text verbatim, no extra words.
 
 Constraints: no people, hands, or faces; no landscape or terrain staging; no gradients; no motion streaks, impact sparks, splashes, or friction effects; no watermark.
 ```

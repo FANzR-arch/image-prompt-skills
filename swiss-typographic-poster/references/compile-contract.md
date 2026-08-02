@@ -52,20 +52,20 @@ STYLE ANCHOR — in the manner of <anchor>: <anchor mechanism>.
 
 A <format> Swiss International Typographic Style poster — authentic 1950s offset print.
 
-LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family only; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
+LOCKED — everything aligns to one underlying modular grid; one grotesk sans-serif family for all Latin, and a neutral Chinese sans (思源黑体 / Source Han Sans, Medium) for all Chinese; flat color with hard edges; no gradient, 3D, shadow, texture or ornament; objective, rational, asymmetric.
 
 DOMINANT VISUAL — <one resolved engine, flat-painted>.
 
 COLOR — <one resolved palette>. Hard edges, no gradients.
 
-TYPOGRAPHY — one neutral grotesk family, medium weight (Latin may go bold; Chinese stays medium, never bold poster type), tight optical spacing, two or three sizes; hierarchy by scale and position, not decoration.
+TYPOGRAPHY — one neutral grotesk family for Latin and 思源黑体 / Source Han Sans for Chinese, medium weight (Latin may go bold; Chinese stays medium, never bold poster type), tight optical spacing, two or three sizes; hierarchy by scale and position, not decoration.
   · <headline declaration: Latin and/or Chinese per textmode> placed <one resolved placement> on the grid, grid-aligned.
 
 GRID & SPACE — the modular grid governs every element; negative space is structural, balanced, grid-defined.
 
 SECONDARY LAYERS — add controlled secondary and tertiary layers (thin rule lines, small Latin field labels, modular numbers, alignment marks, tiny captions) to increase editorial richness while staying rational, objective and grid-locked.
 
-TEXT — main title must render exactly: <主标题>. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; avoid small Chinese for secondary text.
+TEXT — main title must render exactly: <主标题>. Small grid-aligned Latin field labels, numbers, index marks and thin captions are allowed — functional, like a Swiss editorial information system; no random dates, URLs, fake brand names, long paragraphs, QR codes or decorative icons; no additional small Chinese beyond the declared title line.
 
 AVOID — Bauhaus module matrix / pattern board; De Stijl primary-color blocks; Op Art spiral; data-chart look; brand-style diagonal ribbon or logo-like single form without grid function; modern minimalist AI poster; PowerPoint / brochure template; gradients; 3D; drop shadows; vintage grunge; heavy / bold display CJK type.
 

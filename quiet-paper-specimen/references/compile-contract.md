@@ -118,7 +118,7 @@ Rules:
 
 This section covers everything except the main title. Secondary text is free in placement but fixed in nature — always quiet:
 
-- serif, typewriter, monospace, or restrained hand lettering
+- for Latin: serif, typewriter, monospace or restrained hand lettering; for Chinese: a light 思源宋体 / Source Han Serif, a light 思源黑体 / Source Han Sans, or restrained hand lettering — small and sparse either way
 - fragmentary letters, edge-hugging micro-text, archival caption text, diagonal scattered characters, or ghosted type
 - may sit at an edge, in a margin, near the subject, or partly faded into the paper
 - keep it sparse: one or two small elements at most, clearly subordinate to the main title

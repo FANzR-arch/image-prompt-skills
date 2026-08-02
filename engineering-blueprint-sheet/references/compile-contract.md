@@ -141,7 +141,7 @@ DOMINANT VISUAL — <粘贴对应图面模式段并解析成唯一内容>
 
 DRAFTING APPARATUS — a ruled border with zone letters down the sides and zone numbers along the top and bottom; a ruled title block in the lower right with every cell filled (PROJECT / TYPE / SCALE / DATE / SHEET / DRAWN BY); <按画幅增删修订表 / 尺寸标注 / 气泡编号>; a scale bar with tick marks along one edge; small registration crosses at the corners.
 
-TYPOGRAPHY — technical drafting lettering only, uppercase, evenly spaced.
+TYPOGRAPHY — Latin labels, codes and figures in technical drafting lettering, uppercase, evenly spaced; any Chinese title set in a heavy condensed Chinese sans (思源黑体 / Source Han Sans, Heavy) with solid filled strokes.
 
 TEXT — <封面: main title must render exactly: 主标题 / 图纸: no large title>. The title block cells read <PROJECT / 值, TYPE / 值, SCALE / 值, SHEET / 值, DRAWN BY / 值 —— 每格都给出值，不留空>. All other text is short Latin field labels, part codes and dimension figures only; no random dates, URLs, fake brands, full sentences, QR codes, or real code.
 

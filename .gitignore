@@ -3,3 +3,6 @@ Thumbs.db
 Desktop.ini
 __pycache__/
 *.pyc
+
+# 内部测试记录，不对外
+*/references/test-log.md
