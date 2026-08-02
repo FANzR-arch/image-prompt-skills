@@ -61,17 +61,17 @@ https://github.com/FANzR-arch/image-prompt-skills/tree/main/acid-depth-poster
 
 | | | |
 |:---:|:---:|:---:|
-| [![现代旅行拼贴明信片](travel-postcard-agent/assets/preview.png)](travel-postcard-agent/) | [![瑞士国际主义海报](swiss-typographic-poster/assets/preview.png)](swiss-typographic-poster/) | [![包豪斯视觉生成](bauhaus-visual-prompt/assets/preview.png)](bauhaus-visual-prompt/) |
+| [<img src="travel-postcard-agent/assets/preview.png" width="480" alt="现代旅行拼贴明信片">](travel-postcard-agent/) | [<img src="swiss-typographic-poster/assets/preview.png" width="480" alt="瑞士国际主义海报">](swiss-typographic-poster/) | [<img src="bauhaus-visual-prompt/assets/preview.png" width="480" alt="包豪斯视觉生成">](bauhaus-visual-prompt/) |
 | 现代旅行拼贴明信片 | 瑞士国际主义海报 | 包豪斯视觉生成 |
-| [![Plakatstil 商品海报](plakatstil-prompt-compiler/assets/preview.png)](plakatstil-prompt-compiler/) | [![新粗野主义视觉](neo-brutalist-prompt-compiler/assets/preview.png)](neo-brutalist-prompt-compiler/) | [![前进色 × 后退色实验海报](acid-depth-poster/assets/preview.png)](acid-depth-poster/) |
+| [<img src="plakatstil-prompt-compiler/assets/preview.png" width="480" alt="Plakatstil 商品海报">](plakatstil-prompt-compiler/) | [<img src="neo-brutalist-prompt-compiler/assets/preview.png" width="480" alt="新粗野主义视觉">](neo-brutalist-prompt-compiler/) | [<img src="acid-depth-poster/assets/preview.png" width="480" alt="前进色 × 后退色实验海报">](acid-depth-poster/) |
 | Plakatstil 商品海报 | 新粗野主义视觉 | 前进色 × 后退色实验海报 |
-| [![手作拟物静物](craft-diorama-still-life/assets/preview.png)](craft-diorama-still-life/) | [![赛博终端示意图](tech-schematic-poster/assets/preview.png)](tech-schematic-poster/) | [![颗粒棱面风格](grainy-plane-style/assets/preview.png)](grainy-plane-style/) |
+| [<img src="craft-diorama-still-life/assets/preview.png" width="480" alt="手作拟物静物">](craft-diorama-still-life/) | [<img src="tech-schematic-poster/assets/preview.png" width="480" alt="赛博终端示意图">](tech-schematic-poster/) | [<img src="grainy-plane-style/assets/preview.png" width="480" alt="颗粒棱面风格">](grainy-plane-style/) |
 | 手作拟物静物 | 赛博终端示意图 | 颗粒棱面风格 |
-| [![安静纸面标本](quiet-paper-specimen/assets/preview.png)](quiet-paper-specimen/) | [![暖纸拟物流程主视觉](paper-workflow-hero/assets/preview.png)](paper-workflow-hero/) | [![黑白编辑横幅](mono-editorial-banner/assets/preview.png)](mono-editorial-banner/) |
+| [<img src="quiet-paper-specimen/assets/preview.png" width="480" alt="安静纸面标本">](quiet-paper-specimen/) | [<img src="paper-workflow-hero/assets/preview.png" width="480" alt="暖纸拟物流程主视觉">](paper-workflow-hero/) | [<img src="mono-editorial-banner/assets/preview.png" width="480" alt="黑白编辑横幅">](mono-editorial-banner/) |
 | 安静纸面标本 | 暖纸拟物流程主视觉 | 黑白编辑横幅 |
-| [![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)](halftone-ui-collage/) | [![平涂色场杂志封面](flat-field-cover-poster/assets/preview.png)](flat-field-cover-poster/) | [![立体品牌图标横幅](brand-icon-banner/assets/preview.png)](brand-icon-banner/) |
+| [<img src="halftone-ui-collage/assets/preview.png" width="480" alt="网点 UI 拼贴横幅">](halftone-ui-collage/) | [<img src="flat-field-cover-poster/assets/preview.png" width="480" alt="平涂色场杂志封面">](flat-field-cover-poster/) | [<img src="brand-icon-banner/assets/preview.png" width="480" alt="立体品牌图标横幅">](brand-icon-banner/) |
 | 网点 UI 拼贴横幅 | 平涂色场杂志封面 | 立体品牌图标横幅 |
-| [![工程图纸](engineering-blueprint-sheet/assets/preview.png)](engineering-blueprint-sheet/) | [![双色套印拼贴](duotone-press-collage/assets/preview.png)](duotone-press-collage/) | |
+| [<img src="engineering-blueprint-sheet/assets/preview.png" width="480" alt="工程图纸">](engineering-blueprint-sheet/) | [<img src="duotone-press-collage/assets/preview.png" width="480" alt="双色套印拼贴">](duotone-press-collage/) | |
 | 工程图纸 | 双色套印拼贴 | |
 
 ## travel-postcard-agent
