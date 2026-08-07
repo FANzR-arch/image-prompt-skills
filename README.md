@@ -48,7 +48,7 @@ https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 | 颗粒棱面风格 | [`grainy-plane-style`](grainy-plane-style/) | 照片改插画风、平涂大色块加细密颗粒的肖像和器物图 |
 | 暖纸拟物流程主视觉 | [`paper-workflow-hero`](paper-workflow-hero/) | 产品与服务工作流的官网 hero、营销主图和带真人质感的流程叙事 |
 | 黑白编辑横幅 | [`mono-editorial-banner`](mono-editorial-banner/) | 观点长文、判断句和思想类内容的极简黑白超宽封面，中英文标题 |
-| 网点 UI 拼贴横幅 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面，网点人物配扁平 UI 卡片，五套配色成组换 |
+| 网点 UI 拼贴 | [`halftone-ui-collage`](halftone-ui-collage/) | 工具、工作流和产品类文章的超宽封面：前景坐姿人物、肩后桌面显示器、网点人物配扁平 UI 卡片 |
 | 平涂色场杂志封面 | [`flat-field-cover-poster`](flat-field-cover-poster/) | 人物主导的竖版杂志封面，纯平色底配写实人像，超大标题被头肩截断 |
 | 立体品牌图标横幅 | [`brand-icon-banner`](brand-icon-banner/) | 平台观察、政策解读和产品判断的超宽封面，立体 App 图标配反白块中文标题 |
 | 双色套印拼贴 | [`duotone-press-collage`](duotone-press-collage/) | 一篇文章配一张封面加若干章节图，网点剪贴实物加一件连接物把判断画出来 |
@@ -297,9 +297,9 @@ https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 
 ## halftone-ui-collage
 
-暖色平涂底上，黑白网点人物带白色贴纸描边、扁平矢量 UI 卡片、底角有机色块和手绘涂鸦同框，左三分之一压超大无衬线标题，5:2 超宽横板。骨架固定、配色寄存器可换，五套寄存器加四张模块表（人物姿态 / 卡片结构 / 屏幕内容 / 主题映射），成组产出每张重抽不会撞脸。
+暖色平涂底上，前景坐姿的黑白网点人物带白色贴纸描边；一台有真实支架、底座、键盘和鼠标的桌面显示器从人物肩后露出。右侧是扁平矢量 UI 卡片，底角有有机色块和手绘涂鸦，左三分之一压超大无衬线标题，5:2 超宽横幅。人物可叠加克制的抽象抖动颗粒；背景、桌面和色块使用低对比纸张与印刷颗粒，屏幕和卡片保持干净。
 
-带一份**物件准确性协议**：笔记本必须是单体连续物、屏幕画在边框内部、桌面作为实体存在、只裁桌面不裁设备、手部有预算、视线必须有画内落点——这套风格的失败几乎全部集中在这几处。
+标题严格继承用户输入语言：中文输入就全图中文，英文输入就全图英文；一张图不混用中英文。骨架固定、配色寄存器可换，五套寄存器加四张模块表（人物姿态 / 卡片结构 / 屏幕内容 / 主题映射），成组产出每张重抽不会撞脸。
 
 ![网点 UI 拼贴横幅](halftone-ui-collage/assets/preview.png)
 
@@ -312,7 +312,7 @@ https://github.com/FANzR-arch/Phil-design-skills/tree/main/acid-depth-poster
 ```
 
 ```text
-用 halftone-ui-collage，给这五篇文章做成套封面，配色寄存器每张换一个。
+用 halftone-ui-collage，给这篇讲提示词工程的文章做一张 5:2 封面，标题是：提示词系统。
 ```
 
 ## flat-field-cover-poster
